@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "quantum_lands:snifferite_dust"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "result": {
+    "count": 2,
+    "item": "quantum_lands:snifferite_dust"
+  }
+}
