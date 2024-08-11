@@ -1,6 +1,9 @@
 package net.Kykokos.QuantumLands;
 
 import com.mojang.logging.LogUtils;
+import net.Kykokos.QuantumLands.Block.ModBlocks;
+import net.Kykokos.QuantumLands.Item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -27,6 +30,11 @@ public class QuantumLands
 
         MinecraftForge.EVENT_BUS.register(this);
 
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+
         modEventBus.addListener(this::addCreative);
 
     }
@@ -38,7 +46,18 @@ public class QuantumLands
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
+        {
+            event.accept(ModItems.SNIFFERITE);
+            event.accept(ModItems.SNIFFERITE_DUST);
 
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
+        {
+            event.accept(ModBlocks.BUNKER_BLOCK);
+            event.accept(ModBlocks.CRACKED_BUNKER_BLOCK);
+        }
     }
 
     @SubscribeEvent
