@@ -2,6 +2,8 @@ package net.Kykokos.QuantumLands;
 
 import com.mojang.logging.LogUtils;
 import net.Kykokos.QuantumLands.Block.ModBlocks;
+import net.Kykokos.QuantumLands.Item.ModCreativeModeTabs;
+import net.Kykokos.QuantumLands.Item.ModCreativeModeTabs;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -27,6 +29,10 @@ public class QuantumLands
     public QuantumLands()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+
+        ModCreativeModeTabs.register(modEventBus);
+
 
         MinecraftForge.EVENT_BUS.register(this);
 

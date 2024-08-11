@@ -3,5 +3,8 @@
   "item.quantum_lands.snifferite_dust": "Snifferite Dust",
 
   "block.quantum_lands.bunker_block": "Bunker Block",
-  "block.quantum_lands.cracked_bunker_block": "Cracked Bunker Block"
+  "block.quantum_lands.cracked_bunker_block": "Cracked Bunker Block",
+
+  "creativetab.sniffs_and_labs_tab": "Sniffs & Labs",
+  "creativetab.quantum_building_tab": "Quantum Building"
 }
