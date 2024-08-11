@@ -10,11 +10,14 @@
     },
     "X": {
       "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
     }
   },
   "pattern": [
     "XSX",
-    "X#X",
+    "G#G",
     "XSX"
   ],
   "result": {
