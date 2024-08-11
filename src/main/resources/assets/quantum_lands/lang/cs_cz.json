@@ -4,6 +4,8 @@
 
   "block.quantum_lands.bunker_block": "Blok Bunkru",
   "block.quantum_lands.cracked_bunker_block": "Blok Nakřáplého Bunkru",
+  "block.quantum_lands.snifferite_ore": "Čichací Kámen",
+  "block.quantum_lands.deepslate_snifferite_ore": "Hlubiný Čichací Kámen",
 
   "creativetab.sniffs_and_labs_tab": "Čichání & Výzkum",
   "creativetab.quantum_building_tab": "Quantové Stavění"

@@ -28,6 +28,8 @@ public class ModCreativeModeTabs
                     .title(Component.translatable("creativetab.quantum_building_tab")).displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BUNKER_BLOCK.get());
                         output.accept(ModBlocks.CRACKED_BUNKER_BLOCK.get());
+                        output.accept(ModBlocks.SNIFFERITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get());
                     }).build());
 
 

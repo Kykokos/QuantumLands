@@ -28,7 +28,13 @@ public class ModBlocks
 
 
     public static final RegistryObject<Block> CRACKED_BUNKER_BLOCK = registerBlock("cracked_bunker_block",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(0.7F, 1400.0F).sound(SoundType.METAL)));
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(8.0F, 1400.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> SNIFFERITE_ORE = registerBlock("snifferite_ore",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).requiresCorrectToolForDrops().strength(5.0F, 20.0F).sound(SoundType.SMALL_AMETHYST_BUD)));
+
+    public static final RegistryObject<Block> DEEPSLATE_SNIFFERITE_ORE = registerBlock("deepslate_snifferite_ore",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).requiresCorrectToolForDrops().strength(5.0F, 25.0F).sound(SoundType.MEDIUM_AMETHYST_BUD)));
 
 
 

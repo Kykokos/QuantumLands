@@ -64,6 +64,12 @@ public class QuantumLands
             event.accept(ModBlocks.BUNKER_BLOCK);
             event.accept(ModBlocks.CRACKED_BUNKER_BLOCK);
         }
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
+        {
+            event.accept(ModBlocks.SNIFFERITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_SNIFFERITE_ORE);
+        }
     }
 
     @SubscribeEvent
