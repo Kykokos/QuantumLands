@@ -54,8 +54,6 @@ public class QuantumLands
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
-            event.accept(ModItems.SNIFFERITE);
-            event.accept(ModItems.SNIFFERITE_DUST);
 
         }
 
