@@ -1,6 +1,8 @@
 package net.Kykokos.QuantumLands.Item.custom;
 
+import com.mojang.authlib.minecraft.TelemetrySession;
 import net.Kykokos.QuantumLands.Block.ModBlocks;
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -8,10 +10,16 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Interaction;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class BunkerDetectorItem extends Item
 {
@@ -58,6 +66,21 @@ public class BunkerDetectorItem extends Item
         return InteractionResult.SUCCESS;
     }
 
+    @Override
+    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced)
+    {
+        if(Screen.hasShiftDown())
+        {
+            pTooltipComponents.add(Component.translatable("tooltip.quantum_lands.bunker_detector.tooltip.shift"));
+        } else
+        {
+            pTooltipComponents.add(Component.translatable("tooltip.quantum_lands.bunker_detector.tooltip"));
+        }
+
+
+        super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+    }
+
     private void outputNoValuableFound(Player player)
     {
         player.sendSystemMessage(Component.translatable("item.quantum_lands.bunker_detector.no_bunkers"));
@@ -90,6 +113,6 @@ public class BunkerDetectorItem extends Item
                 || blockState.is(Blocks.SPRUCE_PLANKS) || blockState.is(Blocks.SPRUCE_SLAB) || blockState.is(Blocks.BAMBOO_PLANKS) || blockState.is(Blocks.BAMBOO_SLAB)
                 || blockState.is(Blocks.MANGROVE_PLANKS) || blockState.is(Blocks.MANGROVE_SLAB) || blockState.is(Blocks.CHERRY_PLANKS) || blockState.is(Blocks.CHERRY_SLAB)
                 || blockState.is(Blocks.WARPED_PLANKS) || blockState.is(Blocks.WARPED_SLAB) || blockState.is(Blocks.CRIMSON_PLANKS) || blockState.is(Blocks.CRIMSON_SLAB)
-                || blockState.is(Blocks.BAMBOO_MOSAIC_SLAB) || blockState.is(Blocks.BAMBOO_MOSAIC);
+                || blockState.is(Blocks.BAMBOO_MOSAIC_SLAB) || blockState.is(Blocks.BAMBOO_MOSAIC) || blockState.is(Blocks.OBSIDIAN);
     }
 }

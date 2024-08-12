@@ -24,7 +24,7 @@ public class QuantumLands
 {
     public static final String MOD_ID = "quantum_lands";
 
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public QuantumLands()
     {
@@ -54,7 +54,7 @@ public class QuantumLands
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
-
+            event.accept(ModItems.PEAT_BRICK);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
@@ -67,6 +67,11 @@ public class QuantumLands
         {
             event.accept(ModBlocks.SNIFFERITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_SNIFFERITE_ORE);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS)
+        {
+            event.accept(ModBlocks.SOUND_BLOCK);
         }
     }
 

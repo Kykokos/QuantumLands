@@ -1,5 +1,6 @@
 package net.Kykokos.QuantumLands.Block;
 
+import net.Kykokos.QuantumLands.Block.custom.SoundBlock;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -41,6 +42,10 @@ public class ModBlocks
     public static final RegistryObject<Block> DEEPSLATE_SNIFFERITE_ORE = registerBlock("deepslate_snifferite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).requiresCorrectToolForDrops()
                     .strength(5.0F, 25.0F).sound(SoundType.MEDIUM_AMETHYST_BUD), UniformInt.of(6, 9)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).strength(3.0F, 50.0F)
+                    .sound(SoundType.WOOD).requiresCorrectToolForDrops()));
 
 
 

@@ -19,8 +19,10 @@ public class ModCreativeModeTabs
     public static final RegistryObject<CreativeModeTab> SNIFFS_AND_LABS_TAB = CREATIVE_MODE_TABS.register("sniffs_and_labs_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SNIFFERITE_DUST.get()))
                     .title(Component.translatable("creativetab.sniffs_and_labs_tab")).displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.PEAT_BRICK.get());
                         output.accept(ModItems.SNIFFERITE.get());
                         output.accept(ModItems.SNIFFERITE_DUST.get());
+                        output.accept(ModItems.BLACKOUT_POWDER.get());
                         output.accept(ModItems.BUKER_DETECTOR.get());
                     }).build());
 
@@ -31,6 +33,7 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.CRACKED_BUNKER_BLOCK.get());
                         output.accept(ModBlocks.SNIFFERITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
                     }).build());
 
 
