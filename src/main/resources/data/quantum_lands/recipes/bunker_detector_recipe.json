@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:observer"
+    },
+    "S": {
+      "item": "minecraft:redstone_block"
+    },
+    "X": {
+      "item": "quantum_lands:bunker_block"
+    }
+  },
+  "pattern": [
+    "XSX",
+    "XSX",
+    "X#X"
+  ],
+  "result": {
+    "item": "quantum_lands:bunker_detector"
+  }
+}

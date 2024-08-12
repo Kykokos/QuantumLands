@@ -21,6 +21,7 @@ public class ModCreativeModeTabs
                     .title(Component.translatable("creativetab.sniffs_and_labs_tab")).displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SNIFFERITE.get());
                         output.accept(ModItems.SNIFFERITE_DUST.get());
+                        output.accept(ModItems.BUKER_DETECTOR.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> QUANTUM_BUILDING_TAB = CREATIVE_MODE_TABS.register("quantum_building_tab",

@@ -1,6 +1,7 @@
 {
   "item.quantum_lands.snifferite": "Čichací Kámen",
   "item.quantum_lands.snifferite_dust": "Čichací Prášek",
+  "item.quantum_lands.bunker_detector": "Detektor Bunkrů",
 
   "block.quantum_lands.bunker_block": "Blok Bunkru",
   "block.quantum_lands.cracked_bunker_block": "Blok Nakřáplého Bunkru",
@@ -8,5 +9,7 @@
   "block.quantum_lands.deepslate_snifferite_ore": "Hlubiný Čichací Kámen",
 
   "creativetab.sniffs_and_labs_tab": "Čichání & Výzkum",
-  "creativetab.quantum_building_tab": "Quantové Stavění"
+  "creativetab.quantum_building_tab": "Quantové Stavění",
+
+  "item.quantum_lands.bunker_detector.no_bunkers": "Žádné Bunkry tu nejsou :("
 }

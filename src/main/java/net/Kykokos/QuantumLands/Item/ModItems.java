@@ -1,5 +1,6 @@
 package net.Kykokos.QuantumLands.Item;
 
+import net.Kykokos.QuantumLands.Item.custom.BunkerDetectorItem;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
@@ -16,8 +17,12 @@ public class ModItems
 
     public static final RegistryObject<Item> SNIFFERITE = ITEMS.register("snifferite",
             () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
+
     public static final RegistryObject<Item> SNIFFERITE_DUST = ITEMS.register("snifferite_dust",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
+
+    public static final RegistryObject<Item> BUKER_DETECTOR = ITEMS.register("bunker_detector",
+            () -> new BunkerDetectorItem(new Item.Properties().fireResistant().durability(100).rarity(Rarity.EPIC)));
 
 
         public static void register(IEventBus eventBus)
