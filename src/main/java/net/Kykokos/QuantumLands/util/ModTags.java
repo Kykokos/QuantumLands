@@ -25,7 +25,7 @@ public class ModTags
 
     public static class Blocks
     {
-        public static final TagKey<Block> BUNKER_DETECTOR_TARGETS = tag("buker_detector_targets");
+        public static final TagKey<Block> BUNKER_DETECTOR_TARGETS = tag("bunker_detector_targets");
 
 
         private static TagKey<Block> tag(String name)

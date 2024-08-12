@@ -43,7 +43,7 @@ public class BunkerDetectorItem extends Item
             {
                 BlockState blockState = pContext.getLevel().getBlockState(positionClicked.below(i));
 
-                if(isBunkerBlock(blockState))
+                if(isTargetBlock(blockState))
                 {
                     outputValuableCoordinates(positionClicked.below(i), player, blockState.getBlock());
                     foundBlock = true;
@@ -95,7 +95,7 @@ public class BunkerDetectorItem extends Item
                 + " at (" + below.getX() + ", " + below.getY() + ", " + below.getZ() + ")"));
     }
 
-    private boolean isBunkerBlock(BlockState blockState)
+    private boolean isTargetBlock(BlockState blockState)
     {
         return blockState.is(ModTags.Blocks.BUNKER_DETECTOR_TARGETS);
 
