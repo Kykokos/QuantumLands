@@ -97,7 +97,7 @@ public class BunkerDetectorItem extends Item
 
     private boolean isBunkerBlock(BlockState blockState)
     {
-        return  blockState.is(ModTags.Blocks.BUNKER_DETECTOR_TARGETS);
+        return blockState.is(ModTags.Blocks.BUNKER_DETECTOR_TARGETS);
 
     }
 }
