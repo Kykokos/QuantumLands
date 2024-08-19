@@ -1,14 +1,11 @@
 package net.Kykokos.QuantumLands.Item.custom;
 
-import com.mojang.authlib.minecraft.TelemetrySession;
-import net.Kykokos.QuantumLands.Block.ModBlocks;
 import net.Kykokos.QuantumLands.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.Interaction;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -16,7 +13,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 
@@ -24,11 +20,10 @@ import java.util.List;
 
 public class BunkerDetectorItem extends Item
 {
-
-    public BunkerDetectorItem(Properties pProperties) {
+    public BunkerDetectorItem(Properties pProperties)
+    {
         super(pProperties);
     }
-
 
     @Override
     public InteractionResult useOn(UseOnContext pContext)
@@ -43,7 +38,7 @@ public class BunkerDetectorItem extends Item
             {
                 BlockState blockState = pContext.getLevel().getBlockState(positionClicked.below(i));
 
-                if(isTargetBlock(blockState))
+                if(isValuableBlock(blockState))
                 {
                     outputValuableCoordinates(positionClicked.below(i), player, blockState.getBlock());
                     foundBlock = true;
@@ -52,13 +47,9 @@ public class BunkerDetectorItem extends Item
                 }
             }
 
-
-            if(!foundBlock)
-            {
+            if(!foundBlock) {
                 outputNoValuableFound(player);
             }
-
-
         }
 
         pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(),
@@ -78,16 +69,13 @@ public class BunkerDetectorItem extends Item
             pTooltipComponents.add(Component.translatable("tooltip.quantum_lands.bunker_detector.tooltip"));
         }
 
-
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 
     private void outputNoValuableFound(Player player)
     {
         player.sendSystemMessage(Component.translatable("item.quantum_lands.bunker_detector.no_bunkers"));
-
     }
-
 
     private void outputValuableCoordinates(BlockPos below, Player player, Block block)
     {
@@ -95,9 +83,8 @@ public class BunkerDetectorItem extends Item
                 + " at (" + below.getX() + ", " + below.getY() + ", " + below.getZ() + ")"));
     }
 
-    private boolean isTargetBlock(BlockState blockState)
+    private boolean isValuableBlock(BlockState blockState)
     {
         return blockState.is(ModTags.Blocks.BUNKER_DETECTOR_TARGETS);
-
     }
 }
