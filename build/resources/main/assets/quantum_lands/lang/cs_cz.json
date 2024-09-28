@@ -1,0 +1,27 @@
+{
+  "item.quantum_lands.snifferite": "Čichací Kámen",
+  "item.quantum_lands.snifferite_dust": "Čichací Prášek",
+  "item.quantum_lands.blackout_powder": "Zatmívací Prášek",
+  "item.quantum_lands.peat_brick": "Cihla Rašeliny",
+  "item.quantum_lands.bunker_detector": "Detektor Bunkrů",
+
+
+  "block.quantum_lands.bunker_block": "Blok Bunkru",
+  "block.quantum_lands.cracked_bunker_block": "Blok Nakřáplého Bunkru",
+  "block.quantum_lands.snifferite_ore": "Čichací Kámen",
+  "block.quantum_lands.deepslate_snifferite_ore": "Hlubiný Čichací Kámen",
+  "block.quantum_lands.sound_block": "Ozvučný Blok",
+
+
+  "creativetab.sniffs_and_labs_tab": "Čichání & Výzkum",
+  "creativetab.quantum_building_tab": "Quantové Stavění",
+
+
+  "item.quantum_lands.bunker_detector.no_bunkers": "Žádné Bunkry tu nejsou :(",
+
+
+  "tooltip.quantum_lands.bunker_detector.tooltip.shift": "klikni pravým tlačítkem na blok, aby jsi našel podzemní bunkr",
+  "tooltip.quantum_lands.bunker_detector.tooltip": "Stiskni §eSHIFT§r pro více Informací",
+  "tooltip.quantum_lands.sound_block": "Hraje hezké zvuky když na něm chodíš nebo na něj klikáš"
+
+}

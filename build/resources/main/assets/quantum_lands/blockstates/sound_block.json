@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "quantum_lands:block/sound_block"
+    }
+  }
+}

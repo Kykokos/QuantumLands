@@ -1,0 +1,15 @@
+Java Launcher: C:\Program Files\Eclipse Adoptium\jdk-17.0.12.7-hotspot\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\kos73\.gradle\caches\modules-2\files-2.1\com.jozufozu.flywheel\flywheel-forge-1.20.1\0.6.11-13\37f325b4684cd5a11e2403a4bf86364a29fb8ef8\flywheel-forge-1.20.1-0.6.11-13.jar, --output, C:\Users\kos73\.gradle\caches\forge_gradle\deobf_dependencies\com\jozufozu\flywheel\flywheel-forge-1.20.1\0.6.11-13_mapped_parchment_2023.09.03-1.20.1\flywheel-forge-1.20.1-0.6.11-13_mapped_parchment_2023.09.03-1.20.1.jar, --mcp, C:\Users\kos73\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.20.1\2023.09.03\parchment-1.20.1-2023.09.03.zip, --strip-signatures'
+Classpath:
+ - C:\Users\kos73\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.4.4\installertools-1.4.4-fatjar.jar
+Working directory: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\build\_RenameSrg2Mcp_-1624827852
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\kos73\.gradle\caches\modules-2\files-2.1\com.jozufozu.flywheel\flywheel-forge-1.20.1\0.6.11-13\37f325b4684cd5a11e2403a4bf86364a29fb8ef8\flywheel-forge-1.20.1-0.6.11-13.jar
+Output: C:\Users\kos73\.gradle\caches\forge_gradle\deobf_dependencies\com\jozufozu\flywheel\flywheel-forge-1.20.1\0.6.11-13_mapped_parchment_2023.09.03-1.20.1\flywheel-forge-1.20.1-0.6.11-13_mapped_parchment_2023.09.03-1.20.1.jar
+MCP:    C:\Users\kos73\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.20.1\2023.09.03\parchment-1.20.1-2023.09.03.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

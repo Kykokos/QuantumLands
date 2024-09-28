@@ -1,0 +1,26 @@
+{
+  "item.quantum_lands.snifferite": "Snifferite",
+  "item.quantum_lands.snifferite_dust": "Snifferite Dust",
+  "item.quantum_lands.blackout_powder": "Blackout Powder",
+  "item.quantum_lands.peat_brick": "Peat Brick",
+  "item.quantum_lands.bunker_detector": "Bunker Buster",
+
+
+  "block.quantum_lands.bunker_block": "Bunker Block",
+  "block.quantum_lands.cracked_bunker_block": "Cracked Bunker Block",
+  "block.quantum_lands.snifferite_ore": "Snifferite Ore",
+  "block.quantum_lands.deepslate_snifferite_ore": "Deepslate Snifferite Ore",
+  "block.quantum_lands.sound_block": "Sound Block",
+
+
+  "creativetab.sniffs_and_labs_tab": "Sniffs & Labs",
+  "creativetab.quantum_building_tab": "Quantum Building",
+
+
+  "item.quantum_lands.bunker_detector.no_bunkers": "No Bunkers Found :(",
+
+
+  "tooltip.quantum_lands.bunker_detector.tooltip.shift": "Right Click on Blocks to find underground bunkers!",
+  "tooltip.quantum_lands.bunker_detector.tooltip": "Press §eSHIFT§r for more Info",
+  "tooltip.quantum_lands.sound_block": "Plays nice sounds when walking ro right-clicking"
+}
