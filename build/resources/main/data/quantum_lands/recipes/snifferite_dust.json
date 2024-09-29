@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "quantum_lands:snifferite"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "quantum_lands:snifferite_dust"
+  }
+}

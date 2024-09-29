@@ -33,7 +33,6 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.CRACKED_BUNKER_BLOCK.get());
                         output.accept(ModBlocks.SNIFFERITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get());
-                        output.accept(ModBlocks.SOUND_BLOCK.get());
                     }).build());
 
 

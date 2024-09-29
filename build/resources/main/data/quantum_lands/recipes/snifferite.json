@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "quantum_lands:snifferite_dust"
+    }
+  },
+  "pattern": [
+    "   ",
+    " AA",
+    " AA"
+  ],
+  "result": {
+    "item": "quantum_lands:snifferite"
+  },
+  "show_notification": true
+}

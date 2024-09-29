@@ -71,7 +71,7 @@ public class QuantumLands
 
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS)
         {
-            event.accept(ModBlocks.SOUND_BLOCK);
+
         }
     }
 

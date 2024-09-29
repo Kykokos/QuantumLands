@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "quantum_lands:bunker_block"
+    },
+    "O": {
+      "item": "create:content_observer"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "BRB",
+    "BRB",
+    "BOB"
+  ],
+  "result": {
+    "item": "quantum_lands:bunker_detector"
+  },
+  "show_notification": true
+}

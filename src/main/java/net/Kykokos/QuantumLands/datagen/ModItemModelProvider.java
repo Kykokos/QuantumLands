@@ -23,7 +23,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SNIFFERITE);
         simpleItem(ModItems.SNIFFERITE_DUST);
         simpleItem(ModItems.BLACKOUT_POWDER);
-        simpleItem(ModItems.BUKER_DETECTOR);
         simpleItem(ModItems.PEAT_BRICK);
     }
 

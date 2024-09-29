@@ -12126,5 +12126,41 @@
     },
     "done": true
   },
+  "quantum_lands:recipes/tools/bunker_detector": {
+    "criteria": {
+      "has_bunker_block": "2024-09-29 01:08:22 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/cracked_bunker_block": {
+    "criteria": {
+      "has_bunkerblock": "2024-09-29 01:08:22 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/snifferite_dust": {
+    "criteria": {
+      "has_snifferite": "2024-09-29 01:18:39 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/snifferite": {
+    "criteria": {
+      "has_snifferite": "2024-09-29 01:18:39 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/building_blocks/bunker_block": {
+    "criteria": {
+      "has_gravel": "2024-09-29 01:25:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-09-29 01:26:54 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
