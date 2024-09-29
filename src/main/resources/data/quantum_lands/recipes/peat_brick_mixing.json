@@ -8,7 +8,7 @@
       "item": "minecraft:mud"
     },
     {
-      "amount": 100,
+      "amount": 1000,
       "fluid": "minecraft:water",
       "nbt": {}
     }
