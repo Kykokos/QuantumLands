@@ -2,6 +2,8 @@ package net.Kykokos.QuantumLands.Block;
 
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -27,7 +29,6 @@ public class ModBlocks
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops()
                     .strength(9.0F, 1500.0F).sound(SoundType.METAL)));
 
-
     public static final RegistryObject<Block> CRACKED_BUNKER_BLOCK = registerBlock("cracked_bunker_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).strength(8.0F, 1400.0F)
                     .sound(SoundType.METAL).requiresCorrectToolForDrops()));
@@ -48,13 +49,38 @@ public class ModBlocks
             () -> new SlabBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops()
                     .strength(8.5F, 1650.0F).sound(SoundType.METAL)));
 
-    public static final RegistryObject<Block> EMERGENCY_BUTTON= registerBlock("emergency_button",
+    public static final RegistryObject<Block> EMERGENCY_BUTTON = registerBlock("emergency_button",
             () -> new ButtonBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED)
                     .strength(0.5F, 1650.0F).sound(SoundType.METAL), BlockSetType.IRON, 2, false));
 
     public static final RegistryObject<Block> BUNKER_PRESSURE_PLATE = registerBlock("bunker_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops()
                     .strength(8.5F, 1650.0F).sound(SoundType.METAL), BlockSetType.IRON));
+
+    public static final RegistryObject<Block> BUNKER_WALL = registerBlock("bunker_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops()
+                    .strength(8.5F, 1650.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> BLUE_FENCE = registerBlock("blue_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> BLUE_FENCE_GATE = registerBlock("blue_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
+
+    public static final RegistryObject<Block> BLUE_PLANKS = registerBlock("blue_planks",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> BUNKER_DOOR = registerBlock("bunker_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY)
+                    .strength(15.0F, 1650.0F).sound(SoundType.METAL), BlockSetType.IRON));
+
+    public static final RegistryObject<Block> BUNKER_TRAPDOOR = registerBlock("bunker_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GRAY)
+                    .strength(15.0F, 1650.0F).sound(SoundType.METAL), BlockSetType.IRON));
+
 
 
 

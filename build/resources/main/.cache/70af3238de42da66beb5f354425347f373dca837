@@ -1,0 +1,7 @@
+// 1.20.1	2024-10-06T12:56:55.7101382	Block Tags
+c073e4c549c352495ca7a27c71f89c63a1b17945 data/minecraft/tags/blocks/fences.json
+93810aaee744fe270daa8fc75295448b0496c5b4 data/minecraft/tags/blocks/fence_gates.json
+75fd4c0cf295252ba1e03f9b1b72f1f27d5e54d8 data/minecraft/tags/blocks/mineable/axe.json
+9981b00dbca2bbaf4be0603e2787123d041ec4cc data/minecraft/tags/blocks/mineable/pickaxe.json
+8794c744e28c1ca26bfe725e1378389bd1df627b data/minecraft/tags/blocks/needs_iron_tool.json
+aeded4ba2f2de8e662e90714d7937ccf13555c43 data/minecraft/tags/blocks/walls.json

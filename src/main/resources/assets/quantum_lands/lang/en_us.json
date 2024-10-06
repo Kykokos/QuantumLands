@@ -11,11 +11,16 @@
   "block.quantum_lands.cracked_bunker_block": "Cracked Bunker Block",
   "block.quantum_lands.bunker_stairs": "Bunker Stairs",
   "block.quantum_lands.bunker_slab": "Bunker Slab",
+  "block.quantum_lands.bunker_wall": "Bunker Wall",
+  "block.quantum_lands.bunker_door": "Bunker Door",
+  "block.quantum_lands.bunker_trapdoor": "Bunker Trapdoor",
   "block.quantum_lands.emergency_button": "Emergency Button",
   "block.quantum_lands.bunker_pressure_plate": "Bunker Pressure Plate",
   "block.quantum_lands.snifferite_ore": "Snifferite Ore",
   "block.quantum_lands.deepslate_snifferite_ore": "Deepslate Snifferite Ore",
-  "block.quantum_lands.sound_block": "Sound Block",
+  "block.quantum_lands.blue_planks": "Blue Planks",
+  "block.quantum_lands.blue_fence": "Blue Fence",
+  "block.quantum_lands.blue_fence_gate": "Blue Fence Gate",
 
 
   "creativetab.sniffs_and_labs_tab": "Sniffs & Labs",

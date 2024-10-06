@@ -1,6 +1,7 @@
 {
-  "replace": false,
   "values": [
-
+    "quantum_lands:blue_planks",
+    "quantum_lands:blue_fence",
+    "quantum_lands:blue_fence_gate"
   ]
 }

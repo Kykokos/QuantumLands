@@ -31,14 +31,30 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                     ModBlocks.BUNKER_STAIRS.get(),
                     ModBlocks.BUNKER_SLAB.get());
 
+        this.tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(ModBlocks.BLUE_PLANKS.get(),
+                        ModBlocks.BLUE_FENCE.get(),
+                        ModBlocks.BLUE_FENCE_GATE.get());
+
+
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SNIFFERITE_ORE.get(),
                     ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(),
                     ModBlocks.BUNKER_BLOCK.get(),
                     ModBlocks.CRACKED_BUNKER_BLOCK.get(),
                     ModBlocks.BUNKER_STAIRS.get(),
-                    ModBlocks.BUNKER_SLAB.get());
+                    ModBlocks.BUNKER_SLAB.get(),
+                    ModBlocks.BUNKER_WALL.get());
 
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.BLUE_FENCE.get());
+
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.BLUE_FENCE_GATE.get());
+
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.BUNKER_WALL.get());
     }
 
     @Override

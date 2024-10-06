@@ -3,6 +3,13 @@
   "values": [
     "quantum_lands:bunker_block",
     "quantum_lands:cracked_bunker_block",
+    "quantum_lands:bunker_stairs",
+    "quantum_lands:bunker_slab",
+    "quantum_lands:bunker_pressure_plate",
+    "quantum_lands:emergency_button",
+    "quantum_lands:bunker_wall",
+    "quantum_lands:blue_fence",
+    "quantum_lands:blue_fence_gate",
     "minecraft:deepslate_brick_slab",
     "minecraft:deepslate_bricks",
     "minecraft:stone_bricks",

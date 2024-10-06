@@ -34,10 +34,16 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.CRACKED_BUNKER_BLOCK.get());
                         output.accept(ModBlocks.BUNKER_STAIRS.get());
                         output.accept(ModBlocks.BUNKER_SLAB.get());
+                        output.accept(ModBlocks.BUNKER_WALL.get());
+                        output.accept(ModBlocks.BUNKER_DOOR.get());
+                        output.accept(ModBlocks.BUNKER_TRAPDOOR.get());
                         output.accept(ModBlocks.EMERGENCY_BUTTON.get());
                         output.accept(ModBlocks.BUNKER_PRESSURE_PLATE.get());
                         output.accept(ModBlocks.SNIFFERITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get());
+                        output.accept(ModBlocks.BLUE_PLANKS.get());
+                        output.accept(ModBlocks.BLUE_FENCE.get());
+                        output.accept(ModBlocks.BLUE_FENCE_GATE.get());
                     }).build());
 
 

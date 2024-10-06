@@ -92,8 +92,31 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BUNKER_BLOCK.get()), RecipeCategory.MISC, ModBlocks.CRACKED_BUNKER_BLOCK.get())
-                .unlockedBy("has_bunkerblock", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
+                .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
                 .save(pWriter);
 
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BUNKER_BLOCK.get()), RecipeCategory.MISC, ModBlocks.BUNKER_WALL.get())
+                .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
+                .save(pWriter);
+
+        //planks recipe here
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_FENCE.get())
+                .pattern("   ")
+                .pattern("BSB")
+                .pattern("BSB")
+                .define('B', ModBlocks.BLUE_PLANKS.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_blue_planks", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLUE_PLANKS.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_FENCE_GATE.get())
+                .pattern("   ")
+                .pattern("SBS")
+                .pattern("SBS")
+                .define('B', ModBlocks.BLUE_PLANKS.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_blue_planks", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLUE_PLANKS.get()).build()))
+                .save(pWriter);
     }
 }

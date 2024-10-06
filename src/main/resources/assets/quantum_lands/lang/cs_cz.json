@@ -11,11 +11,16 @@
   "block.quantum_lands.cracked_bunker_block": "Blok Nakřáplého Bunkru",
   "block.quantum_lands.bunker_stairs": "Bunkrové Schody",
   "block.quantum_lands.bunker_slab": "Bunkrový půlblok",
+  "block.quantum_lands.bunker_wall": "Bunkrová Zeď",
+  "block.quantum_lands.bunker_door": "Pancéřové Dveře",
+  "block.quantum_lands.bunker_trapdoor": "Pancéřový Poklop",
   "block.quantum_lands.emergency_button": "Nouzové Tlačítko",
   "block.quantum_lands.bunker_pressure_plate": "Bunkrová nášlapná deska",
   "block.quantum_lands.snifferite_ore": "Čichací Kámen",
   "block.quantum_lands.deepslate_snifferite_ore": "Hlubiný Čichací Kámen",
-  "block.quantum_lands.sound_block": "Ozvučný Blok",
+  "block.quantum_lands.blue_planks": "Modrá Prkna",
+  "block.quantum_lands.blue_fence": "Modrý Plot",
+  "block.quantum_lands.blue_fence_gate": "Modrá branka",
 
 
   "creativetab.sniffs_and_labs_tab": "Čichání & Výzkum",

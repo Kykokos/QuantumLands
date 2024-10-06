@@ -12133,12 +12133,6 @@
     },
     "done": true
   },
-  "quantum_lands:recipes/misc/cracked_bunker_block": {
-    "criteria": {
-      "has_bunkerblock": "2024-09-29 01:08:22 +0200"
-    },
-    "done": true
-  },
   "quantum_lands:recipes/misc/snifferite_dust": {
     "criteria": {
       "has_snifferite": "2024-09-29 01:18:39 +0200"
