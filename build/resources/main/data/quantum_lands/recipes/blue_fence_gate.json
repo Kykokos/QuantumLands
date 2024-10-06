@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "quantum_lands:blue_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "   ",
+    "SBS",
+    "SBS"
+  ],
+  "result": {
+    "item": "quantum_lands:blue_fence_gate"
+  },
+  "show_notification": true
+}

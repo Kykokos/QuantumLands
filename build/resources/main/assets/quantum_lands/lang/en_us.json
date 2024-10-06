@@ -12,6 +12,8 @@
   "block.quantum_lands.bunker_stairs": "Bunker Stairs",
   "block.quantum_lands.bunker_slab": "Bunker Slab",
   "block.quantum_lands.bunker_wall": "Bunker Wall",
+  "block.quantum_lands.bunker_door": "Bunker Door",
+  "block.quantum_lands.bunker_trapdoor": "Bunker Trapdoor",
   "block.quantum_lands.emergency_button": "Emergency Button",
   "block.quantum_lands.bunker_pressure_plate": "Bunker Pressure Plate",
   "block.quantum_lands.snifferite_ore": "Snifferite Ore",
