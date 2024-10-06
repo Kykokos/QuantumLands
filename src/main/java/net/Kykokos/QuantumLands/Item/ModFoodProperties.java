@@ -8,13 +8,13 @@ import net.minecraft.world.food.FoodProperties;
 public class ModFoodProperties
 {
     public  static final FoodProperties BLACKOUT_POWDER = new FoodProperties.Builder().nutrition(1).saturationMod(0.1f).alwaysEat()
-            .effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 120), 0.3f)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 640 ), 0.3f)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200 ), 0.9f).build();
+            .effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 150), 0.5f)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 750 ), 0.4f)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 320 ), 1f).build();
 
     public  static final FoodProperties SNIFFERITE_DUST = new FoodProperties.Builder().nutrition(1).saturationMod(0.1f).alwaysEat()
-            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200), 0.3f)
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 640 ), 0.5f)
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200 ), 0.9f).build();
+            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 300), 0.5f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 750 ), 0.5f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 320 ), 1f).build();
 
 }

@@ -21,9 +21,14 @@ public class ModBlockLootTables extends BlockLootSubProvider
     protected void generate() {
         this.dropSelf(ModBlocks.BUNKER_BLOCK.get());
         this.dropSelf(ModBlocks.CRACKED_BUNKER_BLOCK.get());
+        this.dropSelf(ModBlocks.BUNKER_STAIRS.get());
+        this.dropSelf(ModBlocks.EMERGENCY_BUTTON.get());
+        this.dropSelf(ModBlocks.BUNKER_PRESSURE_PLATE.get());
 
         this.add(ModBlocks.SNIFFERITE_ORE.get(), block -> createOreDrop(ModBlocks.SNIFFERITE_ORE.get(), ModItems.SNIFFERITE.get()));
         this.add(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(), block -> createOreDrop(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(), ModItems.SNIFFERITE.get()));
+
+        this.add(ModBlocks.BUNKER_SLAB.get(), block -> createSlabItemTable(ModBlocks.BUNKER_SLAB.get()));
     }
 
     @Override

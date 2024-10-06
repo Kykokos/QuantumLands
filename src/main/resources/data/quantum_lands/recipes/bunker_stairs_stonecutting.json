@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "quantum_lands:bunker_block"
+  },
+  "result": "quantum_lands:bunker_stairs"
+}

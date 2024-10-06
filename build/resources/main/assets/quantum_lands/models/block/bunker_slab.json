@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "quantum_lands:block/bunker_block",
+    "side": "quantum_lands:block/bunker_block",
+    "top": "quantum_lands:block/bunker_block"
+  }
+}

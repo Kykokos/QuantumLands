@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "quantum_lands:block/bunker_slab"
+    },
+    "type=double": {
+      "model": "quantum_lands:block/bunker_block"
+    },
+    "type=top": {
+      "model": "quantum_lands:block/bunker_slab_top"
+    }
+  }
+}

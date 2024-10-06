@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "quantum_lands:bunker_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "BBB"
+  ],
+  "result": {
+    "count": 6,
+    "item": "quantum_lands:bunker_slab"
+  },
+  "show_notification": true
+}

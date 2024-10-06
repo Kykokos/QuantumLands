@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": {
+      "item": "quantum_lands:bunker_block"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "   ",
+    " BR",
+    "   "
+  ],
+  "result": {
+    "item": "quantum_lands:emergency_button"
+  },
+  "show_notification": true
+}

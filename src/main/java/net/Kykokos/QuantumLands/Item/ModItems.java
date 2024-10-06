@@ -31,6 +31,9 @@ public class ModItems
     public static final RegistryObject<Item> PEAT_BRICK = ITEMS.register("peat_brick",
             () -> new FuelItem(new Item.Properties(), 600));
 
+    public static final RegistryObject<Item> BLUE_SUBSTANCE = ITEMS.register("blue_substance",
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
+
 
         public static void register(IEventBus eventBus)
         {

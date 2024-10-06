@@ -5,15 +5,15 @@ import net.Kykokos.QuantumLands.QuantumLands;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.antlr.v4.parse.BlockSetTransformer;
 
 import java.util.function.Supplier;
 
@@ -39,6 +39,22 @@ public class ModBlocks
     public static final RegistryObject<Block> DEEPSLATE_SNIFFERITE_ORE = registerBlock("deepslate_snifferite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).requiresCorrectToolForDrops()
                     .strength(5.0F, 25.0F).sound(SoundType.MEDIUM_AMETHYST_BUD), UniformInt.of(6, 9)));
+
+    public static final RegistryObject<Block> BUNKER_STAIRS = registerBlock("bunker_stairs",
+            () -> new StairBlock(() -> ModBlocks.BUNKER_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops()
+                    .strength(8.7F, 1600.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> BUNKER_SLAB = registerBlock("bunker_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops()
+                    .strength(8.5F, 1650.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> EMERGENCY_BUTTON= registerBlock("emergency_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED)
+                    .strength(0.5F, 1650.0F).sound(SoundType.METAL), BlockSetType.IRON, 2, false));
+
+    public static final RegistryObject<Block> BUNKER_PRESSURE_PLATE = registerBlock("bunker_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops()
+                    .strength(8.5F, 1650.0F).sound(SoundType.METAL), BlockSetType.IRON));
 
 
 

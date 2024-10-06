@@ -8,6 +8,10 @@
 
   "block.quantum_lands.bunker_block": "Blok Bunkru",
   "block.quantum_lands.cracked_bunker_block": "Blok Nakřáplého Bunkru",
+  "block.quantum_lands.bunker_stairs": "Bunkrové Schody",
+  "block.quantum_lands.bunker_slab": "Bunkrový půlblok",
+  "block.quantum_lands.emergency_button": "Nouzové Tlačítko",
+  "block.quantum_lands.bunker_pressure_plate": "Bunkrová nášlapná deska",
   "block.quantum_lands.snifferite_ore": "Čichací Kámen",
   "block.quantum_lands.deepslate_snifferite_ore": "Hlubiný Čichací Kámen",
   "block.quantum_lands.sound_block": "Ozvučný Blok",

@@ -588,6 +588,7 @@
     "criteria": {
       "minecraft:skeleton": "2024-08-19 14:32:30 +0200",
       "minecraft:spider": "2024-08-11 22:11:24 +0200",
+      "minecraft:creeper": "2024-09-29 14:17:09 +0200",
       "minecraft:phantom": "2024-08-19 14:32:20 +0200",
       "minecraft:zombie": "2024-08-11 15:30:44 +0200"
     },
@@ -12159,6 +12160,30 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2024-09-29 01:26:54 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/building_blocks/bunker_slab": {
+    "criteria": {
+      "has_bunker_block": "2024-09-29 11:23:17 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/building_blocks/bunker_stairs": {
+    "criteria": {
+      "has_bunker_block": "2024-09-29 11:23:17 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/redstone/bunker_pressure_plate": {
+    "criteria": {
+      "has_bunker_block": "2024-09-29 12:55:19 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/redstone/emergency_button": {
+    "criteria": {
+      "has_bunker_block": "2024-09-29 12:55:19 +0200"
     },
     "done": true
   },

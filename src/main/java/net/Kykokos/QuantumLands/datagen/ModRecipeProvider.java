@@ -57,6 +57,40 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_gravel", inventoryTrigger(ItemPredicate.Builder.item().of(Items.GRAVEL).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BUNKER_STAIRS.get(), 4)
+                .pattern("  B")
+                .pattern(" BB")
+                .pattern("BBB")
+                .define('B', ModBlocks.BUNKER_BLOCK.get())
+                .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BUNKER_SLAB.get(), 6)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("BBB")
+                .define('B', ModBlocks.BUNKER_BLOCK.get())
+                .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, ModBlocks.EMERGENCY_BUTTON.get())
+                .pattern("   ")
+                .pattern(" BR")
+                .pattern("   ")
+                .define('B', ModBlocks.BUNKER_BLOCK.get())
+                .define('R', Items.RED_DYE)
+                .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, ModBlocks.BUNKER_PRESSURE_PLATE.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern(" BB")
+                .define('B', ModBlocks.BUNKER_BLOCK.get())
+                .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
+                .save(pWriter);
+
+
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BUNKER_BLOCK.get()), RecipeCategory.MISC, ModBlocks.CRACKED_BUNKER_BLOCK.get())
                 .unlockedBy("has_bunkerblock", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
                 .save(pWriter);
