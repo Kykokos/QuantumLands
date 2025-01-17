@@ -5,6 +5,8 @@ import net.Kykokos.QuantumLands.Block.ModBlocks;
 import net.Kykokos.QuantumLands.Item.ModCreativeModeTabs;
 import net.Kykokos.QuantumLands.Item.ModCreativeModeTabs;
 import net.Kykokos.QuantumLands.Item.ModItems;
+import net.Kykokos.QuantumLands.fluid.ModFluidTypes;
+import net.Kykokos.QuantumLands.fluid.ModFluids;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -39,6 +41,9 @@ public class QuantumLands
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModFluidTypes.register(modEventBus);
+        ModFluids.register(modEventBus);
 
 
         modEventBus.addListener(this::addCreative);

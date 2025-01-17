@@ -2,6 +2,8 @@ package net.Kykokos.QuantumLands.Block;
 
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
+import net.Kykokos.QuantumLands.fluid.ModFluids;
+import net.Kykokos.QuantumLands.util.ModTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -80,6 +82,9 @@ public class ModBlocks
     public static final RegistryObject<Block> BUNKER_TRAPDOOR = registerBlock("bunker_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GRAY)
                     .strength(15.0F, 1650.0F).sound(SoundType.METAL), BlockSetType.IRON));
+
+    public static final RegistryObject<LiquidBlock> MOLTEN_QUANTALYTH_BLOCK = BLOCKS.register("molten_quantalyth_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_QUANTALYTH, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
 
 
 

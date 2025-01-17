@@ -3,7 +3,10 @@ package net.Kykokos.QuantumLands.Item;
 import net.Kykokos.QuantumLands.Block.custom.FuelItem;
 import net.Kykokos.QuantumLands.Item.custom.BunkerDetectorItem;
 import net.Kykokos.QuantumLands.QuantumLands;
+import net.Kykokos.QuantumLands.fluid.ModFluids;
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -42,6 +45,9 @@ public class ModItems
 
     public static final RegistryObject<Item> EMPTY_CAPSULE = ITEMS.register("empty_capsule",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
+
+    public static final RegistryObject<Item> MOLTEN_QUANTALYTH_BUCKET = ITEMS.register("molten_quantalyth_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_QUANTALYTH, new Item.Properties().rarity(Rarity.RARE).craftRemainder(Items.BUCKET).stacksTo(1)));
 
 
         public static void register(IEventBus eventBus)
