@@ -34,6 +34,9 @@ public class ModItems
     public static final RegistryObject<Item> BLUE_SUBSTANCE = ITEMS.register("blue_substance",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
 
+    public static final RegistryObject<Item> RAW_QUANTALYTH = ITEMS.register("raw_quantalyth",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
+
 
         public static void register(IEventBus eventBus)
         {

@@ -31,6 +31,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BLACKOUT_POWDER);
         simpleItem(ModItems.PEAT_BRICK);
         simpleItem(ModItems.BLUE_SUBSTANCE);
+        simpleItem(ModItems.RAW_QUANTALYTH);
 
         fenceItem(ModBlocks.BLUE_FENCE, ModBlocks.BLUE_PLANKS);
         wallItem(ModBlocks.BUNKER_WALL, ModBlocks.BUNKER_BLOCK);
