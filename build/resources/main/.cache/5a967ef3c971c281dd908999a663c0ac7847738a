@@ -1,10 +1,12 @@
-// 1.20.1	2025-01-17T19:20:53.3418346	Item Models: quantum_lands
+// 1.20.1	2025-01-17T20:19:51.7995741	Item Models: quantum_lands
 ba86544f2be9a54e7f96355eef675cb651367676 assets/quantum_lands/models/item/blackout_powder.json
 f0d06cd3a6f50a3c42ea7f5b96a9caf79543d48f assets/quantum_lands/models/item/blue_fence.json
 fd622bf8ffb374842f2ca54620abe7572911730a assets/quantum_lands/models/item/blue_substance.json
 c09ee8755a1121661de15ada523d6220d2768b30 assets/quantum_lands/models/item/bunker_door.json
 d52ffc2384df55f37ca25f702c89fb0483ffd869 assets/quantum_lands/models/item/bunker_wall.json
+4c24e869454316cdcaf13c93800406fbcab68fc2 assets/quantum_lands/models/item/empty_capsule.json
 8fb9b012a24cd378cfd9ce6676a6f088e5371db8 assets/quantum_lands/models/item/peat_brick.json
+f2f189b98171adb51687ae3978252e52dc1ca9c7 assets/quantum_lands/models/item/quantalyth_capsule.json
 076ae9c460030c49aa64c67e6772ca38267a49e1 assets/quantum_lands/models/item/raw_quantalyth.json
 3a8d05691af31203ee057e28dff53412b560ee67 assets/quantum_lands/models/item/snifferite.json
 b93a18e484da272416f667f0670e087ba2a4b8e5 assets/quantum_lands/models/item/snifferite_dust.json

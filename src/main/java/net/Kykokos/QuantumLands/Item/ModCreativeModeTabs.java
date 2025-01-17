@@ -24,6 +24,8 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.BLACKOUT_POWDER.get());
                         output.accept(ModItems.BLUE_SUBSTANCE.get());
                         output.accept(ModItems.RAW_QUANTALYTH.get());
+                        output.accept(ModItems.QUANTALYTH_CAPSULE.get());
+                        output.accept(ModItems.EMPTY_CAPSULE.get());
                         output.accept(ModItems.BUKER_DETECTOR.get());
                         output.accept(ModItems.PEAT_BRICK.get());
                     }).build());

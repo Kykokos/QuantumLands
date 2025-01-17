@@ -37,6 +37,12 @@ public class ModItems
     public static final RegistryObject<Item> RAW_QUANTALYTH = ITEMS.register("raw_quantalyth",
             () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
 
+    public static final RegistryObject<Item> QUANTALYTH_CAPSULE = ITEMS.register("quantalyth_capsule",
+            () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+
+    public static final RegistryObject<Item> EMPTY_CAPSULE = ITEMS.register("empty_capsule",
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
+
 
         public static void register(IEventBus eventBus)
         {
