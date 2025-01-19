@@ -23,8 +23,7 @@ public class ModFluids {
 
     public static final ForgeFlowingFluid.Properties MOLTEN_QUANTALYTH_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
             ModFluidTypes.MOLTEN_QUANTALYTH_FLUID_TYPE, SOURCE_MOLTEN_QUANTALYTH, FLOWING_MOLTEN_QUANTALYTH)
-            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_QUANTALYTH_BLOCK).bucket(ModItems.MOLTEN_QUANTALYTH_BUCKET);
-    )
+            .slopeFindDistance(2).levelDecreasePerBlock(3).block(ModBlocks.MOLTEN_QUANTALYTH_BLOCK).bucket(ModItems.MOLTEN_QUANTALYTH_BUCKET);
 
     public static void register(IEventBus eventBus){
         FLUIDS.register(eventBus);

@@ -7,6 +7,8 @@ import net.Kykokos.QuantumLands.Item.ModCreativeModeTabs;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.fluid.ModFluidTypes;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -91,9 +93,10 @@ public class QuantumLands
     public static class ClientModEvents
     {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-            
+        public static void onClientSetup(FMLClientSetupEvent event) {
+
+
+
         }
     }
 }
