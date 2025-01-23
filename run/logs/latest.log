@@ -1,138 +1,157 @@
-[19Jan2025 19:21:12.922] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[19Jan2025 19:21:12.925] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[19Jan2025 19:21:13.011] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[19Jan2025 19:21:13.102] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[19Jan2025 19:21:13.252] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[19Jan2025 19:21:13.330] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/kos73/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[19Jan2025 19:21:13.359] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
-[19Jan2025 19:21:13.568] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[19Jan2025 19:21:13.570] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[19Jan2025 19:21:13.572] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[19Jan2025 19:21:13.575] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
-[19Jan2025 19:21:13.651] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[19Jan2025 19:21:14.694] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[19Jan2025 19:21:14.696] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[19Jan2025 19:21:14.884] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3/build/createSrgToMcp/output.srg
-[19Jan2025 19:21:14.885] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3/build/createSrgToMcp/output.srg
-[19Jan2025 19:21:17.410] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 98 milliseconds
-[19Jan2025 19:21:18.479] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[19Jan2025 19:21:18.479] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[19Jan2025 19:21:18.490] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19Jan2025 19:21:18.494] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[19Jan2025 19:21:18.581] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[19Jan2025 19:21:18.788] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
-[19Jan2025 19:21:18.788] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
-[19Jan2025 19:21:18.801] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[19Jan2025 19:21:20.593] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [quantum_lands]
-[19Jan2025 19:21:20.815] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[19Jan2025 19:21:20.879] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[19Jan2025 19:21:20.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 11: 11
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 12: 12
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 13: 13
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 14: 14
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 15: 15
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 16: 16
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 17: 17
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 18: 18
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 19: 19
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 20: 18
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 21: 17
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 22: 16
-[19Jan2025 19:21:21.073] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 23: 15
-[19Jan2025 19:21:21.074] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 24: 14
-[19Jan2025 19:21:21.074] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 25: 13
-[19Jan2025 19:21:21.074] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 26: 12
-[19Jan2025 19:21:21.074] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 27: 11
-[19Jan2025 19:21:21.214] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.3 Target: 47.3.0
-[19Jan2025 19:21:21.214] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[19Jan2025 19:21:21.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=13'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=14'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=11'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=12'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=10'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=15'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=8'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=9'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=6'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=7'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=4'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=5'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=2'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=3'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=0'
-[19Jan2025 19:21:21.687] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=1'
-[19Jan2025 19:21:22.386] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
-[19Jan2025 19:21:23.396] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[19Jan2025 19:21:23.396] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19Jan2025 19:21:23.421] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Reproduktory (Realtek(R) Audio)
-[19Jan2025 19:21:23.421] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19Jan2025 19:21:23.496] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[19Jan2025 19:21:23.531] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[19Jan2025 19:21:23.534] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[19Jan2025 19:21:23.534] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[19Jan2025 19:21:23.534] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[19Jan2025 19:21:23.535] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[19Jan2025 19:21:23.536] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[19Jan2025 19:21:23.536] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19Jan2025 19:21:23.536] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[19Jan2025 19:21:23.601] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[19Jan2025 19:21:23.632] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19Jan2025 19:21:23.633] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19Jan2025 19:21:23.633] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19Jan2025 19:21:23.643] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 51 train hat configurations.
-[19Jan2025 19:21:23.829] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[19Jan2025 19:21:28.496] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[19Jan2025 19:21:29.779] [Worker-Main-9/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [quantum_lands:sound_block (from main)] as it is missing following references: quantum_lands:sound_block (from main)
-[19Jan2025 19:21:30.127] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
-[19Jan2025 19:21:30.177] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2260 advancements
-[19Jan2025 19:21:30.765] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[19Jan2025 19:21:30.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Jan2025 19:21:31.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Jan2025 19:21:33.100] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jan2025 19:21:33.117] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jan2025 19:21:33.117] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jan2025 19:21:33.117] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Jan2025 19:21:33.484] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[19Jan2025 19:21:33.930] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19Jan2025 19:21:33.930] [Server thread/INFO] [net.Kykokos.QuantumLands.QuantumLands/]: HELLO from server starting
-[19Jan2025 19:21:33.943] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2459 ms
-[19Jan2025 19:21:34.045] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[19Jan2025 19:21:34.048] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[19Jan2025 19:21:34.139] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[19Jan2025 19:21:34.181] [Server thread/INFO] [BatchExecutor/]: Started 6 worker threads
-[19Jan2025 19:21:34.592] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[19Jan2025 19:21:34.676] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8e4f9a02] logged in with entity id 241 at (-15.337126315215734, 83.79071227171329, -3.4860005619308163)
-[19Jan2025 19:21:34.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[19Jan2025 19:21:35.459] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2120 advancements
-[19Jan2025 19:21:36.058] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Jan2025 19:21:36.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Jan2025 19:21:37.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Jan2025 19:21:37.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Jan2025 19:21:49.380] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Jan2025 19:21:49.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Jan2025 19:21:49.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Jan2025 19:21:49.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Jan2025 19:25:53.679] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Jan2025 19:25:53.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Jan2025 19:25:53.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Jan2025 19:25:53.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Jan2025 19:27:21.031] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Jan2025 19:27:21.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Jan2025 19:27:21.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Jan2025 19:27:21.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Jan2025 19:27:21.586] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[19Jan2025 19:27:21.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[19Jan2025 19:27:21.598] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[19Jan2025 19:27:21.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19Jan2025 19:27:21.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19Jan2025 19:27:21.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19Jan2025 19:27:21.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Jan2025 19:27:21.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Jan2025 19:27:21.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Jan2025 19:27:21.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[19Jan2025 19:27:21.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19Jan2025 19:27:21.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19Jan2025 19:27:21.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19Jan2025 19:27:34.742] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[22Jan2025 18:54:07.693] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[22Jan2025 18:54:07.702] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[22Jan2025 18:54:07.808] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[22Jan2025 18:54:08.032] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[22Jan2025 18:54:08.185] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[22Jan2025 18:54:08.430] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/kos73/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[22Jan2025 18:54:08.799] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
+[22Jan2025 18:54:08.808] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[22Jan2025 18:54:08.811] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[22Jan2025 18:54:08.813] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[22Jan2025 18:54:08.817] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
+[22Jan2025 18:54:08.932] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Jan2025 18:54:10.282] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Jan2025 18:54:10.286] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[22Jan2025 18:54:10.561] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3/build/createSrgToMcp/output.srg
+[22Jan2025 18:54:10.562] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3/build/createSrgToMcp/output.srg
+[22Jan2025 18:54:13.461] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 84 milliseconds
+[22Jan2025 18:54:14.608] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[22Jan2025 18:54:14.608] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[22Jan2025 18:54:14.625] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Jan2025 18:54:14.632] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[22Jan2025 18:54:14.722] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[22Jan2025 18:54:14.925] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
+[22Jan2025 18:54:14.925] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
+[22Jan2025 18:54:14.940] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[22Jan2025 18:54:17.352] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [quantum_lands]
+[22Jan2025 18:54:17.683] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[22Jan2025 18:54:17.831] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[22Jan2025 18:54:17.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Jan2025 18:54:18.256] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 11: 11
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 12: 12
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 13: 13
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 14: 14
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 15: 15
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 16: 16
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 17: 17
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 18: 18
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 19: 19
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 20: 18
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 21: 17
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 22: 16
+[22Jan2025 18:54:18.257] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 23: 15
+[22Jan2025 18:54:18.258] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 24: 14
+[22Jan2025 18:54:18.258] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 25: 13
+[22Jan2025 18:54:18.258] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 26: 12
+[22Jan2025 18:54:18.258] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 27: 11
+[22Jan2025 18:54:18.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.3 Target: 47.3.0
+[22Jan2025 18:54:18.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[22Jan2025 18:54:18.983] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=13'
+[22Jan2025 18:54:18.983] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=14'
+[22Jan2025 18:54:18.983] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=11'
+[22Jan2025 18:54:18.983] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=12'
+[22Jan2025 18:54:18.983] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=10'
+[22Jan2025 18:54:18.983] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=15'
+[22Jan2025 18:54:18.983] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=8'
+[22Jan2025 18:54:18.983] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=9'
+[22Jan2025 18:54:18.984] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=6'
+[22Jan2025 18:54:18.984] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=7'
+[22Jan2025 18:54:18.984] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=4'
+[22Jan2025 18:54:18.984] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=5'
+[22Jan2025 18:54:18.984] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=2'
+[22Jan2025 18:54:18.984] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=3'
+[22Jan2025 18:54:18.984] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=0'
+[22Jan2025 18:54:18.984] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=1'
+[22Jan2025 18:54:19.176] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[22Jan2025 18:54:19.886] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[22Jan2025 18:54:21.283] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Jan2025 18:54:21.283] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Jan2025 18:54:21.307] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Reproduktory (Realtek(R) Audio)
+[22Jan2025 18:54:21.308] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Jan2025 18:54:21.373] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[22Jan2025 18:54:21.385] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22Jan2025 18:54:21.387] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22Jan2025 18:54:21.387] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22Jan2025 18:54:21.388] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22Jan2025 18:54:21.392] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22Jan2025 18:54:21.396] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22Jan2025 18:54:21.396] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22Jan2025 18:54:21.396] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22Jan2025 18:54:21.484] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22Jan2025 18:54:21.528] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22Jan2025 18:54:21.529] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22Jan2025 18:54:21.529] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22Jan2025 18:54:21.541] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 51 train hat configurations.
+[22Jan2025 18:54:21.904] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[22Jan2025 18:54:26.742] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[22Jan2025 18:54:28.074] [Worker-Main-9/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [quantum_lands:sound_block (from main)] as it is missing following references: quantum_lands:sound_block (from main)
+[22Jan2025 18:54:28.504] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[22Jan2025 18:54:28.553] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2260 advancements
+[22Jan2025 18:54:29.437] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[22Jan2025 18:54:29.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Jan2025 18:54:30.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Jan2025 18:54:31.300] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 18:54:31.319] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 18:54:31.319] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 18:54:31.666] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jan2025 18:54:32.162] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
+[22Jan2025 18:54:32.246] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Jan2025 18:54:32.246] [Server thread/INFO] [net.Kykokos.QuantumLands.QuantumLands/]: HELLO from server starting
+[22Jan2025 18:54:32.252] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2095 ms
+[22Jan2025 18:54:32.367] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[22Jan2025 18:54:32.369] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[22Jan2025 18:54:32.444] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[22Jan2025 18:54:32.480] [Server thread/INFO] [BatchExecutor/]: Started 6 worker threads
+[22Jan2025 18:54:32.826] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[22Jan2025 18:54:32.894] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:0a08093a] logged in with entity id 244 at (16.755347332575173, 87.18187038724776, 9.820437574738047)
+[22Jan2025 18:54:32.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[22Jan2025 18:54:33.510] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2120 advancements
+[22Jan2025 18:55:17.996] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Jan2025 18:55:18.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jan2025 18:55:18.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jan2025 18:55:18.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jan2025 19:50:49.796] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Jan2025 19:50:49.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jan2025 19:50:49.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jan2025 19:50:49.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jan2025 19:52:09.169] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:10.056] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:10.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:10.807] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:38.253] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Bunker Found: Bricks at (25, 69, 34)
+[22Jan2025 19:52:51.760] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:51.955] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:52.156] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:52.357] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:52.559] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:52.754] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:52.958] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:53.152] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:53.357] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:53.558] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:53.759] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:53.961] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:52:54.358] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Bunkers Found :(
+[22Jan2025 19:54:31.004] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2122 advancements
+[22Jan2025 19:55:59.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[22Jan2025 19:55:59.434] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[22Jan2025 19:56:28.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[22Jan2025 19:56:28.711] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[22Jan2025 19:58:37.647] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Jan2025 19:58:37.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jan2025 19:58:37.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jan2025 19:58:37.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jan2025 19:59:34.702] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[22Jan2025 19:59:34.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[22Jan2025 19:59:34.714] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[22Jan2025 19:59:34.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Jan2025 19:59:34.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Jan2025 19:59:34.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Jan2025 19:59:34.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jan2025 19:59:35.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jan2025 19:59:35.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jan2025 19:59:35.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[22Jan2025 19:59:35.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Jan2025 19:59:35.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Jan2025 19:59:35.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Jan2025 19:59:36.425] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

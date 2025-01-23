@@ -12206,5 +12206,17 @@
     },
     "done": true
   },
+  "quantum_lands:recipes/building_blocks/blue_fence": {
+    "criteria": {
+      "has_blue_planks": "2025-01-22 19:54:30 +0100"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/building_blocks/blue_fence_gate": {
+    "criteria": {
+      "has_blue_planks": "2025-01-22 19:54:30 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
