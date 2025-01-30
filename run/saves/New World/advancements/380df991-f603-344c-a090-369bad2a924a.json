@@ -12134,18 +12134,6 @@
     },
     "done": true
   },
-  "quantum_lands:recipes/misc/snifferite_dust": {
-    "criteria": {
-      "has_snifferite": "2024-09-29 01:18:39 +0200"
-    },
-    "done": true
-  },
-  "quantum_lands:recipes/misc/snifferite": {
-    "criteria": {
-      "has_snifferite": "2024-09-29 01:18:39 +0200"
-    },
-    "done": true
-  },
   "quantum_lands:recipes/building_blocks/bunker_block": {
     "criteria": {
       "has_gravel": "2024-09-29 01:25:16 +0200"
@@ -12188,12 +12176,6 @@
     },
     "done": true
   },
-  "quantum_lands:recipes/misc/bunker_wall": {
-    "criteria": {
-      "has_bunker_block": "2024-10-06 15:37:20 +0200"
-    },
-    "done": true
-  },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-01-17 18:56:35 +0100"
@@ -12215,6 +12197,48 @@
   "quantum_lands:recipes/building_blocks/blue_fence_gate": {
     "criteria": {
       "has_blue_planks": "2025-01-22 19:54:30 +0100"
+    },
+    "done": true
+  },
+  "create:crushing_wheel": {
+    "criteria": {
+      "0": "2025-01-30 12:01:00 +0100"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2025-01-30 12:34:48 +0100"
+    },
+    "done": true
+  },
+  "mekanism:enricher": {
+    "criteria": {
+      "enrichment_chamber": "2025-01-30 12:55:47 +0100"
+    },
+    "done": true
+  },
+  "mekanism:metallurgic_infuser": {
+    "criteria": {
+      "metallurgic_infuser": "2025-01-30 12:56:00 +0100"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/building_blocks/bunker_wall": {
+    "criteria": {
+      "has_bunker_block": "2025-01-30 13:18:48 +0100"
+    },
+    "done": true
+  },
+  "mekanism:infusing_efficiency": {
+    "criteria": {
+      "enriched_material": "2025-01-30 13:48:36 +0100"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/quantalyth_block": {
+    "criteria": {
+      "has_blue_quantalyth_capsule": "2025-01-30 18:32:37 +0100"
     },
     "done": true
   },

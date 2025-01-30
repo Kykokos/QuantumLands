@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "quantum_lands:snifferite"
+    }
+  ],
+  "results": [
+    {
+      "item": "quantum_lands:snifferite_dust",
+      "count": 1,
+      "chance": 0.1
+    }
+  ]
+}

@@ -35,6 +35,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.QUANTALYTH_CAPSULE);
         simpleItem(ModItems.EMPTY_CAPSULE);
         simpleItem(ModItems.MOLTEN_QUANTALYTH_BUCKET);
+        simpleItem(ModItems.QUANTALYTH_INGOT);
 
         fenceItem(ModBlocks.BLUE_FENCE, ModBlocks.BLUE_PLANKS);
         wallItem(ModBlocks.BUNKER_WALL, ModBlocks.BUNKER_BLOCK);

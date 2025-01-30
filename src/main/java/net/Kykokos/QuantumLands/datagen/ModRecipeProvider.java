@@ -25,19 +25,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SNIFFERITE.get())
-                .pattern("   ")
-                .pattern(" AA")
-                .pattern(" AA")
-                .define('A', ModItems.SNIFFERITE_DUST.get())
-                .unlockedBy("has_snifferite", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.SNIFFERITE.get()).build()))
-                .save(pWriter);
-
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SNIFFERITE_DUST.get(), 4)
-                .requires(ModItems.SNIFFERITE.get())
-                .unlockedBy("has_snifferite", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.SNIFFERITE.get()).build()))
-                .save(pWriter);
-
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.BUKER_DETECTOR.get())
                 .pattern("BRB")
                 .pattern("BRB")
@@ -73,6 +60,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BUNKER_WALL.get(), 6)
+                .pattern("   ")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModBlocks.BUNKER_BLOCK.get())
+                .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
+                .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, ModBlocks.EMERGENCY_BUTTON.get())
                 .pattern("   ")
                 .pattern(" BR")
@@ -91,11 +86,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BUNKER_BLOCK.get()), RecipeCategory.MISC, ModBlocks.CRACKED_BUNKER_BLOCK.get())
-                .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
-                .save(pWriter);
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BUNKER_BLOCK.get()), RecipeCategory.MISC, ModBlocks.BUNKER_WALL.get())
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BUNKER_BLOCK.get()), RecipeCategory.MISC, ModBlocks.CRACKED_BUNKER_BLOCK.get())
                 .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
                 .save(pWriter);
 
@@ -117,6 +109,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', ModBlocks.BLUE_PLANKS.get())
                 .define('S', Items.STICK)
                 .unlockedBy("has_blue_planks", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BLUE_PLANKS.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.QUANTALYTH_BLOCK.get())
+                .pattern("QQQ")
+                .pattern("QQQ")
+                .pattern("QQQ")
+                .define('Q', ModItems.QUANTALYTH_CAPSULE.get())
+                .unlockedBy("has_blue_quantalyth_capsule", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.QUANTALYTH_CAPSULE.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.QUANTALYTH_BLOCK.get(), 4)
+                .pattern("   ")
+                .pattern(" Q ")
+                .pattern("   ")
+                .define('Q', ModBlocks.QUANTALYTH_BLOCK.get())
+                .unlockedBy("has_blue_quantalyth_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.QUANTALYTH_BLOCK.get()).build()))
                 .save(pWriter);
     }
 }

@@ -38,13 +38,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.SNIFFERITE_ORE.get(),
-                    ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(),
-                    ModBlocks.BUNKER_BLOCK.get(),
+                .add(ModBlocks.BUNKER_BLOCK.get(),
                     ModBlocks.CRACKED_BUNKER_BLOCK.get(),
                     ModBlocks.BUNKER_STAIRS.get(),
                     ModBlocks.BUNKER_SLAB.get(),
                     ModBlocks.BUNKER_WALL.get());
+
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.SNIFFERITE_ORE.get(),
+                    ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get());
 
 
         this.tag(BlockTags.FENCES)

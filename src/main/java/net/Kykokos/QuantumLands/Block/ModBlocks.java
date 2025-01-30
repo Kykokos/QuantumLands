@@ -86,6 +86,10 @@ public class ModBlocks
     public static final RegistryObject<LiquidBlock> MOLTEN_QUANTALYTH_BLOCK = BLOCKS.register("molten_quantalyth_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_QUANTALYTH, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
 
+    public static final RegistryObject<Block> QUANTALYTH_BLOCK = registerBlock("quantalyth_block",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).requiresCorrectToolForDrops()
+                    .strength(30.0F, 50000.0F).sound(SoundType.AMETHYST)));
+
 
 
 

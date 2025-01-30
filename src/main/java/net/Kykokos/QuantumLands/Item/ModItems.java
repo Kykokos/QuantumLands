@@ -49,6 +49,9 @@ public class ModItems
     public static final RegistryObject<Item> MOLTEN_QUANTALYTH_BUCKET = ITEMS.register("molten_quantalyth_bucket",
             () -> new BucketItem(ModFluids.SOURCE_MOLTEN_QUANTALYTH, new Item.Properties().rarity(Rarity.RARE).craftRemainder(Items.BUCKET).stacksTo(1)));
 
+    public static final RegistryObject<Item> QUANTALYTH_INGOT = ITEMS.register("quantalyth_ingot",
+            () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant()));
+
 
         public static void register(IEventBus eventBus)
         {

@@ -1,8 +1,19 @@
 {
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "quantum_lands:bunker_block"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "quantum_lands:bunker_block"
+    }
   },
-  "result": "quantum_lands:bunker_wall"
+  "pattern": [
+    "   ",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 6,
+    "item": "quantum_lands:bunker_wall"
+  },
+  "show_notification": true
 }

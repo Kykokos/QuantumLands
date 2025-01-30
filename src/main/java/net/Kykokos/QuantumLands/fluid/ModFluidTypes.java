@@ -27,7 +27,7 @@ public class ModFluidTypes {
     public static final RegistryObject<FluidType> MOLTEN_QUANTALYTH_FLUID_TYPE = registerFluidType("molten_quantalyth_fluid",
             new BaseFluidType(MOLTEN_QUANTALYTH_STILL_RL, MOLTEN_QUANTALYTH_FLOW_RL, MOLTEN_QUANTALYTH_OVERLAY_RL, 0xA17E08FC,
                     new Vector3f(70f / 255f, 0f / 255f, 247f / 255f),
-                    FluidType.Properties.create().lightLevel(15).viscosity(100).canSwim(false).canDrown(true).temperature(5000).density(100)));
+                    FluidType.Properties.create().lightLevel(15).viscosity(5).canSwim(false).canDrown(true).temperature(5000).density(100)));
 
 
     private static RegistryObject<FluidType> registerFluidType(String name, FluidType fluidType){

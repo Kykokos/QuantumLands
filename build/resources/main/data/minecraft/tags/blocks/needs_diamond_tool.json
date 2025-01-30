@@ -1,6 +1,6 @@
 {
-  "replace": false,
   "values": [
-
+    "quantum_lands:snifferite_ore",
+    "quantum_lands:deepslate_snifferite_ore"
   ]
 }

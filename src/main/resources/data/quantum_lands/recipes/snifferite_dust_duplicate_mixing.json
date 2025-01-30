@@ -5,7 +5,7 @@
       "item": "quantum_lands:snifferite_dust"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:dusts/obsidian"
     },
     {
       "amount": 500,
