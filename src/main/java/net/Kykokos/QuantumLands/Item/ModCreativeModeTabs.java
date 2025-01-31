@@ -27,6 +27,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.MOLTEN_QUANTALYTH_BUCKET.get());
                         output.accept(ModItems.EMPTY_CAPSULE.get());
                         output.accept(ModItems.QUANTALYTH_CAPSULE.get());
+                        output.accept(ModItems.QUANTALYTH_INGOT.get());
                         output.accept(ModBlocks.QUANTALYTH_BLOCK.get());
                         output.accept(ModItems.BUKER_DETECTOR.get());
                         output.accept(ModItems.PEAT_BRICK.get());

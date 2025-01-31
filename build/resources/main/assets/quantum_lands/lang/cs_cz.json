@@ -5,7 +5,7 @@
   "item.quantum_lands.blue_substance": "Modré Cosi",
   "item.quantum_lands.raw_quantalyth": "Ruda Quantalythu",
   "item.quantum_lands.quantalyth_capsule": "Kapsle s Quantalythem",
-  "item.quantum_lands.quantalyth_block": "Block Qantalythu",
+  "item.quantum_lands.quantalyth_ingot": "Quantalythový Ingot",
   "item.quantum_lands.empty_capsule": "Prázdná Kapsle",
   "item.quantum_lands.peat_brick": "Cihla Rašeliny",
 
@@ -25,9 +25,12 @@
   "block.quantum_lands.bunker_pressure_plate": "Bunkrová nášlapná deska",
   "block.quantum_lands.snifferite_ore": "Čichací Kámen",
   "block.quantum_lands.deepslate_snifferite_ore": "Hlubiný Čichací Kámen",
+  "block.quantum_lands.quantalyth_block": "Block Qantalythu",
   "block.quantum_lands.blue_planks": "Modrá Prkna",
   "block.quantum_lands.blue_fence": "Modrý Plot",
   "block.quantum_lands.blue_fence_gate": "Modrá branka",
+
+  "fluid_type.quantum_lands.molten_quantalyth_fluid": "Roztavený Quantalyth",
 
 
   "creativetab.sniffs_and_labs_tab": "Čichání & Výzkum",

@@ -5,7 +5,7 @@
   "item.quantum_lands.blue_substance": "Blue Substance",
   "item.quantum_lands.raw_quantalyth": "Quantalyth ore",
   "item.quantum_lands.quantalyth_capsule": "Quantalyth Capsule",
-  "item.quantum_lands.quantalyth_block": "Block of Quantalyth",
+  "item.quantum_lands.quantalyth_ingot": "Quantalyth Ingot",
   "item.quantum_lands.empty_capsule": "Empty Capsule",
   "item.quantum_lands.peat_brick": "Peat Brick",
 
@@ -25,9 +25,13 @@
   "block.quantum_lands.bunker_pressure_plate": "Bunker Pressure Plate",
   "block.quantum_lands.snifferite_ore": "Snifferite Ore",
   "block.quantum_lands.deepslate_snifferite_ore": "Deepslate Snifferite Ore",
+  "block.quantum_lands.quantalyth_block": "Block of Quantalyth",
   "block.quantum_lands.blue_planks": "Blue Planks",
   "block.quantum_lands.blue_fence": "Blue Fence",
   "block.quantum_lands.blue_fence_gate": "Blue Fence Gate",
+
+  "fluid_type.quantum_lands.molten_quantalyth_fluid": "Molten Quantalyth",
+
 
 
   "creativetab.sniffs_and_labs_tab": "Sniffs & Labs",

@@ -12242,5 +12242,47 @@
     },
     "done": true
   },
+  "mekanism:alarm": {
+    "criteria": {
+      "industrial_alarm": "2025-01-30 20:03:13 +0100"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/quantalyth_ingot": {
+    "criteria": {
+      "has_blue_quantalyth_block": "2025-01-30 20:12:37 +0100"
+    },
+    "done": true
+  },
+  "mekanism:fluid_tank": {
+    "criteria": {
+      "basic_fluid_tank": "2025-01-30 20:14:55 +0100"
+    },
+    "done": true
+  },
+  "mekanism:configurator": {
+    "criteria": {
+      "configurator": "2025-01-30 20:15:06 +0100"
+    },
+    "done": true
+  },
+  "mekanism:fluid_transport": {
+    "criteria": {
+      "basic_mechanical_pipe": "2025-01-30 20:16:53 +0100"
+    },
+    "done": true
+  },
+  "create:spout": {
+    "criteria": {
+      "0": "2025-01-30 20:18:36 +0100"
+    },
+    "done": true
+  },
+  "mekanismtools:alternate_armor": {
+    "criteria": {
+      "armor": "2025-01-31 15:51:21 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
