@@ -1,199 +1,196 @@
-[31Jan2025 18:46:20.030] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[31Jan2025 18:46:20.034] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[31Jan2025 18:46:20.119] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[31Jan2025 18:46:20.180] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[31Jan2025 18:46:20.337] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[31Jan2025 18:46:20.397] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/kos73/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[31Jan2025 18:46:20.445] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
-[31Jan2025 18:46:20.613] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[31Jan2025 18:46:20.616] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[31Jan2025 18:46:20.618] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[31Jan2025 18:46:20.620] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
-[31Jan2025 18:46:20.734] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[31Jan2025 18:46:22.121] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[31Jan2025 18:46:22.125] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[31Jan2025 18:46:22.340] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3/build/createSrgToMcp/output.srg
-[31Jan2025 18:46:22.341] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3/build/createSrgToMcp/output.srg
-[31Jan2025 18:46:24.997] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 97 milliseconds
-[31Jan2025 18:46:26.089] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[31Jan2025 18:46:26.090] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[31Jan2025 18:46:26.098] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[31Jan2025 18:46:26.103] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[31Jan2025 18:46:26.173] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[31Jan2025 18:46:26.381] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
-[31Jan2025 18:46:26.381] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
-[31Jan2025 18:46:26.387] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[31Jan2025 18:46:26.751] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[31Jan2025 18:46:26.754] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.040 ms
-[31Jan2025 18:46:28.936] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [quantum_lands]
-[31Jan2025 18:46:29.175] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[31Jan2025 18:46:29.238] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Version 10.4.14 initializing...
-[31Jan2025 18:46:29.244] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[31Jan2025 18:46:29.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[31Jan2025 18:46:29.311] [Worker-Main-7/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Tools' module.
-[31Jan2025 18:46:29.312] [Worker-Main-7/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Additions' module.
-[31Jan2025 18:46:29.315] [Worker-Main-2/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
-[31Jan2025 18:46:29.364] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[31Jan2025 18:46:29.364] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Mod loaded.
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 11: 11
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 12: 12
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 13: 13
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 14: 14
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 15: 15
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 16: 16
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 17: 17
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 18: 18
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 19: 19
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 20: 18
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 21: 17
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 22: 16
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 23: 15
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 24: 14
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 25: 13
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 26: 12
-[31Jan2025 18:46:29.428] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 27: 11
-[31Jan2025 18:46:29.571] [Worker-Main-1/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
-[31Jan2025 18:46:29.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.3 Target: 47.3.0
-[31Jan2025 18:46:29.617] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[31Jan2025 18:46:29.809] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=13'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=14'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=11'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=12'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=10'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=15'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=8'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=9'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=6'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=7'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=4'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=5'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=2'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=3'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=0'
-[31Jan2025 18:46:30.168] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=1'
-[31Jan2025 18:46:31.166] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
-[31Jan2025 18:46:32.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[31Jan2025 18:46:32.647] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[31Jan2025 18:46:32.678] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Reproduktory (Realtek(R) Audio)
-[31Jan2025 18:46:32.679] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[31Jan2025 18:46:32.770] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[31Jan2025 18:46:32.784] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[31Jan2025 18:46:32.786] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[31Jan2025 18:46:32.786] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[31Jan2025 18:46:32.787] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[31Jan2025 18:46:32.787] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[31Jan2025 18:46:32.789] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[31Jan2025 18:46:32.789] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[31Jan2025 18:46:32.789] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[31Jan2025 18:46:32.894] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[31Jan2025 18:46:32.932] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[31Jan2025 18:46:32.933] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[31Jan2025 18:46:32.933] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[31Jan2025 18:46:32.942] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 51 train hat configurations.
-[31Jan2025 18:46:32.942] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[31Jan2025 18:46:32.943] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
-[31Jan2025 18:46:33.110] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[31Jan2025 18:47:50.915] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[31Jan2025 18:47:52.351] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [quantum_lands:sound_block (from main)] as it is missing following references: quantum_lands:sound_block (from main)
-[31Jan2025 18:47:52.916] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 48 recipes
-[31Jan2025 18:47:52.963] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2368 advancements
-[31Jan2025 18:47:53.771] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[31Jan2025 18:47:53.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[31Jan2025 18:47:54.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[31Jan2025 18:47:55.874] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jan2025 18:47:55.911] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jan2025 18:47:55.928] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jan2025 18:47:55.982] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jan2025 18:47:56.483] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Jan2025 18:47:56.982] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[31Jan2025 18:47:57.000] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2521 ms
-[31Jan2025 18:47:57.001] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[31Jan2025 18:47:57.001] [Server thread/INFO] [net.Kykokos.QuantumLands.QuantumLands/]: HELLO from server starting
-[31Jan2025 18:47:57.088] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[31Jan2025 18:47:57.089] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[31Jan2025 18:47:57.167] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[31Jan2025 18:47:57.235] [Server thread/INFO] [BatchExecutor/]: Started 6 worker threads
-[31Jan2025 18:47:58.118] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[31Jan2025 18:47:58.179] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:613f0007] logged in with entity id 227 at (12.456674497025006, 82.04798147836196, 1.7402621772703675)
-[31Jan2025 18:47:58.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[31Jan2025 18:47:58.487] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[31Jan2025 18:47:58.487] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[31Jan2025 18:47:58.759] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[31Jan2025 18:47:58.769] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[31Jan2025 18:47:58.769] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[31Jan2025 18:47:58.769] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[31Jan2025 18:47:58.774] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[31Jan2025 18:47:58.790] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: mekanism:jei_plugin took 14.09 milliseconds
-[31Jan2025 18:47:58.791] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 17.10 ms
-[31Jan2025 18:47:58.791] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[31Jan2025 18:47:58.793] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.212 ms
-[31Jan2025 18:47:58.794] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[31Jan2025 18:47:58.924] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 130.3 milliseconds
-[31Jan2025 18:47:58.925] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 131.4 ms
-[31Jan2025 18:47:58.925] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
-[31Jan2025 18:47:58.925] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 224.4 μs
-[31Jan2025 18:47:58.926] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
-[31Jan2025 18:47:58.927] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 349.5 μs
-[31Jan2025 18:47:58.935] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[31Jan2025 18:47:58.963] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 19.54 milliseconds
-[31Jan2025 18:47:58.980] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: mekanism:jei_plugin took 16.45 milliseconds
-[31Jan2025 18:47:58.985] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 48.60 ms
-[31Jan2025 18:47:58.985] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[31Jan2025 18:47:58.986] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 1.692 ms
-[31Jan2025 18:47:58.987] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[31Jan2025 18:47:58.990] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 2.272 ms
-[31Jan2025 18:47:58.990] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[31Jan2025 18:47:58.999] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 9.293 ms
-[31Jan2025 18:47:59.000] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[31Jan2025 18:47:59.000] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 283.3 μs
-[31Jan2025 18:47:59.001] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[31Jan2025 18:47:59.196] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 195.7 milliseconds
-[31Jan2025 18:47:59.303] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 107.2 milliseconds
-[31Jan2025 18:47:59.333] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: mekanism:jei_plugin took 29.13 milliseconds
-[31Jan2025 18:47:59.378] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 40.41 milliseconds
-[31Jan2025 18:47:59.378] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 376.9 ms
-[31Jan2025 18:47:59.384] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[31Jan2025 18:47:59.388] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 4.153 ms
-[31Jan2025 18:47:59.393] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[31Jan2025 18:47:59.395] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[31Jan2025 18:47:59.401] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 4.753 ms
-[31Jan2025 18:47:59.403] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[31Jan2025 18:47:59.404] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[31Jan2025 18:47:59.404] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[31Jan2025 18:47:59.426] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 21.70 ms
-[31Jan2025 18:47:59.426] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[31Jan2025 18:47:59.443] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3202 ingredients
-[31Jan2025 18:47:59.593] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3202 ingredients
-[31Jan2025 18:47:59.593] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 167.4 ms
-[31Jan2025 18:47:59.642] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 238.9 milliseconds
-[31Jan2025 18:47:59.642] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 239.5 ms
-[31Jan2025 18:47:59.642] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 249.3 ms
-[31Jan2025 18:47:59.642] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[31Jan2025 18:47:59.642] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 252.7 μs
-[31Jan2025 18:47:59.642] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 873.7 ms
-[31Jan2025 18:47:59.725] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2167 advancements
-[31Jan2025 18:48:31.752] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[31Jan2025 18:48:31.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[31Jan2025 18:48:31.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[31Jan2025 18:48:31.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[31Jan2025 18:48:32.378] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[31Jan2025 18:48:32.379] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[31Jan2025 18:48:32.379] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[31Jan2025 18:48:32.379] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[31Jan2025 18:48:32.379] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
-[31Jan2025 18:48:32.380] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 1.031 ms
-[31Jan2025 18:48:32.408] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[31Jan2025 18:48:32.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[31Jan2025 18:48:32.421] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[31Jan2025 18:48:32.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[31Jan2025 18:48:32.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[31Jan2025 18:48:32.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[31Jan2025 18:48:32.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[31Jan2025 18:48:32.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[31Jan2025 18:48:32.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[31Jan2025 18:48:32.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[31Jan2025 18:48:32.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[31Jan2025 18:48:32.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[31Jan2025 18:48:32.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[31Jan2025 18:48:35.056] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[03Feb2025 17:47:08.819] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[03Feb2025 17:47:08.838] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[03Feb2025 17:47:08.937] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[03Feb2025 17:47:09.036] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[03Feb2025 17:47:09.243] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[03Feb2025 17:47:09.330] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/kos73/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[03Feb2025 17:47:09.379] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
+[03Feb2025 17:47:09.647] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[03Feb2025 17:47:09.650] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[03Feb2025 17:47:09.653] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[03Feb2025 17:47:09.655] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
+[03Feb2025 17:47:09.780] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[03Feb2025 17:47:11.920] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Feb2025 17:47:11.926] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[03Feb2025 17:47:12.264] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3/build/createSrgToMcp/output.srg
+[03Feb2025 17:47:12.267] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3/build/createSrgToMcp/output.srg
+[03Feb2025 17:47:15.493] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 99 milliseconds
+[03Feb2025 17:47:16.791] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[03Feb2025 17:47:16.793] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[03Feb2025 17:47:16.804] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Feb2025 17:47:16.809] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[03Feb2025 17:47:16.886] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[03Feb2025 17:47:19.495] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
+[03Feb2025 17:47:19.495] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
+[03Feb2025 17:47:19.502] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[03Feb2025 17:47:19.845] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[03Feb2025 17:47:19.849] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.990 ms
+[03Feb2025 17:47:22.433] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [quantum_lands]
+[03Feb2025 17:47:22.697] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[03Feb2025 17:47:22.758] [Worker-Main-8/INFO] [mekanism.common.Mekanism/]: Version 10.4.14 initializing...
+[03Feb2025 17:47:22.766] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[03Feb2025 17:47:22.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Feb2025 17:47:22.840] [Worker-Main-6/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Tools' module.
+[03Feb2025 17:47:22.841] [Worker-Main-6/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Additions' module.
+[03Feb2025 17:47:22.842] [Worker-Main-10/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[03Feb2025 17:47:22.862] [Worker-Main-8/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[03Feb2025 17:47:22.862] [Worker-Main-8/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 11: 11
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 12: 12
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 13: 13
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 14: 14
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 15: 15
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 16: 16
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 17: 17
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 18: 18
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 19: 19
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 20: 18
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 21: 17
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 22: 16
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 23: 15
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 24: 14
+[03Feb2025 17:47:22.974] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 25: 13
+[03Feb2025 17:47:22.975] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 26: 12
+[03Feb2025 17:47:22.975] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite quantum_lands:block/molten_quantalyth_still frame 27: 11
+[03Feb2025 17:47:23.030] [Worker-Main-10/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
+[03Feb2025 17:47:23.106] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.3 Target: 47.3.0
+[03Feb2025 17:47:23.106] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[03Feb2025 17:47:23.338] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[03Feb2025 17:47:23.893] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=13'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=14'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=11'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=12'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=10'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=15'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=8'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=9'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=6'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=7'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=4'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=5'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=2'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=3'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=0'
+[03Feb2025 17:47:23.894] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'quantum_lands:blockstates/molten_quantalyth_block.json' missing model for variant: 'quantum_lands:molten_quantalyth_block#level=1'
+[03Feb2025 17:47:25.537] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[03Feb2025 17:47:27.255] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[03Feb2025 17:47:27.256] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[03Feb2025 17:47:27.292] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Reproduktory (Realtek(R) Audio)
+[03Feb2025 17:47:27.293] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[03Feb2025 17:47:27.384] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[03Feb2025 17:47:27.406] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[03Feb2025 17:47:27.406] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[03Feb2025 17:47:27.406] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[03Feb2025 17:47:27.407] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[03Feb2025 17:47:27.409] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[03Feb2025 17:47:27.411] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[03Feb2025 17:47:27.411] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[03Feb2025 17:47:27.411] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[03Feb2025 17:47:27.526] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[03Feb2025 17:47:27.563] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[03Feb2025 17:47:27.566] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[03Feb2025 17:47:27.566] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[03Feb2025 17:47:27.575] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 51 train hat configurations.
+[03Feb2025 17:47:27.575] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[03Feb2025 17:47:27.576] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
+[03Feb2025 17:47:27.759] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[03Feb2025 17:47:31.634] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[03Feb2025 17:47:33.141] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [quantum_lands:sound_block (from main)] as it is missing following references: quantum_lands:sound_block (from main)
+[03Feb2025 17:47:33.623] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 48 recipes
+[03Feb2025 17:47:33.674] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2368 advancements
+[03Feb2025 17:47:34.573] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[03Feb2025 17:47:34.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Feb2025 17:47:35.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Feb2025 17:47:36.555] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 17:47:36.609] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 17:47:36.609] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 17:47:37.076] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 17:47:37.581] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 17:47:38.085] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 17:47:38.582] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 17:47:39.139] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Feb2025 17:47:39.139] [Server thread/INFO] [net.Kykokos.QuantumLands.QuantumLands/]: HELLO from server starting
+[03Feb2025 17:47:39.142] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3574 ms
+[03Feb2025 17:47:39.322] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[03Feb2025 17:47:39.324] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[03Feb2025 17:47:39.418] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[03Feb2025 17:47:39.501] [Server thread/INFO] [BatchExecutor/]: Started 6 worker threads
+[03Feb2025 17:47:40.266] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[03Feb2025 17:47:40.379] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:36628e04] logged in with entity id 226 at (10.999374952390212, 83.17290687649435, 7.93696176275368)
+[03Feb2025 17:47:40.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[03Feb2025 17:47:40.811] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[03Feb2025 17:47:40.813] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[03Feb2025 17:47:41.134] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[03Feb2025 17:47:41.153] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[03Feb2025 17:47:41.153] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[03Feb2025 17:47:41.153] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[03Feb2025 17:47:41.158] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[03Feb2025 17:47:41.175] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: mekanism:jei_plugin took 12.80 milliseconds
+[03Feb2025 17:47:41.175] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 16.52 ms
+[03Feb2025 17:47:41.176] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[03Feb2025 17:47:41.185] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 9.715 ms
+[03Feb2025 17:47:41.186] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[03Feb2025 17:47:41.389] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 202.3 milliseconds
+[03Feb2025 17:47:41.397] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 209.9 ms
+[03Feb2025 17:47:41.397] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[03Feb2025 17:47:41.397] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 318.6 μs
+[03Feb2025 17:47:41.397] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[03Feb2025 17:47:41.398] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 473.5 μs
+[03Feb2025 17:47:41.421] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[03Feb2025 17:47:41.452] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 21.56 milliseconds
+[03Feb2025 17:47:41.471] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: mekanism:jei_plugin took 19.21 milliseconds
+[03Feb2025 17:47:41.477] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 55.99 ms
+[03Feb2025 17:47:41.478] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[03Feb2025 17:47:41.480] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.311 ms
+[03Feb2025 17:47:41.481] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[03Feb2025 17:47:41.484] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 3.695 ms
+[03Feb2025 17:47:41.484] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[03Feb2025 17:47:41.502] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 17.51 ms
+[03Feb2025 17:47:41.504] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[03Feb2025 17:47:41.505] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 396.8 μs
+[03Feb2025 17:47:41.506] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[03Feb2025 17:47:41.715] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 208.6 milliseconds
+[03Feb2025 17:47:41.868] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 153.0 milliseconds
+[03Feb2025 17:47:41.909] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: mekanism:jei_plugin took 41.36 milliseconds
+[03Feb2025 17:47:41.965] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 49.24 milliseconds
+[03Feb2025 17:47:41.965] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 459.5 ms
+[03Feb2025 17:47:41.972] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[03Feb2025 17:47:41.979] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 5.989 ms
+[03Feb2025 17:47:41.985] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[03Feb2025 17:47:41.987] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[03Feb2025 17:47:41.997] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 8.315 ms
+[03Feb2025 17:47:41.998] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[03Feb2025 17:47:41.999] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[03Feb2025 17:47:41.999] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[03Feb2025 17:47:42.028] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 27.78 ms
+[03Feb2025 17:47:42.028] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[03Feb2025 17:47:42.064] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3202 ingredients
+[03Feb2025 17:47:42.333] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3202 ingredients
+[03Feb2025 17:47:42.333] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 305.6 ms
+[03Feb2025 17:47:42.393] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 394.4 milliseconds
+[03Feb2025 17:47:42.393] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 395.0 ms
+[03Feb2025 17:47:42.394] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 409.0 ms
+[03Feb2025 17:47:42.394] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[03Feb2025 17:47:42.394] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 336.6 μs
+[03Feb2025 17:47:42.395] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 1.241 s
+[03Feb2025 17:47:42.506] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2167 advancements
+[03Feb2025 18:04:29.417] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[03Feb2025 18:04:29.422] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[03Feb2025 18:04:29.422] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[03Feb2025 18:04:29.422] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[03Feb2025 18:04:29.422] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[03Feb2025 18:04:29.422] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[03Feb2025 18:04:29.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 1.676 ms
+[03Feb2025 18:04:29.445] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[03Feb2025 18:04:29.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[03Feb2025 18:04:29.459] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[03Feb2025 18:04:29.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03Feb2025 18:04:29.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03Feb2025 18:04:29.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03Feb2025 18:04:29.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[03Feb2025 18:04:29.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[03Feb2025 18:04:29.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[03Feb2025 18:04:29.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[03Feb2025 18:04:29.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Feb2025 18:04:29.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Feb2025 18:04:29.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
