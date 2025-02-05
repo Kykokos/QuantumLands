@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "     ",
+    " NEN ",
+    " G G ",
+    " G G ",
+    " NEN "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "E": {
+      "item": "quantum_lands:essence_tier_8"
+    },
+    "G": {
+      "item": "mekanismgenerators:reactor_glass"
+    }
+  },
+  "result": {
+    "item": "quantum_lands:empty_capsule",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

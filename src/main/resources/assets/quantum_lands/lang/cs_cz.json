@@ -3,11 +3,20 @@
   "item.quantum_lands.snifferite_dust": "Čichací Prášek",
   "item.quantum_lands.blackout_powder": "Zatmívací Prášek",
   "item.quantum_lands.blue_substance": "Modré Cosi",
-  "item.quantum_lands.raw_quantalyth": "Ruda Quantalythu",
+  "item.quantum_lands.raw_quantalyth": "Hrubý Quantalyth",
   "item.quantum_lands.quantalyth_capsule": "Kapsle s Quantalythem",
   "item.quantum_lands.quantalyth_ingot": "Quantalythový Ingot",
   "item.quantum_lands.empty_capsule": "Prázdná Kapsle",
-  "item.quantum_lands.peat_brick": "Cihla Rašeliny",
+  "item.quantum_lands.essence_tier_1": "Essence úrovně 1",
+  "item.quantum_lands.essence_tier_2": "Essence úrovně 2",
+  "item.quantum_lands.essence_tier_3": "Essence úrovně 3",
+  "item.quantum_lands.essence_tier_4": "Essence úrovně 4",
+  "item.quantum_lands.essence_tier_5": "Essence úrovně 5",
+  "item.quantum_lands.essence_tier_6": "Essence úrovně 6",
+  "item.quantum_lands.essence_tier_7": "Essence úrovně 7",
+  "item.quantum_lands.essence_tier_8": "Essence úrovně 8",
+
+
 
   "item.quantum_lands.bunker_detector": "Detektor Bunkrů",
 
@@ -25,7 +34,7 @@
   "block.quantum_lands.bunker_pressure_plate": "Bunkrová nášlapná deska",
   "block.quantum_lands.snifferite_ore": "Čichací Kámen",
   "block.quantum_lands.deepslate_snifferite_ore": "Hlubiný Čichací Kámen",
-  "block.quantum_lands.quantalyth_block": "Block Qantalythu",
+  "block.quantum_lands.raw_quantalyth_block": "Block Hrubého Qantalythu",
   "block.quantum_lands.blue_planks": "Modrá Prkna",
   "block.quantum_lands.blue_fence": "Modrý Plot",
   "block.quantum_lands.blue_fence_gate": "Modrá branka",

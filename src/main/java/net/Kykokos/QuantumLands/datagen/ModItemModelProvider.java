@@ -36,6 +36,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.EMPTY_CAPSULE);
         simpleItem(ModItems.MOLTEN_QUANTALYTH_BUCKET);
         simpleItem(ModItems.QUANTALYTH_INGOT);
+        simpleItem(ModItems.ESSENCE_TIER_1);
+        simpleItem(ModItems.ESSENCE_TIER_2);
+        simpleItem(ModItems.ESSENCE_TIER_3);
+        simpleItem(ModItems.ESSENCE_TIER_4);
+        simpleItem(ModItems.ESSENCE_TIER_5);
+        simpleItem(ModItems.ESSENCE_TIER_6);
+        simpleItem(ModItems.ESSENCE_TIER_7);
+        simpleItem(ModItems.ESSENCE_TIER_8);
 
         fenceItem(ModBlocks.BLUE_FENCE, ModBlocks.BLUE_PLANKS);
         wallItem(ModBlocks.BUNKER_WALL, ModBlocks.BUNKER_BLOCK);

@@ -26,7 +26,7 @@ public class ModItems
             () -> new Item(new Item.Properties().rarity(Rarity.RARE).food(ModFoodProperties.SNIFFERITE_DUST)));
 
     public static final RegistryObject<Item> BUKER_DETECTOR = ITEMS.register("bunker_detector",
-            () -> new BunkerDetectorItem(new Item.Properties().fireResistant().durability(100).rarity(Rarity.EPIC)));
+            () -> new BunkerDetectorItem(new Item.Properties().fireResistant().durability(150).rarity(Rarity.UNCOMMON)));
 
     public static final RegistryObject<Item> BLACKOUT_POWDER = ITEMS.register("blackout_powder",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE).food(ModFoodProperties.BLACKOUT_POWDER)));
@@ -38,18 +38,42 @@ public class ModItems
             () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
 
     public static final RegistryObject<Item> RAW_QUANTALYTH = ITEMS.register("raw_quantalyth",
-            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant()));
 
     public static final RegistryObject<Item> QUANTALYTH_CAPSULE = ITEMS.register("quantalyth_capsule",
-            () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).fireResistant()));
 
     public static final RegistryObject<Item> EMPTY_CAPSULE = ITEMS.register("empty_capsule",
-            () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant()));
 
     public static final RegistryObject<Item> MOLTEN_QUANTALYTH_BUCKET = ITEMS.register("molten_quantalyth_bucket",
-            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_QUANTALYTH, new Item.Properties().rarity(Rarity.RARE).craftRemainder(Items.BUCKET).stacksTo(1)));
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_QUANTALYTH, new Item.Properties().rarity(Rarity.RARE).craftRemainder(Items.BUCKET).stacksTo(1).fireResistant()));
 
     public static final RegistryObject<Item> QUANTALYTH_INGOT = ITEMS.register("quantalyth_ingot",
+            () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant()));
+
+    public static final RegistryObject<Item> ESSENCE_TIER_1 = ITEMS.register("essence_tier_1",
+            () -> new Item(new Item.Properties().rarity(Rarity.COMMON).fireResistant()));
+
+    public static final RegistryObject<Item> ESSENCE_TIER_2 = ITEMS.register("essence_tier_2",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant()));
+
+    public static final RegistryObject<Item> ESSENCE_TIER_3 = ITEMS.register("essence_tier_3",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant()));
+
+    public static final RegistryObject<Item> ESSENCE_TIER_4 = ITEMS.register("essence_tier_4",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant()));
+
+    public static final RegistryObject<Item> ESSENCE_TIER_5 = ITEMS.register("essence_tier_5",
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).fireResistant()));
+
+    public static final RegistryObject<Item> ESSENCE_TIER_6 = ITEMS.register("essence_tier_6",
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).fireResistant()));
+
+    public static final RegistryObject<Item> ESSENCE_TIER_7 = ITEMS.register("essence_tier_7",
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).fireResistant()));
+
+    public static final RegistryObject<Item> ESSENCE_TIER_8 = ITEMS.register("essence_tier_8",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant()));
 
 

@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "quantum_lands:raw_quantalyth"
+    },
+    {
+      "tag": "forge:dusts/netherite"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "amount": 500,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 50,
+      "fluid": "quantum_lands:molten_quantalyth_fluid",
+      "nbt": {}
+    }
+  ]
+}

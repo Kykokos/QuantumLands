@@ -12236,21 +12236,9 @@
     },
     "done": true
   },
-  "quantum_lands:recipes/misc/quantalyth_block": {
-    "criteria": {
-      "has_blue_quantalyth_capsule": "2025-01-30 18:32:37 +0100"
-    },
-    "done": true
-  },
   "mekanism:alarm": {
     "criteria": {
       "industrial_alarm": "2025-01-30 20:03:13 +0100"
-    },
-    "done": true
-  },
-  "quantum_lands:recipes/misc/quantalyth_ingot": {
-    "criteria": {
-      "has_blue_quantalyth_block": "2025-01-30 20:12:37 +0100"
     },
     "done": true
   },
@@ -12281,6 +12269,18 @@
   "mekanismtools:alternate_armor": {
     "criteria": {
       "armor": "2025-01-31 15:51:21 +0100"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/raw_quantalyth_block": {
+    "criteria": {
+      "has_blue_quantalyth_capsule": "2025-02-05 17:23:40 +0100"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2025-02-05 22:12:01 +0100"
     },
     "done": true
   },

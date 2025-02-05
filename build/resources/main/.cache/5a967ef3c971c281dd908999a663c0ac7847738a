@@ -1,10 +1,18 @@
-// 1.20.1	2025-01-30T20:11:37.6098733	Item Models: quantum_lands
+// 1.20.1	2025-02-05T16:36:29.3143069	Item Models: quantum_lands
 ba86544f2be9a54e7f96355eef675cb651367676 assets/quantum_lands/models/item/blackout_powder.json
 f0d06cd3a6f50a3c42ea7f5b96a9caf79543d48f assets/quantum_lands/models/item/blue_fence.json
 fd622bf8ffb374842f2ca54620abe7572911730a assets/quantum_lands/models/item/blue_substance.json
 c09ee8755a1121661de15ada523d6220d2768b30 assets/quantum_lands/models/item/bunker_door.json
 d52ffc2384df55f37ca25f702c89fb0483ffd869 assets/quantum_lands/models/item/bunker_wall.json
 4c24e869454316cdcaf13c93800406fbcab68fc2 assets/quantum_lands/models/item/empty_capsule.json
+00883a18493ce05ada1288cc9eb431af52bbac75 assets/quantum_lands/models/item/essence_tier_1.json
+85d3370737134d3b168e4d3d9bf8a41b82d773d2 assets/quantum_lands/models/item/essence_tier_2.json
+246e04b0b42153acf2eaea4ef0a8372badf24940 assets/quantum_lands/models/item/essence_tier_3.json
+e1ae5f79348902b4dbdb5a508c6ca552b35dc720 assets/quantum_lands/models/item/essence_tier_4.json
+cc57f41b1b3d144cd06c1a3b6e02cd97756582a4 assets/quantum_lands/models/item/essence_tier_5.json
+001f36ba97c45158dcb165fba80978b139907cbd assets/quantum_lands/models/item/essence_tier_6.json
+660f035b26ce75b8c0182ea07797c2634b6e72f6 assets/quantum_lands/models/item/essence_tier_7.json
+77ef83673210a400058115995ddc33bab6b508b4 assets/quantum_lands/models/item/essence_tier_8.json
 704add02bfdcf73e324bbfdd3519f827a9b69a19 assets/quantum_lands/models/item/molten_quantalyth_bucket.json
 8fb9b012a24cd378cfd9ce6676a6f088e5371db8 assets/quantum_lands/models/item/peat_brick.json
 f2f189b98171adb51687ae3978252e52dc1ca9c7 assets/quantum_lands/models/item/quantalyth_capsule.json

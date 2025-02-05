@@ -29,7 +29,7 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.BLUE_FENCE.get());
         this.dropSelf(ModBlocks.BLUE_FENCE_GATE.get());
         this.dropSelf(ModBlocks.BUNKER_TRAPDOOR.get());
-        this.dropSelf(ModBlocks.QUANTALYTH_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_QUANTALYTH_BLOCK.get());
 
         this.add(ModBlocks.SNIFFERITE_ORE.get(), block -> createOreDrop(ModBlocks.SNIFFERITE_ORE.get(), ModItems.SNIFFERITE.get()));
         this.add(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(), block -> createOreDrop(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(), ModItems.SNIFFERITE.get()));
