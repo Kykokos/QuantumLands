@@ -30,6 +30,7 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.RAW_QUANTALYTH_BLOCK.get());
                         output.accept(ModItems.QUANTALYTH_INGOT.get());
                         output.accept(ModBlocks.QUANTALYTH_BLOCK.get());
+                        output.accept(ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
                         output.accept(ModItems.BUKER_DETECTOR.get());
                         output.accept(ModItems.PEAT_BRICK.get());
                         output.accept(ModItems.ESSENCE_TIER_1.get());
@@ -40,6 +41,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.ESSENCE_TIER_6.get());
                         output.accept(ModItems.ESSENCE_TIER_7.get());
                         output.accept(ModItems.ESSENCE_TIER_8.get());
+                        output.accept(ModItems.SINGULARITY.get());
 
                     }).build());
 

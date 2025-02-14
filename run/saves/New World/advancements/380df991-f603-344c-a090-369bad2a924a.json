@@ -12284,5 +12284,17 @@
     },
     "done": true
   },
+  "mekanism:playing_with_fire": {
+    "criteria": {
+      "flamethrower": "2025-02-14 17:26:33 +0100"
+    },
+    "done": true
+  },
+  "mekanismtools:paxel": {
+    "criteria": {
+      "any_paxel": "2025-02-14 19:13:32 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

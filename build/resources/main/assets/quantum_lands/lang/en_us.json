@@ -16,6 +16,7 @@
   "item.quantum_lands.essence_tier_6": "Essence tier 6",
   "item.quantum_lands.essence_tier_7": "Essence tier 7",
   "item.quantum_lands.essence_tier_8": "Essence tier 8",
+  "item.quantum_lands.singularity": "Singularity",
 
   "item.quantum_lands.bunker_detector": "Bunker Buster",
 
@@ -33,16 +34,18 @@
   "block.quantum_lands.bunker_pressure_plate": "Bunker Pressure Plate",
   "block.quantum_lands.snifferite_ore": "Snifferite Ore",
   "block.quantum_lands.deepslate_snifferite_ore": "Deepslate Snifferite Ore",
-  "block.quantum_lands.raw_quantalyth_block": "Block of Raw Quantalyth",
+  "block.quantum_lands.raw_quantalyth_block": "Block of Raw §dQuantalyth",
+  "block.quantum_lands.quantalyth_block": "Block of §dQuantalyth",
+  "block.quantum_lands.quantalyth_mega_block": "Block of §5MEGA §dQantalyth",
   "block.quantum_lands.blue_planks": "Blue Planks",
   "block.quantum_lands.blue_fence": "Blue Fence",
   "block.quantum_lands.blue_fence_gate": "Blue Fence Gate",
 
-  "fluid_type.quantum_lands.molten_quantalyth_fluid": "Molten Quantalyth",
+  "fluid_type.quantum_lands.molten_quantalyth_fluid": "Molten §dQuantalyth",
 
 
 
-  "creativetab.sniffs_and_labs_tab": "Sniffs & Labs",
+  "creativetab.sniffs_and_labs_tab": "§5Sniffs §f& §bLabs",
   "creativetab.quantum_building_tab": "Quantum Building",
 
 

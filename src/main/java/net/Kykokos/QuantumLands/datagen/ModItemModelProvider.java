@@ -44,6 +44,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ESSENCE_TIER_6);
         simpleItem(ModItems.ESSENCE_TIER_7);
         simpleItem(ModItems.ESSENCE_TIER_8);
+        simpleItem(ModItems.SINGULARITY);
 
         fenceItem(ModBlocks.BLUE_FENCE, ModBlocks.BLUE_PLANKS);
         wallItem(ModBlocks.BUNKER_WALL, ModBlocks.BUNKER_BLOCK);

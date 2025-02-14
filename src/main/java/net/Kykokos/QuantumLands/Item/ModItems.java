@@ -76,6 +76,9 @@ public class ModItems
     public static final RegistryObject<Item> ESSENCE_TIER_8 = ITEMS.register("essence_tier_8",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant()));
 
+    public static final RegistryObject<Item> SINGULARITY = ITEMS.register("singularity",
+            () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant().stacksTo(4)));
+
 
         public static void register(IEventBus eventBus)
         {

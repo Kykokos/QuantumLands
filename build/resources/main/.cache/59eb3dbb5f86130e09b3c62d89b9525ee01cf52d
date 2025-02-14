@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-13T22:35:57.4280324	Loot Tables
+// 1.20.1	2025-02-14T22:25:17.3365812	Loot Tables
 172019f15028d3d7a0d3a65eeec0374e8377ede0 data/quantum_lands/loot_tables/blocks/blue_fence.json
 b2f26a0e1a834da005214965bb5ffac3e8dd8739 data/quantum_lands/loot_tables/blocks/blue_fence_gate.json
 8d3e9f22d066a4fe50aed77891531d4849a29535 data/quantum_lands/loot_tables/blocks/blue_planks.json
@@ -13,5 +13,6 @@ bc72f55f4688fbf04faef4b66392dea0516ba2e3 data/quantum_lands/loot_tables/blocks/b
 a0b110de99a2be11a3c51252da43b3fe29f6c393 data/quantum_lands/loot_tables/blocks/deepslate_snifferite_ore.json
 a1666a676bf21793a435362e4a4094c88941fe3c data/quantum_lands/loot_tables/blocks/emergency_button.json
 6dc8120a6e842ef3b59e1aea15f8eab58248f45d data/quantum_lands/loot_tables/blocks/quantalyth_block.json
+b3982b0b71a458dba62f77906ca5f739dc30e582 data/quantum_lands/loot_tables/blocks/quantalyth_mega_block.json
 cfc2ad1ce011643fb5a11216d785630c4cffdada data/quantum_lands/loot_tables/blocks/raw_quantalyth_block.json
 79d5ff46d7d07b952e9ab29e1318658085b7ecbc data/quantum_lands/loot_tables/blocks/snifferite_ore.json

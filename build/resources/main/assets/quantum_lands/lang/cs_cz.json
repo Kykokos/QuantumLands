@@ -15,6 +15,7 @@
   "item.quantum_lands.essence_tier_6": "Essence úrovně 6",
   "item.quantum_lands.essence_tier_7": "Essence úrovně 7",
   "item.quantum_lands.essence_tier_8": "Essence úrovně 8",
+  "item.quantum_lands.singularity": "Singularita",
 
 
 
@@ -35,6 +36,8 @@
   "block.quantum_lands.snifferite_ore": "Čichací Kámen",
   "block.quantum_lands.deepslate_snifferite_ore": "Hlubiný Čichací Kámen",
   "block.quantum_lands.raw_quantalyth_block": "Block Hrubého Qantalythu",
+  "block.quantum_lands.quantalyth_block": "Block Qantalythu",
+  "block.quantum_lands.quantalyth_mega_block": "Block MEGA Qantalythu",
   "block.quantum_lands.blue_planks": "Modrá Prkna",
   "block.quantum_lands.blue_fence": "Modrý Plot",
   "block.quantum_lands.blue_fence_gate": "Modrá branka",
