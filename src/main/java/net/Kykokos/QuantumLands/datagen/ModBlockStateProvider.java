@@ -28,6 +28,7 @@ public class ModBlockStateProvider extends BlockStateProvider
         blockWithItem(ModBlocks.DEEPSLATE_SNIFFERITE_ORE);
         blockWithItem(ModBlocks.BLUE_PLANKS);
         blockWithItem(ModBlocks.RAW_QUANTALYTH_BLOCK);
+        blockWithItem(ModBlocks.QUANTALYTH_BLOCK);
 
         stairsBlock((StairBlock) ModBlocks.BUNKER_STAIRS.get(), blockTexture(ModBlocks.BUNKER_BLOCK.get()));
         slabBlock((SlabBlock) ModBlocks.BUNKER_SLAB.get(), blockTexture(ModBlocks.BUNKER_BLOCK.get()), blockTexture(ModBlocks.BUNKER_BLOCK.get()));

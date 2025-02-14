@@ -32,7 +32,7 @@ public class ModItems
             () -> new Item(new Item.Properties().rarity(Rarity.RARE).food(ModFoodProperties.BLACKOUT_POWDER)));
 
     public static final RegistryObject<Item> PEAT_BRICK = ITEMS.register("peat_brick",
-            () -> new FuelItem(new Item.Properties(), 600));
+            () -> new FuelItem(new Item.Properties(), 1700));
 
     public static final RegistryObject<Item> BLUE_SUBSTANCE = ITEMS.register("blue_substance",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE)));

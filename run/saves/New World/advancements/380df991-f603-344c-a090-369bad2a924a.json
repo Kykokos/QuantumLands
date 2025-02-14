@@ -12272,15 +12272,15 @@
     },
     "done": true
   },
-  "quantum_lands:recipes/misc/raw_quantalyth_block": {
-    "criteria": {
-      "has_blue_quantalyth_capsule": "2025-02-05 17:23:40 +0100"
-    },
-    "done": true
-  },
   "create:burner": {
     "criteria": {
       "0": "2025-02-05 22:12:01 +0100"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/quantalyth_block": {
+    "criteria": {
+      "has_quantalyth_ingot": "2025-02-13 22:37:27 +0100"
     },
     "done": true
   },

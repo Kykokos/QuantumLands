@@ -88,7 +88,11 @@ public class ModBlocks
 
     public static final RegistryObject<Block> RAW_QUANTALYTH_BLOCK = registerBlock("raw_quantalyth_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).requiresCorrectToolForDrops()
-                    .strength(30.0F, 50000.0F).sound(SoundType.AMETHYST)));
+                    .strength(30.0F, 50000.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> QUANTALYTH_BLOCK = registerBlock("quantalyth_block",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).requiresCorrectToolForDrops()
+                    .strength(40.0F, 100000000000.0F).sound(SoundType.AMETHYST)));
 
 
 
