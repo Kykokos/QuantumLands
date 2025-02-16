@@ -3,9 +3,14 @@
   "item.quantum_lands.snifferite_dust": "Čichací Prášek",
   "item.quantum_lands.blackout_powder": "Zatmívací Prášek",
   "item.quantum_lands.blue_substance": "Modré Cosi",
-  "item.quantum_lands.raw_quantalyth": "Hrubý Quantalyth",
-  "item.quantum_lands.quantalyth_capsule": "Kapsle s Quantalythem",
-  "item.quantum_lands.quantalyth_ingot": "Quantalythový Ingot",
+  "item.quantum_lands.raw_quantalyth": "§5Hrubý Quantalyth",
+  "item.quantum_lands.quantalyth_capsule": "§5Kapsle s Quantalythem",
+  "item.quantum_lands.quantalyth_ingot": "§5Quantalythový Ingot",
+  "item.quantum_lands.quantalyth_sword": "§5Meč z Quantalythu",
+  "item.quantum_lands.quantalyth_hoe": "§5Motyka z Quantalythu",
+  "item.quantum_lands.quantalyth_axe": "§5Sekera z Quantalythu",
+  "item.quantum_lands.quantalyth_pickaxe": "§5Krumpáč z Quantalythu",
+  "item.quantum_lands.quantalyth_shovel": "§5Lopata z Quantalythu",
   "item.quantum_lands.empty_capsule": "Prázdná Kapsle",
   "item.quantum_lands.essence_tier_1": "Essence úrovně 1",
   "item.quantum_lands.essence_tier_2": "Essence úrovně 2",
@@ -15,13 +20,13 @@
   "item.quantum_lands.essence_tier_6": "Essence úrovně 6",
   "item.quantum_lands.essence_tier_7": "Essence úrovně 7",
   "item.quantum_lands.essence_tier_8": "Essence úrovně 8",
-  "item.quantum_lands.singularity": "Singularita",
+  "item.quantum_lands.super_singularity": "§6Super Singularita",
 
 
 
   "item.quantum_lands.bunker_detector": "Detektor Bunkrů",
 
-  "item.quantum_lands.molten_quantalyth_bucket": "Kbelík s Roztaveným Quantalythem",
+  "item.quantum_lands.molten_quantalyth_bucket": "§5Kbelík s Roztaveným Quantalythem",
 
 
   "block.quantum_lands.bunker_block": "Blok Bunkru",
@@ -35,14 +40,14 @@
   "block.quantum_lands.bunker_pressure_plate": "Bunkrová nášlapná deska",
   "block.quantum_lands.snifferite_ore": "Čichací Kámen",
   "block.quantum_lands.deepslate_snifferite_ore": "Hlubiný Čichací Kámen",
-  "block.quantum_lands.raw_quantalyth_block": "Block Hrubého Qantalythu",
-  "block.quantum_lands.quantalyth_block": "Block Qantalythu",
-  "block.quantum_lands.quantalyth_mega_block": "Block MEGA Qantalythu",
+  "block.quantum_lands.raw_quantalyth_block": "§5Block Hrubého Qantalythu",
+  "block.quantum_lands.quantalyth_block": "§5Block Qantalythu",
+  "block.quantum_lands.quantalyth_mega_block": "§5Block MEGA§r §5Qantalythu",
   "block.quantum_lands.blue_planks": "Modrá Prkna",
   "block.quantum_lands.blue_fence": "Modrý Plot",
   "block.quantum_lands.blue_fence_gate": "Modrá branka",
 
-  "fluid_type.quantum_lands.molten_quantalyth_fluid": "Roztavený Quantalyth",
+  "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Roztavený Quantalyth",
 
 
   "creativetab.sniffs_and_labs_tab": "Čichání & Výzkum",

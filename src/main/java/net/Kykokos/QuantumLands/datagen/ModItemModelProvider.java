@@ -44,7 +44,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ESSENCE_TIER_6);
         simpleItem(ModItems.ESSENCE_TIER_7);
         simpleItem(ModItems.ESSENCE_TIER_8);
-        simpleItem(ModItems.SINGULARITY);
+        simpleItem(ModItems.SUPER_SINGULARITY);
+
+        handheldItem(ModItems.QUANTALYTH_SWORD);
+        handheldItem(ModItems.QUANTALYTH_HOE);
+        handheldItem(ModItems.QUANTALYTH_AXE);
+        handheldItem(ModItems.QUANTALYTH_PICKAXE);
+        handheldItem(ModItems.QUANTALYTH_SHOVEL);
 
         fenceItem(ModBlocks.BLUE_FENCE, ModBlocks.BLUE_PLANKS);
         wallItem(ModBlocks.BUNKER_WALL, ModBlocks.BUNKER_BLOCK);
@@ -75,6 +81,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
                 .texture("texture", new ResourceLocation(QuantumLands.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(QuantumLands.MOD_ID,"item/" + item.getId().getPath()));
     }
 
 

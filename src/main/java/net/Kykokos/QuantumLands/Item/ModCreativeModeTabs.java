@@ -29,6 +29,11 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.QUANTALYTH_CAPSULE.get());
                         output.accept(ModBlocks.RAW_QUANTALYTH_BLOCK.get());
                         output.accept(ModItems.QUANTALYTH_INGOT.get());
+                        output.accept(ModItems.QUANTALYTH_SWORD.get());
+                        output.accept(ModItems.QUANTALYTH_HOE.get());
+                        output.accept(ModItems.QUANTALYTH_AXE.get());
+                        output.accept(ModItems.QUANTALYTH_PICKAXE.get());
+                        output.accept(ModItems.QUANTALYTH_SHOVEL.get());
                         output.accept(ModBlocks.QUANTALYTH_BLOCK.get());
                         output.accept(ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
                         output.accept(ModItems.BUKER_DETECTOR.get());
@@ -41,7 +46,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.ESSENCE_TIER_6.get());
                         output.accept(ModItems.ESSENCE_TIER_7.get());
                         output.accept(ModItems.ESSENCE_TIER_8.get());
-                        output.accept(ModItems.SINGULARITY.get());
+                        output.accept(ModItems.SUPER_SINGULARITY.get());
 
                     }).build());
 

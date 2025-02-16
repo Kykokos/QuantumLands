@@ -13,8 +13,8 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier QUANTALYTH = TierSortingRegistry.registerTier(
-            new ForgeTier(5,5000,11f, 5f, 26,
-                    ModTags.Blocks.NEEDS_QUANTALYTH_TOOL, () -> Ingredient.of(ModItems.QUANTALYTH_CAPSULE.get())),
+            new ForgeTier(5,6666,25f, 5f, 26,
+                    ModTags.Blocks.NEEDS_QUANTALYTH_TOOL, () -> Ingredient.of(ModItems.QUANTALYTH_INGOT.get())),
             new ResourceLocation(QuantumLands.MOD_ID, "quantalyth"), List.of(Tiers.NETHERITE), List.of());
 
 }

@@ -4,10 +4,7 @@ import net.Kykokos.QuantumLands.Block.custom.FuelItem;
 import net.Kykokos.QuantumLands.Item.custom.BunkerDetectorItem;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
-import net.minecraft.world.item.BucketItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -76,8 +73,19 @@ public class ModItems
     public static final RegistryObject<Item> ESSENCE_TIER_8 = ITEMS.register("essence_tier_8",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant()));
 
-    public static final RegistryObject<Item> SINGULARITY = ITEMS.register("singularity",
+    public static final RegistryObject<Item> SUPER_SINGULARITY = ITEMS.register("super_singularity",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant().stacksTo(4)));
+
+    public static final RegistryObject<Item> QUANTALYTH_SWORD = ITEMS.register("quantalyth_sword",
+            () -> new SwordItem(ModToolTiers.QUANTALYTH, 20, 3, new Item.Properties().durability(6666)));
+    public static final RegistryObject<Item> QUANTALYTH_HOE = ITEMS.register("quantalyth_hoe",
+            () -> new HoeItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties().durability(6666)));
+    public static final RegistryObject<Item> QUANTALYTH_AXE = ITEMS.register("quantalyth_axe",
+            () -> new AxeItem(ModToolTiers.QUANTALYTH, 20, 2, new Item.Properties().durability(6666)));
+    public static final RegistryObject<Item> QUANTALYTH_PICKAXE = ITEMS.register("quantalyth_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties().durability(6666)));
+    public static final RegistryObject<Item> QUANTALYTH_SHOVEL = ITEMS.register("quantalyth_shovel",
+            () -> new ShovelItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties().durability(6666)));
 
 
         public static void register(IEventBus eventBus)

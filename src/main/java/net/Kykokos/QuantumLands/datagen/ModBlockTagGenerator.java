@@ -49,9 +49,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.SNIFFERITE_ORE.get(),
                     ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(),
-                    ModBlocks.RAW_QUANTALYTH_BLOCK.get(),
-                    ModBlocks.QUANTALYTH_BLOCK.get(),
-                    ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
+                    ModBlocks.RAW_QUANTALYTH_BLOCK.get());
+
+        this.tag(ModTags.Blocks.NEEDS_QUANTALYTH_TOOL)
+                .add(ModBlocks.SNIFFERITE_ORE.get(),
+                        ModBlocks.QUANTALYTH_BLOCK.get(),
+                        ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.BLUE_FENCE.get());

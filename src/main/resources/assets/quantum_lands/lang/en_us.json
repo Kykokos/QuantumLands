@@ -3,9 +3,14 @@
   "item.quantum_lands.snifferite_dust": "Snifferite Dust",
   "item.quantum_lands.blackout_powder": "Blackout Powder",
   "item.quantum_lands.blue_substance": "Blue Substance",
-  "item.quantum_lands.raw_quantalyth": "Raw Quantalyth",
-  "item.quantum_lands.quantalyth_capsule": "Quantalyth Capsule",
-  "item.quantum_lands.quantalyth_ingot": "Quantalyth Ingot",
+  "item.quantum_lands.raw_quantalyth": "§5Raw Quantalyth",
+  "item.quantum_lands.quantalyth_capsule": "§5Quantalyth Capsule",
+  "item.quantum_lands.quantalyth_ingot": "§5Quantalyth Ingot",
+  "item.quantum_lands.quantalyth_sword": "§5Quantalyth Sword",
+  "item.quantum_lands.quantalyth_hoe": "§5Quantalyth Hoe",
+  "item.quantum_lands.quantalyth_axe": "§5Quantalyth Axe",
+  "item.quantum_lands.quantalyth_pickaxe": "§5Quantalyth Pickaxe",
+  "item.quantum_lands.quantalyth_shovel": "§5Quantalyth Shovel",
   "item.quantum_lands.empty_capsule": "Empty Capsule",
   "item.quantum_lands.peat_brick": "Peat Brick",
   "item.quantum_lands.essence_tier_1": "Essence tier 1",
@@ -16,11 +21,11 @@
   "item.quantum_lands.essence_tier_6": "Essence tier 6",
   "item.quantum_lands.essence_tier_7": "Essence tier 7",
   "item.quantum_lands.essence_tier_8": "Essence tier 8",
-  "item.quantum_lands.singularity": "Singularity",
+  "item.quantum_lands.super_singularity": "§6Super Singularity",
 
   "item.quantum_lands.bunker_detector": "Bunker Buster",
 
-  "item.quantum_lands.molten_quantalyth_bucket": "Molten Quantalyth Bucket",
+  "item.quantum_lands.molten_quantalyth_bucket": "§5Molten Quantalyth Bucket",
 
 
   "block.quantum_lands.bunker_block": "Bunker Block",
@@ -34,19 +39,19 @@
   "block.quantum_lands.bunker_pressure_plate": "Bunker Pressure Plate",
   "block.quantum_lands.snifferite_ore": "Snifferite Ore",
   "block.quantum_lands.deepslate_snifferite_ore": "Deepslate Snifferite Ore",
-  "block.quantum_lands.raw_quantalyth_block": "Block of Raw §dQuantalyth",
-  "block.quantum_lands.quantalyth_block": "Block of §dQuantalyth",
-  "block.quantum_lands.quantalyth_mega_block": "Block of §5MEGA §dQantalyth",
+  "block.quantum_lands.raw_quantalyth_block": "§5Block of Raw Quantalyth",
+  "block.quantum_lands.quantalyth_block": "§5Block of Quantalyth",
+  "block.quantum_lands.quantalyth_mega_block": "§5Block of MEGA Qantalyth",
   "block.quantum_lands.blue_planks": "Blue Planks",
   "block.quantum_lands.blue_fence": "Blue Fence",
   "block.quantum_lands.blue_fence_gate": "Blue Fence Gate",
 
-  "fluid_type.quantum_lands.molten_quantalyth_fluid": "Molten §dQuantalyth",
+  "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",
 
 
 
   "creativetab.sniffs_and_labs_tab": "§5Sniffs §f& §bLabs",
-  "creativetab.quantum_building_tab": "Quantum Building",
+  "creativetab.quantum_building_tab": "§7Quantum Building",
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "No Bunkers Found :(",

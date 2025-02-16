@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-14T20:54:37.2252433	Item Models: quantum_lands
+// 1.20.1	2025-02-15T17:05:03.1487825	Item Models: quantum_lands
 ba86544f2be9a54e7f96355eef675cb651367676 assets/quantum_lands/models/item/blackout_powder.json
 f0d06cd3a6f50a3c42ea7f5b96a9caf79543d48f assets/quantum_lands/models/item/blue_fence.json
 fd622bf8ffb374842f2ca54620abe7572911730a assets/quantum_lands/models/item/blue_substance.json
@@ -15,9 +15,14 @@ cc57f41b1b3d144cd06c1a3b6e02cd97756582a4 assets/quantum_lands/models/item/essenc
 77ef83673210a400058115995ddc33bab6b508b4 assets/quantum_lands/models/item/essence_tier_8.json
 704add02bfdcf73e324bbfdd3519f827a9b69a19 assets/quantum_lands/models/item/molten_quantalyth_bucket.json
 8fb9b012a24cd378cfd9ce6676a6f088e5371db8 assets/quantum_lands/models/item/peat_brick.json
+b035b4cda1594ba371eba3a5252e0b8206fd8a7b assets/quantum_lands/models/item/quantalyth_axe.json
 f2f189b98171adb51687ae3978252e52dc1ca9c7 assets/quantum_lands/models/item/quantalyth_capsule.json
+56f677c5c47562012bd6427de35e520e58f64a8b assets/quantum_lands/models/item/quantalyth_hoe.json
 98ce9834113752f03486856beff41623bdcc38d0 assets/quantum_lands/models/item/quantalyth_ingot.json
+8f298aa2113b87e5a15ce5bdebdf90f6b964b391 assets/quantum_lands/models/item/quantalyth_pickaxe.json
+962e24dce99195494eb010d9eec505a3781cfcdd assets/quantum_lands/models/item/quantalyth_shovel.json
+9177efcf42feaaa579a56eb14224aad7f231b523 assets/quantum_lands/models/item/quantalyth_sword.json
 076ae9c460030c49aa64c67e6772ca38267a49e1 assets/quantum_lands/models/item/raw_quantalyth.json
-266e6abcae95bd67d79091faa0ca60daec2b551a assets/quantum_lands/models/item/singularity.json
 3a8d05691af31203ee057e28dff53412b560ee67 assets/quantum_lands/models/item/snifferite.json
 b93a18e484da272416f667f0670e087ba2a4b8e5 assets/quantum_lands/models/item/snifferite_dust.json
+ee6c425cd43fd27d6670221d5ee159379d6b36c3 assets/quantum_lands/models/item/super_singularity.json
