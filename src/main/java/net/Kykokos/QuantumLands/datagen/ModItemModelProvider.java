@@ -35,6 +35,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.QUANTALYTH_CAPSULE);
         simpleItem(ModItems.EMPTY_CAPSULE);
         simpleItem(ModItems.MOLTEN_QUANTALYTH_BUCKET);
+        simpleItem(ModItems.NITRIC_ACID_BUCKET);
         simpleItem(ModItems.QUANTALYTH_INGOT);
         simpleItem(ModItems.ESSENCE_TIER_1);
         simpleItem(ModItems.ESSENCE_TIER_2);

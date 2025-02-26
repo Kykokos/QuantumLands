@@ -46,6 +46,9 @@ public class ModItems
     public static final RegistryObject<Item> MOLTEN_QUANTALYTH_BUCKET = ITEMS.register("molten_quantalyth_bucket",
             () -> new BucketItem(ModFluids.SOURCE_MOLTEN_QUANTALYTH, new Item.Properties().rarity(Rarity.RARE).craftRemainder(Items.BUCKET).stacksTo(1).fireResistant()));
 
+    public static final RegistryObject<Item> NITRIC_ACID_BUCKET = ITEMS.register("nitric_acid_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_NITRIC_ACID, new Item.Properties().rarity(Rarity.UNCOMMON).craftRemainder(Items.BUCKET).stacksTo(1).fireResistant()));
+
     public static final RegistryObject<Item> QUANTALYTH_INGOT = ITEMS.register("quantalyth_ingot",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant()));
 
@@ -77,15 +80,15 @@ public class ModItems
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant().stacksTo(4)));
 
     public static final RegistryObject<Item> QUANTALYTH_SWORD = ITEMS.register("quantalyth_sword",
-            () -> new SwordItem(ModToolTiers.QUANTALYTH, 20, 3, new Item.Properties().durability(6666)));
+            () -> new SwordItem(ModToolTiers.QUANTALYTH, 20, 3, new Item.Properties()));
     public static final RegistryObject<Item> QUANTALYTH_HOE = ITEMS.register("quantalyth_hoe",
-            () -> new HoeItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties().durability(6666)));
+            () -> new HoeItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties()));
     public static final RegistryObject<Item> QUANTALYTH_AXE = ITEMS.register("quantalyth_axe",
-            () -> new AxeItem(ModToolTiers.QUANTALYTH, 20, 2, new Item.Properties().durability(6666)));
+            () -> new AxeItem(ModToolTiers.QUANTALYTH, 20, 2, new Item.Properties()));
     public static final RegistryObject<Item> QUANTALYTH_PICKAXE = ITEMS.register("quantalyth_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties().durability(6666)));
+            () -> new PickaxeItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties()));
     public static final RegistryObject<Item> QUANTALYTH_SHOVEL = ITEMS.register("quantalyth_shovel",
-            () -> new ShovelItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties().durability(6666)));
+            () -> new ShovelItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties()));
 
 
         public static void register(IEventBus eventBus)

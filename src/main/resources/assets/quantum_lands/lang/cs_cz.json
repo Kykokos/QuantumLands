@@ -27,6 +27,7 @@
   "item.quantum_lands.bunker_detector": "Detektor Bunkrů",
 
   "item.quantum_lands.molten_quantalyth_bucket": "§5Kbelík s Roztaveným Quantalythem",
+  "item.quantum_lands.nitric_acid_bucket": "Kbelík Kyseliny Dusičné",
 
 
   "block.quantum_lands.bunker_block": "Blok Bunkru",
@@ -48,6 +49,7 @@
   "block.quantum_lands.blue_fence_gate": "Modrá branka",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Roztavený Quantalyth",
+  "fluid_type.quantum_lands.nitric_acid_fluid": "Kyselina Dusičná",
 
 
   "creativetab.sniffs_and_labs_tab": "Čichání & Výzkum",

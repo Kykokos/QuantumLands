@@ -86,6 +86,9 @@ public class ModBlocks
     public static final RegistryObject<LiquidBlock> MOLTEN_QUANTALYTH_BLOCK = BLOCKS.register("molten_quantalyth_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_QUANTALYTH, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
 
+    public static final RegistryObject<LiquidBlock> NITRIC_ACID_BLOCK = BLOCKS.register("nitric_acid_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+
     public static final RegistryObject<Block> RAW_QUANTALYTH_BLOCK = registerBlock("raw_quantalyth_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops()
                     .strength(30.0F, 50000.0F).sound(SoundType.METAL)));

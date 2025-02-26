@@ -21,6 +21,10 @@ public class ModFluidTypes {
     public static final ResourceLocation MOLTEN_QUANTALYTH_FLOW_RL = new ResourceLocation("quantum_lands:block/molten_quantalyth_flow");
     public static final ResourceLocation MOLTEN_QUANTALYTH_OVERLAY_RL = new ResourceLocation("quantum_lands:block/molten_quantalyth_flow");
 
+    public static final ResourceLocation NITRIC_ACID_STILL_RL = new ResourceLocation("quantum_lands:block/nitric_acid_still");
+    public static final ResourceLocation NITRIC_ACID_FLOW_RL = new ResourceLocation("quantum_lands:block/nitric_acid_flow");
+    public static final ResourceLocation NITRIC_ACID_OVERLAY_RL = new ResourceLocation("quantum_lands:block/nitric_acid_overlay");
+
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, QuantumLands.MOD_ID);
 
@@ -28,6 +32,11 @@ public class ModFluidTypes {
             new BaseFluidType(MOLTEN_QUANTALYTH_STILL_RL, MOLTEN_QUANTALYTH_FLOW_RL, MOLTEN_QUANTALYTH_OVERLAY_RL, 0xA17E08FC,
                     new Vector3f(70f / 255f, 0f / 255f, 247f / 255f),
                     FluidType.Properties.create().lightLevel(15).viscosity(5).canSwim(false).canDrown(true).temperature(5000).density(100)));
+
+    public static final RegistryObject<FluidType> NITRIC_ACID_FLUID_TYPE = registerFluidType("nitric_acid_fluid",
+            new BaseFluidType(NITRIC_ACID_STILL_RL, NITRIC_ACID_FLOW_RL, NITRIC_ACID_OVERLAY_RL, 0xA1FFF1C9,
+                    new Vector3f(1f, 241f / 255f, 201f / 255f),
+                    FluidType.Properties.create().viscosity(1).canSwim(false).canDrown(true).temperature(30).density(1).canExtinguish(true).fallDistanceModifier(10)));
 
 
     private static RegistryObject<FluidType> registerFluidType(String name, FluidType fluidType){

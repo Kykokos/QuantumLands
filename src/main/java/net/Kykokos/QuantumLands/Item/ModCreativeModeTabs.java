@@ -22,6 +22,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.SNIFFERITE.get());
                         output.accept(ModItems.SNIFFERITE_DUST.get());
                         output.accept(ModItems.BLACKOUT_POWDER.get());
+                        output.accept(ModItems.NITRIC_ACID_BUCKET.get());
                         output.accept(ModItems.BLUE_SUBSTANCE.get());
                         output.accept(ModItems.RAW_QUANTALYTH.get());
                         output.accept(ModItems.MOLTEN_QUANTALYTH_BUCKET.get());

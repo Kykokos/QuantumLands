@@ -20,5 +20,9 @@ public class ModFluidTagsProvider extends FluidTagsProvider {
         tag(FluidTags.LAVA)
                 .add(ModFluids.SOURCE_MOLTEN_QUANTALYTH.get())
                 .add(ModFluids.FLOWING_MOLTEN_QUANTALYTH.get());
+
+        tag(FluidTags.WATER)
+                .add(ModFluids.SOURCE_NITRIC_ACID.get())
+                .add(ModFluids.FLOWING_NITRIC_ACID.get());
     }
 }

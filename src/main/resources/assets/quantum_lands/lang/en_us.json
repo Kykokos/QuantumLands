@@ -26,6 +26,7 @@
   "item.quantum_lands.bunker_detector": "Bunker Buster",
 
   "item.quantum_lands.molten_quantalyth_bucket": "§5Molten Quantalyth Bucket",
+  "item.quantum_lands.nitric_acid_bucket": "Nitric Acid Bucket",
 
 
   "block.quantum_lands.bunker_block": "Bunker Block",
@@ -47,6 +48,7 @@
   "block.quantum_lands.blue_fence_gate": "Blue Fence Gate",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",
+  "fluid_type.quantum_lands.nitric_acid_fluid": "Nitric Acid",
 
 
 
