@@ -1623,12 +1623,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/white_sailfrom_conversion": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_scorchia_bricks_from_stone_types_scorchia_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
@@ -1780,12 +1774,6 @@
     "done": true
   },
   "create:recipes/misc/crafting/materials/brass_ingot_from_decompacting": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/vertical_gearboxfrom_conversion": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
     },
@@ -4605,12 +4593,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/stressometerfrom_conversion": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crimson_sign": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
@@ -4930,12 +4912,6 @@
     "done": true
   },
   "create:recipes/building_blocks/small_dripstone_brick_slab": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/secondary_linear_chassisfrom_conversion": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
     },
@@ -5266,12 +5242,6 @@
     "done": true
   },
   "create:recipes/misc/smelting/copper_ingot_from_crushed": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/speedometerfrom_conversion": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
     },
@@ -8289,12 +8259,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/small_rose_quartz_tilesfrom_conversion": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_ochrum_brick_wall": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
@@ -8703,12 +8667,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/linear_chassisfrom_conversion": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/shaft": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
@@ -8854,12 +8812,6 @@
     "done": true
   },
   "create:recipes/building_blocks/polished_cut_andesite_wall_from_stone_types_andesite_stonecutting": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/gearboxfrom_conversion": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
     },
@@ -9897,12 +9849,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/sail_framefrom_conversion": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/sticker": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
@@ -10486,12 +10432,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_the_recipe": "2024-09-28 21:30:18 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/rose_quartz_tilesfrom_conversion": {
     "criteria": {
       "has_the_recipe": "2024-09-28 21:30:18 +0200"
     },
@@ -12313,6 +12253,102 @@
   "quantum_lands:recipes/misc/quantalyth_mega_block": {
     "criteria": {
       "has_quantalyth_block": "2025-02-16 15:01:02 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/lime_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/yellow_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/green_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/magenta_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/orange_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/blue_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/light_gray_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/cyan_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/red_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/light_blue_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/white_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/gray_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/black_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/pink_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/brown_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/purple_table_cloth": {
+    "criteria": {
+      "has_wool": "2025-03-01 15:53:13 +0100"
     },
     "done": true
   },

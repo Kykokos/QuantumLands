@@ -23,6 +23,7 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> BUNKER_DETECTOR_TARGETS = tag("bunker_detector_targets");
         public static final TagKey<Block> NEEDS_QUANTALYTH_TOOL = tag("needs_quantalyth_tool");
+        public static final TagKey<Block> PAXEL_MINABLE = tag("minable/paxel");
 
 
         private static TagKey<Block> tag(String name) {

@@ -1,7 +1,8 @@
 package net.Kykokos.QuantumLands.Item;
 
-import net.Kykokos.QuantumLands.Block.custom.FuelItem;
+import net.Kykokos.QuantumLands.Item.custom.FuelItem;
 import net.Kykokos.QuantumLands.Item.custom.BunkerDetectorItem;
+import net.Kykokos.QuantumLands.Item.custom.PaxelItem;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
 import net.minecraft.world.item.*;
@@ -89,6 +90,9 @@ public class ModItems
             () -> new PickaxeItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties()));
     public static final RegistryObject<Item> QUANTALYTH_SHOVEL = ITEMS.register("quantalyth_shovel",
             () -> new ShovelItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> QUANTALYTH_PAXEL = ITEMS.register("quantalyth_paxel",
+            () -> new PaxelItem(ModToolTiers.QUANTALYTH, 1, 2, new Item.Properties()));
 
 
         public static void register(IEventBus eventBus)

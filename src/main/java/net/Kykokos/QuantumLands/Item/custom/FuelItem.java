@@ -1,4 +1,4 @@
-package net.Kykokos.QuantumLands.Block.custom;
+package net.Kykokos.QuantumLands.Item.custom;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

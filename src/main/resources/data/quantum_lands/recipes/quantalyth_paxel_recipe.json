@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "     ",
+    "     ",
+    " SHPA",
+    "     ",
+    "     "
+  ],
+  "key": {
+    "S": {
+      "item": "quantum_lands:quantalyth_shovel"
+    },
+    "H": {
+      "item": "quantum_lands:quantalyth_hoe"
+    },
+    "P": {
+      "item": "quantum_lands:quantalyth_pickaxe"
+    },
+    "A": {
+      "item": "quantum_lands:quantalyth_axe"
+    }
+  },
+  "result": {
+    "item": "quantum_lands:quantalyth_paxel",
+    "count": 1
+  },
+  "acceptMirrored": true
+}

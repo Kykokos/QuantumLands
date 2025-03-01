@@ -52,6 +52,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.QUANTALYTH_AXE);
         handheldItem(ModItems.QUANTALYTH_PICKAXE);
         handheldItem(ModItems.QUANTALYTH_SHOVEL);
+        handheldItem(ModItems.QUANTALYTH_PAXEL);
 
         fenceItem(ModBlocks.BLUE_FENCE, ModBlocks.BLUE_PLANKS);
         wallItem(ModBlocks.BUNKER_WALL, ModBlocks.BUNKER_BLOCK);

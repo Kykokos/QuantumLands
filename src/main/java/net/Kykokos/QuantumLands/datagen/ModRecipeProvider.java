@@ -134,7 +134,5 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('Q', ModBlocks.QUANTALYTH_BLOCK.get())
                 .unlockedBy("has_quantalyth_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.QUANTALYTH_BLOCK.get()).build()))
                 .save(pWriter);
-
-
     }
 }

@@ -31,7 +31,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                     ModBlocks.BUNKER_STAIRS.get(),
                     ModBlocks.BUNKER_SLAB.get(),
                     ModBlocks.RAW_QUANTALYTH_BLOCK.get(),
-                    ModBlocks.QUANTALYTH_BLOCK.get());
+                    ModBlocks.QUANTALYTH_BLOCK.get(),
+                    ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.BLUE_PLANKS.get(),
@@ -55,6 +56,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                 .add(ModBlocks.SNIFFERITE_ORE.get(),
                         ModBlocks.QUANTALYTH_BLOCK.get(),
                         ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
+
+        this.tag(ModTags.Blocks.PAXEL_MINABLE)
+                .addTag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .addTag(BlockTags.MINEABLE_WITH_AXE)
+                .addTag(BlockTags.MINEABLE_WITH_SHOVEL)
+                .addTag(BlockTags.MINEABLE_WITH_HOE);
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.BLUE_FENCE.get());
