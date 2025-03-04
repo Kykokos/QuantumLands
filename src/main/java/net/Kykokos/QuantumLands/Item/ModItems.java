@@ -1,8 +1,6 @@
 package net.Kykokos.QuantumLands.Item;
 
-import net.Kykokos.QuantumLands.Item.custom.FuelItem;
-import net.Kykokos.QuantumLands.Item.custom.BunkerDetectorItem;
-import net.Kykokos.QuantumLands.Item.custom.PaxelItem;
+import net.Kykokos.QuantumLands.Item.custom.*;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
 import net.minecraft.world.item.*;
@@ -81,7 +79,7 @@ public class ModItems
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant().stacksTo(4)));
 
     public static final RegistryObject<Item> QUANTALYTH_SWORD = ITEMS.register("quantalyth_sword",
-            () -> new SwordItem(ModToolTiers.QUANTALYTH, 20, 3, new Item.Properties()));
+            () -> new WeakingSwordItem(ModToolTiers.QUANTALYTH, 20, 3, new Item.Properties()));
     public static final RegistryObject<Item> QUANTALYTH_HOE = ITEMS.register("quantalyth_hoe",
             () -> new HoeItem(ModToolTiers.QUANTALYTH, 1, 1, new Item.Properties()));
     public static final RegistryObject<Item> QUANTALYTH_AXE = ITEMS.register("quantalyth_axe",
@@ -93,6 +91,17 @@ public class ModItems
 
     public static final RegistryObject<Item> QUANTALYTH_PAXEL = ITEMS.register("quantalyth_paxel",
             () -> new PaxelItem(ModToolTiers.QUANTALYTH, 1, 2, new Item.Properties()));
+    public static final RegistryObject<Item> QUANTALYTH_HAMMER = ITEMS.register("quantalyth_hammer",
+            () -> new HammerItem(ModToolTiers.QUANTALYTH, 1, 0.5f, new Item.Properties()));
+
+    public static final RegistryObject<Item> QUANTALYTH_HELMET = ITEMS.register("quantalyth_helmet",
+            () -> new ArmorItem(ModArmorMaterials.QUANTALYTH, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> QUANTALYTH_CHESTPLATE = ITEMS.register("quantalyth_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.QUANTALYTH, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> QUANTALYTH_LEGGINGS = ITEMS.register("quantalyth_leggings",
+            () -> new ArmorItem(ModArmorMaterials.QUANTALYTH, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> QUANTALYTH_BOOTS = ITEMS.register("quantalyth_boots",
+            () -> new ArmorItem(ModArmorMaterials.QUANTALYTH, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
         public static void register(IEventBus eventBus)

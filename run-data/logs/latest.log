@@ -1,57 +1,59 @@
-[01Mar2025 17:28:46.677] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, quantum_lands, --all, --output, C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\src\generated\resources, --existing, C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\src\main\resources]
-[01Mar2025 17:28:46.681] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[01Mar2025 17:28:46.791] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[01Mar2025 17:28:46.846] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/kos73/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[01Mar2025 17:28:47.125] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[01Mar2025 17:28:47.129] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[01Mar2025 17:28:47.133] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[01Mar2025 17:28:47.136] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
-[01Mar2025 17:28:47.443] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: flywheel. Using Mod File: C:\Users\kos73\.gradle\caches\forge_gradle\deobf_dependencies\dev\engine-room\flywheel\flywheel-forge-1.20.1\1.0.0-215_mapped_parchment_2023.09.03-1.20.1\flywheel-forge-1.20.1-1.0.0-215_mapped_parchment_2023.09.03-1.20.1.jar
-[01Mar2025 17:28:47.443] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: ponder. Using Mod File: C:\Users\kos73\.gradle\caches\forge_gradle\deobf_dependencies\net\createmod\ponder\Ponder-Forge-1.20.1\1.0.36_mapped_parchment_2023.09.03-1.20.1\Ponder-Forge-1.20.1-1.0.36_mapped_parchment_2023.09.03-1.20.1.jar
-[01Mar2025 17:28:47.443] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[01Mar2025 17:28:49.429] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Mar2025 17:28:49.438] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, quantum_lands, --all, --output, C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\src\generated\resources, --existing, C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\src\main\resources]
-[01Mar2025 17:28:49.777] [main/INFO] [mixin/]: Remapping refMap ponder.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\build\createSrgToMcp\output.srg
-[01Mar2025 17:28:49.781] [main/INFO] [mixin/]: Remapping refMap backend-flywheel.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\build\createSrgToMcp\output.srg
-[01Mar2025 17:28:49.783] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\build\createSrgToMcp\output.srg
-[01Mar2025 17:28:49.791] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\build\createSrgToMcp\output.srg
-[01Mar2025 17:28:50.241] [main/WARN] [mixin/]: Error loading class: journeymap/client/ui/fullscreen/Fullscreen (java.lang.ClassNotFoundException: journeymap.client.ui.fullscreen.Fullscreen)
-[01Mar2025 17:28:50.241] [main/WARN] [mixin/]: @Mixin target journeymap.client.ui.fullscreen.Fullscreen was not found create.mixins.json:compat.JourneyFullscreenMapMixin
-[01Mar2025 17:28:50.474] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [quantum_lands]
-[01Mar2025 17:28:50.478] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.5).
-[01Mar2025 17:28:54.159] [main/ERROR] [net.minecraft.Util/]: Registry 'create:arm_interaction_point_type' was empty after loading
-[01Mar2025 17:28:54.159] [main/ERROR] [net.minecraft.Util/]: Registry 'create:fan_processing_type' was empty after loading
-[01Mar2025 17:28:54.160] [main/ERROR] [net.minecraft.Util/]: Registry 'create:item_attribute_type' was empty after loading
-[01Mar2025 17:28:54.160] [main/ERROR] [net.minecraft.Util/]: Registry 'create:display_source' was empty after loading
-[01Mar2025 17:28:54.160] [main/ERROR] [net.minecraft.Util/]: Registry 'create:display_target' was empty after loading
-[01Mar2025 17:28:54.160] [main/ERROR] [net.minecraft.Util/]: Registry 'create:mounted_item_storage_type' was empty after loading
-[01Mar2025 17:28:54.160] [main/ERROR] [net.minecraft.Util/]: Registry 'create:mounted_fluid_storage_type' was empty after loading
-[01Mar2025 17:28:54.160] [main/ERROR] [net.minecraft.Util/]: Registry 'create:contraption_type' was empty after loading
-[01Mar2025 17:28:54.160] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/render_mode' was empty after loading
-[01Mar2025 17:28:54.160] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/entity_hit_action' was empty after loading
-[01Mar2025 17:28:54.160] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/block_hit_action' was empty after loading
-[01Mar2025 17:28:54.280] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.0 initializing! Commit hash: e431324f9875d0850810466f2f33f36d54cc3052
-[01Mar2025 17:28:54.309] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
-[01Mar2025 17:28:54.311] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
-[01Mar2025 17:28:54.963] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[01Mar2025 17:28:54.971] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 4.371 ms
-[01Mar2025 17:28:57.785] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:wired_modem_full. Outdated compat?
-[01Mar2025 17:28:57.785] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_normal. Outdated compat?
-[01Mar2025 17:28:57.785] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_advanced. Outdated compat?
-[01Mar2025 17:28:57.785] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_command. Outdated compat?
-[01Mar2025 17:28:57.976] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[01Mar2025 17:28:57.976] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[01Mar2025 17:28:58.246] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[01Mar2025 17:28:58.258] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 11 ms
-[01Mar2025 17:28:58.258] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[01Mar2025 17:28:58.287] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 28 ms
-[01Mar2025 17:28:58.287] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
-[01Mar2025 17:28:58.300] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 13 ms
-[01Mar2025 17:28:58.300] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:fluid mod id quantum_lands
-[01Mar2025 17:28:58.301] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:fluid mod id quantum_lands finished after 0 ms
-[01Mar2025 17:28:58.301] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: quantum_lands
-[01Mar2025 17:28:58.313] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: quantum_lands finished after 11 ms
-[01Mar2025 17:28:58.313] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: quantum_lands
-[01Mar2025 17:28:58.349] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: quantum_lands finished after 36 ms
-[01Mar2025 17:28:58.349] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 103 ms
-[01Mar2025 17:28:58.363] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 150, old count: 150, new count: 151, removed stale: 0, written: 0
+[03Mar2025 23:28:40.239] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, quantum_lands, --all, --output, C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\src\generated\resources, --existing, C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\src\main\resources]
+[03Mar2025 23:28:40.243] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[03Mar2025 23:28:40.338] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[03Mar2025 23:28:40.383] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/kos73/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[03Mar2025 23:28:40.651] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[03Mar2025 23:28:40.653] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[03Mar2025 23:28:40.655] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[03Mar2025 23:28:40.658] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\kos73\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
+[03Mar2025 23:28:40.911] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: flywheel. Using Mod File: C:\Users\kos73\.gradle\caches\forge_gradle\deobf_dependencies\dev\engine-room\flywheel\flywheel-forge-1.20.1\1.0.0-215_mapped_parchment_2023.09.03-1.20.1\flywheel-forge-1.20.1-1.0.0-215_mapped_parchment_2023.09.03-1.20.1.jar
+[03Mar2025 23:28:40.912] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: ponder. Using Mod File: C:\Users\kos73\.gradle\caches\forge_gradle\deobf_dependencies\net\createmod\ponder\Ponder-Forge-1.20.1\1.0.36_mapped_parchment_2023.09.03-1.20.1\Ponder-Forge-1.20.1-1.0.36_mapped_parchment_2023.09.03-1.20.1.jar
+[03Mar2025 23:28:40.912] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[03Mar2025 23:28:42.449] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Mar2025 23:28:42.457] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\kos73\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, quantum_lands, --all, --output, C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\src\generated\resources, --existing, C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\src\main\resources]
+[03Mar2025 23:28:42.687] [main/INFO] [mixin/]: Remapping refMap ponder.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\build\createSrgToMcp\output.srg
+[03Mar2025 23:28:42.688] [main/INFO] [mixin/]: Remapping refMap backend-flywheel.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\build\createSrgToMcp\output.srg
+[03Mar2025 23:28:42.689] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\build\createSrgToMcp\output.srg
+[03Mar2025 23:28:42.698] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\build\createSrgToMcp\output.srg
+[03Mar2025 23:28:43.073] [main/WARN] [mixin/]: Error loading class: journeymap/client/ui/fullscreen/Fullscreen (java.lang.ClassNotFoundException: journeymap.client.ui.fullscreen.Fullscreen)
+[03Mar2025 23:28:43.073] [main/WARN] [mixin/]: @Mixin target journeymap.client.ui.fullscreen.Fullscreen was not found create.mixins.json:compat.JourneyFullscreenMapMixin
+[03Mar2025 23:28:43.258] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [quantum_lands]
+[03Mar2025 23:28:43.268] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.5).
+[03Mar2025 23:28:46.334] [main/ERROR] [net.minecraft.Util/]: Registry 'create:arm_interaction_point_type' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:fan_processing_type' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:item_attribute_type' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:display_source' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:display_target' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:mounted_item_storage_type' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:mounted_fluid_storage_type' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:contraption_type' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/render_mode' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/entity_hit_action' was empty after loading
+[03Mar2025 23:28:46.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/block_hit_action' was empty after loading
+[03Mar2025 23:28:46.432] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.0 initializing! Commit hash: e431324f9875d0850810466f2f33f36d54cc3052
+[03Mar2025 23:28:46.459] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
+[03Mar2025 23:28:46.461] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
+[03Mar2025 23:28:46.955] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[03Mar2025 23:28:46.961] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.482 ms
+[03Mar2025 23:28:49.530] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:wired_modem_full. Outdated compat?
+[03Mar2025 23:28:49.530] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_normal. Outdated compat?
+[03Mar2025 23:28:49.530] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_advanced. Outdated compat?
+[03Mar2025 23:28:49.530] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_command. Outdated compat?
+[03Mar2025 23:28:49.699] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[03Mar2025 23:28:49.700] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/kos73/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[03Mar2025 23:28:49.969] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[03Mar2025 23:28:49.982] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 13 ms
+[03Mar2025 23:28:49.983] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[03Mar2025 23:28:50.009] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 26 ms
+[03Mar2025 23:28:50.009] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[03Mar2025 23:28:50.021] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 11 ms
+[03Mar2025 23:28:50.021] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
+[03Mar2025 23:28:50.022] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 0 ms
+[03Mar2025 23:28:50.022] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:fluid mod id quantum_lands
+[03Mar2025 23:28:50.023] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:fluid mod id quantum_lands finished after 0 ms
+[03Mar2025 23:28:50.023] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: quantum_lands
+[03Mar2025 23:28:50.035] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: quantum_lands finished after 12 ms
+[03Mar2025 23:28:50.035] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: quantum_lands
+[03Mar2025 23:28:50.070] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: quantum_lands finished after 35 ms
+[03Mar2025 23:28:50.070] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 102 ms
+[03Mar2025 23:28:50.081] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 152, old count: 152, new count: 153, removed stale: 0, written: 0

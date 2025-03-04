@@ -5,10 +5,10 @@
       "item": "quantum_lands:snifferite_dust"
     },
     {
-      "tag": "forge:dusts/obsidian"
+      "item": "mekanism:enriched_diamond"
     },
     {
-      "amount": 500,
+      "amount": 1000,
       "fluid": "minecraft:lava",
       "nbt": {}
     }

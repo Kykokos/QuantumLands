@@ -4,6 +4,7 @@ import net.Kykokos.QuantumLands.QuantumLands;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
+import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -24,9 +25,11 @@ public class DataGenerators
 
         generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput));
         generator.addProvider(event.includeServer(), ModLootTableProvider.create(packOutput));
-        generator.addProvider(event.includeServer(), new ModBlockTagGenerator(packOutput, lookupProvider, existingFileHelper));
-        generator.addProvider(event.includeClient(), new ModFluidTagsProvider(packOutput, lookupProvider, existingFileHelper));
+        BlockTagsProvider blockTagsProvider =  new ModBlockTagGenerator(packOutput, lookupProvider, existingFileHelper);
+        generator.addProvider(event.includeServer(), blockTagsProvider);
+        generator.addProvider(event.includeServer(), new ModItemTagGenerator(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
 
+        generator.addProvider(event.includeClient(), new ModFluidTagsProvider(packOutput, lookupProvider, existingFileHelper));
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
 

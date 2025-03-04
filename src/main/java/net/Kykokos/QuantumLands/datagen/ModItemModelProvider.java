@@ -37,6 +37,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MOLTEN_QUANTALYTH_BUCKET);
         simpleItem(ModItems.NITRIC_ACID_BUCKET);
         simpleItem(ModItems.QUANTALYTH_INGOT);
+        //simpleItem(ModItems.QUANTALYTH_HELMET);
+        //simpleItem(ModItems.QUANTALYTH_CHESTPLATE);
+        //simpleItem(ModItems.QUANTALYTH_LEGGINGS);
+        //simpleItem(ModItems.QUANTALYTH_BOOTS);
         simpleItem(ModItems.ESSENCE_TIER_1);
         simpleItem(ModItems.ESSENCE_TIER_2);
         simpleItem(ModItems.ESSENCE_TIER_3);
@@ -53,6 +57,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.QUANTALYTH_PICKAXE);
         handheldItem(ModItems.QUANTALYTH_SHOVEL);
         handheldItem(ModItems.QUANTALYTH_PAXEL);
+        handheldItem(ModItems.QUANTALYTH_HAMMER);
 
         fenceItem(ModBlocks.BLUE_FENCE, ModBlocks.BLUE_PLANKS);
         wallItem(ModBlocks.BUNKER_WALL, ModBlocks.BUNKER_BLOCK);

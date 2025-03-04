@@ -36,6 +36,11 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.QUANTALYTH_PICKAXE.get());
                         output.accept(ModItems.QUANTALYTH_SHOVEL.get());
                         output.accept(ModItems.QUANTALYTH_PAXEL.get());
+                        output.accept(ModItems.QUANTALYTH_HAMMER.get());
+                        output.accept(ModItems.QUANTALYTH_HELMET.get());
+                        output.accept(ModItems.QUANTALYTH_CHESTPLATE.get());
+                        output.accept(ModItems.QUANTALYTH_LEGGINGS.get());
+                        output.accept(ModItems.QUANTALYTH_BOOTS.get());
                         output.accept(ModBlocks.QUANTALYTH_BLOCK.get());
                         output.accept(ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
                         output.accept(ModItems.BUKER_DETECTOR.get());

@@ -1,0 +1,13 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "quantum_lands:snifferite"
+    }
+  },
+  "output": {
+    "item": "quantum_lands:snifferite_dust",
+    "count": 1
+  }
+}
+

@@ -12352,5 +12352,23 @@
     },
     "done": true
   },
+  "mekanismgenerators:heat_generator": {
+    "criteria": {
+      "heat_generator": "2025-03-01 22:38:23 +0100"
+    },
+    "done": true
+  },
+  "mekanism:factory": {
+    "criteria": {
+      "factory": "2025-03-02 15:51:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:eye_armor_trim_smithing_template_smithing_trim": "2025-03-03 23:30:29 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
