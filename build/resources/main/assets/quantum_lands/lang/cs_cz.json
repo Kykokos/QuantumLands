@@ -3,6 +3,8 @@
   "item.quantum_lands.snifferite_dust": "Čichací Prášek",
   "item.quantum_lands.blackout_powder": "Zatmívací Prášek",
   "item.quantum_lands.blue_substance": "Modré Cosi",
+  "item.quantum_lands.incomplete_raw_quantalyth_chunk": "§5Nedokončený Kus Hrubého Quantalyth",
+  "item.quantum_lands.raw_quantalyth_chunk": "§5Kus Hrubého Quantalyth",
   "item.quantum_lands.raw_quantalyth": "§5Hrubý Quantalyth",
   "item.quantum_lands.quantalyth_capsule": "§5Kapsle s Quantalythem",
   "item.quantum_lands.quantalyth_ingot": "§5Quantalythový Ingot",
@@ -34,6 +36,8 @@
 
   "item.quantum_lands.molten_quantalyth_bucket": "§5Kbelík s Roztaveným Quantalythem",
   "item.quantum_lands.nitric_acid_bucket": "Kbelík Kyseliny Dusičné",
+  "item.quantum_lands.nitration_bath_bucket": "Kbelík s Nitrační Lázní",
+  "item.quantum_lands.nitroglycerin_bucket": "Kbelík Nitroglycerinu",
 
 
   "block.quantum_lands.bunker_block": "Blok Bunkru",
@@ -56,10 +60,13 @@
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Roztavený Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Kyselina Dusičná",
+  "fluid_type.quantum_lands.nitration_bath_fluid": "Nitrační Lázeň",
+  "fluid_type.quantum_lands.nitroglycerin_fluid": "Nitroglycerin",
 
 
-  "creativetab.sniffs_and_labs_tab": "Čichání & Výzkum",
-  "creativetab.quantum_building_tab": "Quantové Stavění",
+  "creativetab.sniffs_and_labs_tab": "§eČichání §r& §bVýzkum",
+  "creativetab.quantum_building_tab": "§n§l§8Quantové Stavění",
+  "creativetab.quantalyth_tab": "§5Quantalyth",
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "Žádné Bunkry tu nejsou :(",

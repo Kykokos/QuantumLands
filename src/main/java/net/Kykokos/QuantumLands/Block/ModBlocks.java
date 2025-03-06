@@ -3,8 +3,6 @@ package net.Kykokos.QuantumLands.Block;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
-import net.Kykokos.QuantumLands.util.ModTags;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -17,7 +15,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.antlr.v4.parse.BlockSetTransformer;
 
 import java.util.function.Supplier;
 
@@ -89,6 +86,12 @@ public class ModBlocks
     public static final RegistryObject<LiquidBlock> NITRIC_ACID_BLOCK = BLOCKS.register("nitric_acid_block",
             () -> new LiquidBlock(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
+    public static final RegistryObject<LiquidBlock> NITRATION_BATH_BLOCK = BLOCKS.register("nitration_bath_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+
+    public static final RegistryObject<LiquidBlock> NITROGLYCERIN_BLOCK = BLOCKS.register("nitroglycerin_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+
     public static final RegistryObject<Block> RAW_QUANTALYTH_BLOCK = registerBlock("raw_quantalyth_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops()
                     .strength(30.0F, 50000.0F).sound(SoundType.METAL)));
@@ -100,6 +103,9 @@ public class ModBlocks
     public static final RegistryObject<Block> QUANTALYTH_MEGA_BLOCK = registerBlock("quantalyth_mega_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).requiresCorrectToolForDrops()
                     .strength(50.0F, 100000000000000000000000.0F).sound(SoundType.AMETHYST)));
+
+
+
 
 
 
@@ -120,5 +126,4 @@ public class ModBlocks
     {
         BLOCKS.register(eventBus);
     }
-
 }

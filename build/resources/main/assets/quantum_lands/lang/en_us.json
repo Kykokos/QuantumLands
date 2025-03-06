@@ -3,6 +3,8 @@
   "item.quantum_lands.snifferite_dust": "Snifferite Dust",
   "item.quantum_lands.blackout_powder": "Blackout Powder",
   "item.quantum_lands.blue_substance": "Blue Substance",
+  "item.quantum_lands.incomplete_raw_quantalyth_chunk": "§5Incomplete Chunk of Raw Quantalyth",
+  "item.quantum_lands.raw_quantalyth_chunk": "§5Chunk of Raw Quantalyth",
   "item.quantum_lands.raw_quantalyth": "§5Raw Quantalyth",
   "item.quantum_lands.quantalyth_capsule": "§5Quantalyth Capsule",
   "item.quantum_lands.quantalyth_ingot": "§5Quantalyth Ingot",
@@ -33,6 +35,8 @@
 
   "item.quantum_lands.molten_quantalyth_bucket": "§5Molten Quantalyth Bucket",
   "item.quantum_lands.nitric_acid_bucket": "Nitric Acid Bucket",
+  "item.quantum_lands.nitration_bath_bucket": "Nitration Bath Bucket",
+  "item.quantum_lands.nitroglycerin_bucket": "Nitroglycerin Bucket",
 
 
   "block.quantum_lands.bunker_block": "Bunker Block",
@@ -55,11 +59,14 @@
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Nitric Acid",
+  "fluid_type.quantum_lands.nitration_bath_fluid": "Nitration Bath",
+  "fluid_type.quantum_lands.nitroglycerin_fluid": "Nitroglycerin",
 
 
 
-  "creativetab.sniffs_and_labs_tab": "§5Sniffs §f& §bLabs",
-  "creativetab.quantum_building_tab": "§7Quantum Building",
+  "creativetab.sniffs_and_labs_tab": "§eSniffs §r& §bLabs",
+  "creativetab.quantum_building_tab": "§n§l§8Quantum Building",
+  "creativetab.quantalyth_tab": "§5Quantalyth",
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "No Bunkers Found :(",

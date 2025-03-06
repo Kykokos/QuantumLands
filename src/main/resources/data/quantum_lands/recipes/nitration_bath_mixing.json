@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 500,
+      "fluid": "mekanism:sulfuric_acid",
+      "nbt": {}
+    },
+    {
+      "amount": 500,
+      "fluid": "quantum_lands:nitric_acid_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "quantum_lands:nitration_bath_fluid",
+      "nbt": {}
+    }
+  ]
+}

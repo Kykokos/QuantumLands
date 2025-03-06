@@ -12,14 +12,14 @@
       "tag": "forge:dusts/obsidian"
     },
     {
-      "amount": 500,
+      "amount": 1000,
       "fluid": "minecraft:lava",
       "nbt": {}
     }
   ],
   "results": [
     {
-      "amount": 50,
+      "amount": 25,
       "fluid": "quantum_lands:molten_quantalyth_fluid",
       "nbt": {}
     }

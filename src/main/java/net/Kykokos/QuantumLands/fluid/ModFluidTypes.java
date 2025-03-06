@@ -25,6 +25,14 @@ public class ModFluidTypes {
     public static final ResourceLocation NITRIC_ACID_FLOW_RL = new ResourceLocation("quantum_lands:block/nitric_acid_flow");
     public static final ResourceLocation NITRIC_ACID_OVERLAY_RL = new ResourceLocation("quantum_lands:block/nitric_acid_overlay");
 
+    public static final ResourceLocation NITRATION_BATH_STILL_RL = new ResourceLocation("quantum_lands:block/nitration_bath_still");
+    public static final ResourceLocation NITRATION_BATH_FLOW_RL = new ResourceLocation("quantum_lands:block/nitration_bath_flow");
+    public static final ResourceLocation NITRATION_BATH_OVERLAY_RL = new ResourceLocation("quantum_lands:block/nitration_bath_overlay");
+
+    public static final ResourceLocation NITROGLYCERIN_STILL_RL = new ResourceLocation("quantum_lands:block/nitroglycerin_still");
+    public static final ResourceLocation NITROGLYCERIN_FLOW_RL = new ResourceLocation("quantum_lands:block/nitroglycerin_flow");
+    public static final ResourceLocation NITROGLYCERIN_OVERLAY_RL = new ResourceLocation("quantum_lands:block/nitroglycerin_overlay");
+
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, QuantumLands.MOD_ID);
 
@@ -38,6 +46,15 @@ public class ModFluidTypes {
                     new Vector3f(1f, 241f / 255f, 201f / 255f),
                     FluidType.Properties.create().viscosity(1).canSwim(false).canDrown(true).temperature(30).density(1).canExtinguish(true).fallDistanceModifier(10)));
 
+    public static final RegistryObject<FluidType> NITRATION_BATH_FLUID_TYPE = registerFluidType("nitration_bath_fluid",
+            new BaseFluidType(NITRATION_BATH_STILL_RL, NITRATION_BATH_FLOW_RL, NITRATION_BATH_OVERLAY_RL, 0xA1C2FAFF,
+                    new Vector3f(194f / 255f, 250f / 255f, 1f),
+                    FluidType.Properties.create().viscosity(1).canSwim(false).canDrown(true).temperature(30).density(1).canExtinguish(true).fallDistanceModifier(10)));
+
+    public static final RegistryObject<FluidType> NITROGLYCERIN_FLUID_TYPE = registerFluidType("nitroglycerin_fluid",
+            new BaseFluidType(NITROGLYCERIN_STILL_RL,NITROGLYCERIN_FLOW_RL, NITROGLYCERIN_OVERLAY_RL, 0xA1FFFFFF,
+                    new Vector3f(1f, 1f, 1f),
+                    FluidType.Properties.create().viscosity(1).canSwim(false).canDrown(true).temperature(30).density(1).canExtinguish(true).fallDistanceModifier(10)));
 
     private static RegistryObject<FluidType> registerFluidType(String name, FluidType fluidType){
         return FLUID_TYPES.register(name, () -> fluidType);

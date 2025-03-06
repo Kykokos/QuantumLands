@@ -134,5 +134,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('Q', ModBlocks.QUANTALYTH_BLOCK.get())
                 .unlockedBy("has_quantalyth_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.QUANTALYTH_BLOCK.get()).build()))
                 .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.INCOMPLETE_RAW_QUANTALYTH_CHUNK.get())
+                .pattern("DDD")
+                .pattern("DND")
+                .pattern("DDD")
+                .define('N', Items.NETHER_STAR)
+                .define('D', Blocks.DIAMOND_BLOCK)
+                .unlockedBy("has_nether_star", inventoryTrigger(ItemPredicate.Builder.item().of(Items.NETHER_STAR).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAW_QUANTALYTH.get())
+                .pattern("QQQ")
+                .pattern("QQQ")
+                .pattern("QQQ")
+                .define('Q', ModItems.RAW_QUANTALYTH_CHUNK.get())
+                .unlockedBy("has_raw_quantalyth_chunk", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.RAW_QUANTALYTH_CHUNK.get()).build()))
+                .save(pWriter);
+
+
     }
 }

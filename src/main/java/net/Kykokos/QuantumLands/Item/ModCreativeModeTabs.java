@@ -23,26 +23,10 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.SNIFFERITE_DUST.get());
                         output.accept(ModItems.BLACKOUT_POWDER.get());
                         output.accept(ModItems.NITRIC_ACID_BUCKET.get());
+                        output.accept(ModItems.NITRATION_BATH_BUCKET.get());
+                        output.accept(ModItems.NITROGLYCERIN_BUCKET.get());
                         output.accept(ModItems.BLUE_SUBSTANCE.get());
-                        output.accept(ModItems.RAW_QUANTALYTH.get());
-                        output.accept(ModItems.MOLTEN_QUANTALYTH_BUCKET.get());
                         output.accept(ModItems.EMPTY_CAPSULE.get());
-                        output.accept(ModItems.QUANTALYTH_CAPSULE.get());
-                        output.accept(ModBlocks.RAW_QUANTALYTH_BLOCK.get());
-                        output.accept(ModItems.QUANTALYTH_INGOT.get());
-                        output.accept(ModItems.QUANTALYTH_SWORD.get());
-                        output.accept(ModItems.QUANTALYTH_HOE.get());
-                        output.accept(ModItems.QUANTALYTH_AXE.get());
-                        output.accept(ModItems.QUANTALYTH_PICKAXE.get());
-                        output.accept(ModItems.QUANTALYTH_SHOVEL.get());
-                        output.accept(ModItems.QUANTALYTH_PAXEL.get());
-                        output.accept(ModItems.QUANTALYTH_HAMMER.get());
-                        output.accept(ModItems.QUANTALYTH_HELMET.get());
-                        output.accept(ModItems.QUANTALYTH_CHESTPLATE.get());
-                        output.accept(ModItems.QUANTALYTH_LEGGINGS.get());
-                        output.accept(ModItems.QUANTALYTH_BOOTS.get());
-                        output.accept(ModBlocks.QUANTALYTH_BLOCK.get());
-                        output.accept(ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
                         output.accept(ModItems.BUKER_DETECTOR.get());
                         output.accept(ModItems.PEAT_BRICK.get());
                         output.accept(ModItems.ESSENCE_TIER_1.get());
@@ -74,6 +58,33 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.BLUE_PLANKS.get());
                         output.accept(ModBlocks.BLUE_FENCE.get());
                         output.accept(ModBlocks.BLUE_FENCE_GATE.get());
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> QUANTALYTH_TAB = CREATIVE_MODE_TABS.register("quantalyth_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.QUANTALYTH_INGOT.get()))
+                    .title(Component.translatable("creativetab.quantalyth_tab")).displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.INCOMPLETE_RAW_QUANTALYTH_CHUNK.get());
+                        output.accept(ModItems.RAW_QUANTALYTH_CHUNK.get());
+                        output.accept(ModItems.RAW_QUANTALYTH.get());
+                        output.accept(ModItems.MOLTEN_QUANTALYTH_BUCKET.get());
+                        output.accept(ModItems.QUANTALYTH_CAPSULE.get());
+                        output.accept(ModBlocks.RAW_QUANTALYTH_BLOCK.get());
+                        output.accept(ModItems.QUANTALYTH_INGOT.get());
+                        output.accept(ModBlocks.QUANTALYTH_BLOCK.get());
+                        output.accept(ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
+                        output.accept(ModItems.QUANTALYTH_PICKAXE.get());
+                        output.accept(ModItems.QUANTALYTH_AXE.get());
+                        output.accept(ModItems.QUANTALYTH_SHOVEL.get());
+                        output.accept(ModItems.QUANTALYTH_HOE.get());
+                        output.accept(ModItems.QUANTALYTH_SWORD.get());
+                        output.accept(ModItems.QUANTALYTH_PAXEL.get());
+                        output.accept(ModItems.QUANTALYTH_HAMMER.get());
+                        output.accept(ModItems.QUANTALYTH_HELMET.get());
+                        output.accept(ModItems.QUANTALYTH_CHESTPLATE.get());
+                        output.accept(ModItems.QUANTALYTH_LEGGINGS.get());
+                        output.accept(ModItems.QUANTALYTH_BOOTS.get());
+
+
                     }).build());
 
 

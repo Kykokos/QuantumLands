@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-03T23:19:02.1753771	Item Models: quantum_lands
+// 1.20.1	2025-03-06T23:35:11.0376016	Item Models: quantum_lands
 ba86544f2be9a54e7f96355eef675cb651367676 assets/quantum_lands/models/item/blackout_powder.json
 f0d06cd3a6f50a3c42ea7f5b96a9caf79543d48f assets/quantum_lands/models/item/blue_fence.json
 fd622bf8ffb374842f2ca54620abe7572911730a assets/quantum_lands/models/item/blue_substance.json
@@ -13,8 +13,11 @@ cc57f41b1b3d144cd06c1a3b6e02cd97756582a4 assets/quantum_lands/models/item/essenc
 001f36ba97c45158dcb165fba80978b139907cbd assets/quantum_lands/models/item/essence_tier_6.json
 660f035b26ce75b8c0182ea07797c2634b6e72f6 assets/quantum_lands/models/item/essence_tier_7.json
 77ef83673210a400058115995ddc33bab6b508b4 assets/quantum_lands/models/item/essence_tier_8.json
+a9f5764ecd9624e4020ba776f471d3665d88f5b3 assets/quantum_lands/models/item/incomplete_raw_quantalyth_chunk.json
 704add02bfdcf73e324bbfdd3519f827a9b69a19 assets/quantum_lands/models/item/molten_quantalyth_bucket.json
+d942f53ad199591a838e42d4b92e20444631c0da assets/quantum_lands/models/item/nitration_bath_bucket.json
 629b397380a9dc9d15867ad5929d9ef5efaf7617 assets/quantum_lands/models/item/nitric_acid_bucket.json
+ade8b2bcd136bb23f129deb7f73eb169e4ead817 assets/quantum_lands/models/item/nitroglycerin_bucket.json
 8fb9b012a24cd378cfd9ce6676a6f088e5371db8 assets/quantum_lands/models/item/peat_brick.json
 b035b4cda1594ba371eba3a5252e0b8206fd8a7b assets/quantum_lands/models/item/quantalyth_axe.json
 f2f189b98171adb51687ae3978252e52dc1ca9c7 assets/quantum_lands/models/item/quantalyth_capsule.json
@@ -26,6 +29,7 @@ aadc1b8c18bb86d8b5ca26cd2d62123bf2f139d6 assets/quantum_lands/models/item/quanta
 962e24dce99195494eb010d9eec505a3781cfcdd assets/quantum_lands/models/item/quantalyth_shovel.json
 9177efcf42feaaa579a56eb14224aad7f231b523 assets/quantum_lands/models/item/quantalyth_sword.json
 076ae9c460030c49aa64c67e6772ca38267a49e1 assets/quantum_lands/models/item/raw_quantalyth.json
+5eee30f0cc24dc9a06636d8a6b4c4945108a24a7 assets/quantum_lands/models/item/raw_quantalyth_chunk.json
 3a8d05691af31203ee057e28dff53412b560ee67 assets/quantum_lands/models/item/snifferite.json
 b93a18e484da272416f667f0670e087ba2a4b8e5 assets/quantum_lands/models/item/snifferite_dust.json
 ee6c425cd43fd27d6670221d5ee159379d6b36c3 assets/quantum_lands/models/item/super_singularity.json
