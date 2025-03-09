@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "quantum_lands:item/quantalyth_paxel"
+  }
+}

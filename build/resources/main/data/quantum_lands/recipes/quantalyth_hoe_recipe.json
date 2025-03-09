@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "     ",
+    " QQ  ",
+    "  S  ",
+    "  S  ",
+    "     "
+  ],
+  "key": {
+    "S": {
+      "item": "mekanism:hdpe_stick"
+    },
+    "Q": {
+      "item": "quantum_lands:quantalyth_ingot"
+    }
+  },
+  "result": {
+    "item": "quantum_lands:quantalyth_hoe",
+    "count": 1
+  },
+  "acceptMirrored": true
+}

@@ -1,5 +1,7 @@
 package net.Kykokos.QuantumLands.Block;
 
+import net.Kykokos.QuantumLands.Block.custom.ExplosiveFluid;
+import net.Kykokos.QuantumLands.Block.custom.UVLampBlock;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
@@ -90,11 +92,11 @@ public class ModBlocks
             () -> new LiquidBlock(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     public static final RegistryObject<LiquidBlock> NITROGLYCERIN_BLOCK = BLOCKS.register("nitroglycerin_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+            () -> new ExplosiveFluid(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     public static final RegistryObject<Block> RAW_QUANTALYTH_BLOCK = registerBlock("raw_quantalyth_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops()
-                    .strength(30.0F, 50000.0F).sound(SoundType.METAL)));
+                    .strength(1.0F, 50000.0F).sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> QUANTALYTH_BLOCK = registerBlock("quantalyth_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).requiresCorrectToolForDrops()
@@ -103,6 +105,10 @@ public class ModBlocks
     public static final RegistryObject<Block> QUANTALYTH_MEGA_BLOCK = registerBlock("quantalyth_mega_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).requiresCorrectToolForDrops()
                     .strength(50.0F, 100000000000000000000000.0F).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> UV_LAMP = registerBlock("uv_lamp",
+            () -> new UVLampBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops()
+                    .strength(50.0F, 15.0F).sound(SoundType.GLASS).noOcclusion()/*.lightLevel(state -> state.getValue(UVLampBlock.CLICKED) ? 15 : 0)*/));
 
 
 

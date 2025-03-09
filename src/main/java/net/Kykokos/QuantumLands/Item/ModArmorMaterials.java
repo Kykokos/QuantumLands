@@ -22,7 +22,11 @@ public enum ModArmorMaterials implements ArmorMaterial {
         p_266655_.put(ArmorItem.Type.LEGGINGS, 10);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 12);
         p_266655_.put(ArmorItem.Type.HELMET, 7);
-    }), 26, SoundEvents.BEACON_ACTIVATE, 3.0F, 1F, () -> Ingredient.of(ModItems.QUANTALYTH_INGOT.get()));
+    }), 26, SoundEvents.BEACON_ACTIVATE, 3.0F, 1F, () -> Ingredient.of(ModItems.QUANTALYTH_INGOT.get())),
+
+    HEISENBERG("heisenberg", -1, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 5);
+    }), 26, SoundEvents.ARMOR_EQUIP_LEATHER, 1.0F, 0.1F, () -> Ingredient.of(Items.WHITE_WOOL));
 
     public static final StringRepresentable.EnumCodec<ArmorMaterials> CODEC = StringRepresentable.fromEnum(ArmorMaterials::values);
     private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266653_) -> {

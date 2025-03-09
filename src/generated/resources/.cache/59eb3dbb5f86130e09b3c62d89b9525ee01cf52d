@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-14T22:25:17.3365812	Loot Tables
+// 1.20.1	2025-03-09T15:34:59.6032232	Loot Tables
 172019f15028d3d7a0d3a65eeec0374e8377ede0 data/quantum_lands/loot_tables/blocks/blue_fence.json
 b2f26a0e1a834da005214965bb5ffac3e8dd8739 data/quantum_lands/loot_tables/blocks/blue_fence_gate.json
 8d3e9f22d066a4fe50aed77891531d4849a29535 data/quantum_lands/loot_tables/blocks/blue_planks.json
@@ -16,3 +16,4 @@ a1666a676bf21793a435362e4a4094c88941fe3c data/quantum_lands/loot_tables/blocks/e
 b3982b0b71a458dba62f77906ca5f739dc30e582 data/quantum_lands/loot_tables/blocks/quantalyth_mega_block.json
 cfc2ad1ce011643fb5a11216d785630c4cffdada data/quantum_lands/loot_tables/blocks/raw_quantalyth_block.json
 79d5ff46d7d07b952e9ab29e1318658085b7ecbc data/quantum_lands/loot_tables/blocks/snifferite_ore.json
+8381f3e1343f0b5255d987bbfe7bfebbe71ed70d data/quantum_lands/loot_tables/blocks/uv_lamp.json

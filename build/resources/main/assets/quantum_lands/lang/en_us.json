@@ -30,6 +30,9 @@
   "item.quantum_lands.essence_tier_7": "Essence tier 7",
   "item.quantum_lands.essence_tier_8": "Essence tier 8",
   "item.quantum_lands.super_singularity": "§6Super Singularity",
+  "item.quantum_lands.potassium_nitrate": "Potassium Nitrate",
+  "item.quantum_lands.incomplete_creative_blaze_cake": "Incomplete Creative Blaze Cake",
+  "item.quantum_lands.heisenberg_shirt": "Heisenberg Shirt",
 
   "item.quantum_lands.bunker_detector": "Bunker Buster",
 
@@ -56,6 +59,7 @@
   "block.quantum_lands.blue_planks": "Blue Planks",
   "block.quantum_lands.blue_fence": "Blue Fence",
   "block.quantum_lands.blue_fence_gate": "Blue Fence Gate",
+  "block.quantum_lands.uv_lamp": "UV Lamp",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Nitric Acid",
@@ -68,10 +72,15 @@
   "creativetab.quantum_building_tab": "§n§l§8Quantum Building",
   "creativetab.quantalyth_tab": "§5Quantalyth",
 
+  "enchantment.quantum_lands.nitrated_warrior": "Nitrated Warrior",
+
 
   "item.quantum_lands.bunker_detector.no_bunkers": "No Bunkers Found :(",
 
 
   "tooltip.quantum_lands.bunker_detector.tooltip.shift": "Right Click on Blocks to find underground bunkers!",
-  "tooltip.quantum_lands.bunker_detector.tooltip": "Press §eSHIFT§r for more Info"
+  "tooltip.quantum_lands.bunker_detector.tooltip": "Press §n§eSHIFT§r for more Info",
+
+  "tooltip.quantum_lands.heisenberg_shirt.tooltip.shift": "Removes all bad effects §nfrom this mod and vanilla",
+  "tooltip.quantum_lands.heisenberg_shirt.tooltip": "Press §n§eSHIFT§r for more Info"
 }

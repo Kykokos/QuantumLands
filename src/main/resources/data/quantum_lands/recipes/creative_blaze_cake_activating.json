@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "quantum_lands:incomplete_creative_blaze_cake"
+    },
+    {
+      "item": "quantum_lands:super_singularity"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:creative_blaze_cake"
+    }
+  ]
+}

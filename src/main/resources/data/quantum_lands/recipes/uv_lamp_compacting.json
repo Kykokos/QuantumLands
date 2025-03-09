@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "mekanismadditions:purple_glow_panel"
+    },
+    {
+      "item": "mekanismadditions:magenta_glow_panel"
+    }
+  ],
+  "results": [
+    {
+      "item": "quantum_lands:uv_lamp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "tag": "forge:dusts/salt"
+    }
+  ],
+  "results": [
+    {
+      "item": "quantum_lands:potassium_nitrate"
+    }
+  ]
+}

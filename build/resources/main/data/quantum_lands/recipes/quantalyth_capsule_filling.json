@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "quantum_lands:empty_capsule"
+    },
+    {
+      "amount": 1000,
+      "fluid": "quantum_lands:molten_quantalyth_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "quantum_lands:quantalyth_capsule"
+    }
+  ]
+}

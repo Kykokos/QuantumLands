@@ -2,13 +2,19 @@ package net.Kykokos.QuantumLands.Item.custom;
 
 import com.google.common.collect.ImmutableMap;
 import net.Kykokos.QuantumLands.Item.ModArmorMaterials;
+import net.Kykokos.QuantumLands.Item.ModItems;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 import java.util.Map;
@@ -27,9 +33,54 @@ public class ModArmorItem extends ArmorItem {
 
     @Override
     public void onArmorTick(ItemStack stack, Level level, Player player) {
-        if(!level.isClientSide() && hasFullSuitOfArmorOn(player)) {
-            evaluateArmorEffects(player);
+        if(!level.isClientSide()) {
+
+            if (hasFullSuitOfArmorOn(player)) {
+                evaluateArmorEffects(player);
+            }
+
+            if (hasChestplateOn(player) && getMaterial() == ModArmorMaterials.HEISENBERG) {
+                removeNegativeEffects(player);
+            }
+
         }
+    }
+
+    @Override
+    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced)
+    {
+        if (getMaterial() == ModArmorMaterials.HEISENBERG)
+        {
+            if(Screen.hasShiftDown())
+            {
+                pTooltipComponents.add(Component.translatable("tooltip.quantum_lands.heisenberg_shirt.tooltip.shift"));
+            } else
+            {
+                pTooltipComponents.add(Component.translatable("tooltip.quantum_lands.heisenberg_shirt.tooltip"));
+            }
+        }
+
+        super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+    }
+
+    private void removeNegativeEffects(Player player) {
+        List<MobEffectInstance> negativeEffects = player.getActiveEffects().stream()
+                .filter(effect -> isNegativeEffect(effect.getEffect()))
+                .toList();
+
+        for (MobEffectInstance effect : negativeEffects) {
+            player.removeEffect(effect.getEffect());
+        }
+    }
+
+    private boolean isNegativeEffect(MobEffect effect) {
+        return effect == MobEffects.POISON ||
+                effect  == MobEffects.WEAKNESS ||
+                effect == MobEffects.BLINDNESS ||
+                effect == MobEffects.WITHER ||
+                effect == MobEffects.MOVEMENT_SLOWDOWN ||
+                effect == MobEffects.HUNGER ||
+                effect == MobEffects.UNLUCK;
     }
 
     private void evaluateArmorEffects(Player player) {
@@ -77,5 +128,11 @@ public class ModArmorItem extends ArmorItem {
         ItemStack helmet = player.getInventory().getArmor(3);
 
         return !boots.isEmpty() && !leggings.isEmpty() && !chestplate.isEmpty() && !helmet.isEmpty();
+    }
+
+    private boolean hasChestplateOn(Player player) {
+        ItemStack chestplate = player.getInventory().getArmor(2);
+
+        return !chestplate.isEmpty();
     }
 }

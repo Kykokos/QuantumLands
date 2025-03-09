@@ -12383,5 +12383,53 @@
     },
     "done": true
   },
+  "quantum_lands:recipes/misc/incomplete_raw_quantalyth_chunk": {
+    "criteria": {
+      "has_nether_star": "2025-03-07 20:58:26 +0100"
+    },
+    "done": true
+  },
+  "mekanismadditions:not_the_babies": {
+    "criteria": {
+      "baby_creeper": "2025-03-08 00:54:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "enchanted_golden_apple": "2025-03-08 00:58:24 +0100"
+    },
+    "done": false
+  },
+  "mekanismadditions:hurt_by_babies": {
+    "criteria": {
+      "baby_creeper": "2025-03-08 00:59:20 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-03-08 17:57:46 +0100"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/heisenberg_shirt": {
+    "criteria": {
+      "has_nitroglycerin": "2025-03-09 00:18:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2025-03-09 11:57:22 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/weathered_iron_block_from_ingots_iron_stonecutting": {
+    "criteria": {
+      "has_ingots_iron": "2025-03-09 11:59:39 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

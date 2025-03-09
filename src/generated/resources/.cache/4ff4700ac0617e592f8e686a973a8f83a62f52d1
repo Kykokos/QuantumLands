@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-14T22:25:17.3370949	Block States: quantum_lands
+// 1.20.1	2025-03-09T23:16:27.9965273	Block States: quantum_lands
 b1aa1f287be956d2a9db017c8e4c025a8a2f9ab9 assets/quantum_lands/blockstates/blue_fence.json
 6fbab4136ef1981f7bab641ac4a4ef416673683e assets/quantum_lands/blockstates/blue_fence_gate.json
 ad09a5bee742a9200e5e1dae6ba48affe1c2b9e4 assets/quantum_lands/blockstates/blue_planks.json
@@ -16,6 +16,7 @@ e04ac0de41745f4837c5ed7f879c8e532f3251ab assets/quantum_lands/blockstates/bunker
 1aaa324a9fe743b8f463001e097a1e2a120f3f2a assets/quantum_lands/blockstates/quantalyth_mega_block.json
 fa468cd231c3cb42f35dff10f2ecab4b5e8ede24 assets/quantum_lands/blockstates/raw_quantalyth_block.json
 fd3dcf6c9c50e08639ca82839b1096bb6f2d68e3 assets/quantum_lands/blockstates/snifferite_ore.json
+3b3731c76bc67312b1845a34ef74f909b73bc917 assets/quantum_lands/blockstates/uv_lamp.json
 b09de5f47478a3ba039823fbb6fcad39ab5dd47e assets/quantum_lands/models/block/blue_fence_gate.json
 15cf4b165b0da4138806edfee828e3358b0e2128 assets/quantum_lands/models/block/blue_fence_gate_open.json
 8769dcba87003880ce3bea0ea5891975b4a26587 assets/quantum_lands/models/block/blue_fence_gate_wall.json
@@ -66,3 +67,4 @@ d84ef11c06a238b7d563eb59976674d3dd20ca79 assets/quantum_lands/models/block/sniff
 76a6e84745986ec308f54a345dad9f7abc3a3d24 assets/quantum_lands/models/item/quantalyth_mega_block.json
 7b0ff4f26982580c1daf95bf00a9e639d95bc922 assets/quantum_lands/models/item/raw_quantalyth_block.json
 471a9eabffffcfcd5a6fa9c4c18378358cea491d assets/quantum_lands/models/item/snifferite_ore.json
+52925fb3081f7f4c76525b0ae1b6905297662f2e assets/quantum_lands/models/item/uv_lamp.json

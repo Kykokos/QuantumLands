@@ -3,8 +3,9 @@ package net.Kykokos.QuantumLands;
 import com.mojang.logging.LogUtils;
 import net.Kykokos.QuantumLands.Block.ModBlocks;
 import net.Kykokos.QuantumLands.Item.ModCreativeModeTabs;
-import net.Kykokos.QuantumLands.Item.ModCreativeModeTabs;
 import net.Kykokos.QuantumLands.Item.ModItems;
+import net.Kykokos.QuantumLands.enchantment.ModEnchantments;
+import net.Kykokos.QuantumLands.event.ExplosionProtectionHandler;
 import net.Kykokos.QuantumLands.fluid.ModFluidTypes;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -44,6 +45,8 @@ public class QuantumLands
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModEnchantments.register(modEventBus);
+
         ModFluidTypes.register(modEventBus);
         ModFluids.register(modEventBus);
 
@@ -54,7 +57,7 @@ public class QuantumLands
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-
+        MinecraftForge.EVENT_BUS.register(ExplosionProtectionHandler.class);
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
@@ -62,6 +65,7 @@ public class QuantumLands
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.PEAT_BRICK);
+            event.accept(ModItems.POTASSIUM_NITRATE);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
@@ -78,7 +82,7 @@ public class QuantumLands
 
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS)
         {
-
+            event.accept(ModBlocks.EMERGENCY_BUTTON);
         }
     }
 

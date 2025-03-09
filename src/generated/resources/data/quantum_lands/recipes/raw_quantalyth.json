@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "quantum_lands:raw_quantalyth_chunk"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QQQ",
+    "QQQ"
+  ],
+  "result": {
+    "item": "quantum_lands:raw_quantalyth"
+  },
+  "show_notification": true
+}

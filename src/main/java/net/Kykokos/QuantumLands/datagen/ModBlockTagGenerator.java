@@ -32,7 +32,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                     ModBlocks.BUNKER_SLAB.get(),
                     ModBlocks.RAW_QUANTALYTH_BLOCK.get(),
                     ModBlocks.QUANTALYTH_BLOCK.get(),
-                    ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
+                    ModBlocks.QUANTALYTH_MEGA_BLOCK.get(),
+                     ModBlocks.UV_LAMP.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.BLUE_PLANKS.get(),

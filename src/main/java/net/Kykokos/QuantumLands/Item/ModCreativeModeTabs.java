@@ -22,9 +22,11 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.SNIFFERITE.get());
                         output.accept(ModItems.SNIFFERITE_DUST.get());
                         output.accept(ModItems.BLACKOUT_POWDER.get());
+                        output.accept(ModItems.POTASSIUM_NITRATE.get());
                         output.accept(ModItems.NITRIC_ACID_BUCKET.get());
                         output.accept(ModItems.NITRATION_BATH_BUCKET.get());
                         output.accept(ModItems.NITROGLYCERIN_BUCKET.get());
+                        output.accept(ModItems.HEISENBERG_SHIRT.get());
                         output.accept(ModItems.BLUE_SUBSTANCE.get());
                         output.accept(ModItems.EMPTY_CAPSULE.get());
                         output.accept(ModItems.BUKER_DETECTOR.get());
@@ -38,6 +40,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.ESSENCE_TIER_7.get());
                         output.accept(ModItems.ESSENCE_TIER_8.get());
                         output.accept(ModItems.SUPER_SINGULARITY.get());
+                        output.accept(ModItems.INCOMPLETE_CREATIVE_BLAZE_CAKE.get());
 
                     }).build());
 
@@ -51,10 +54,9 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.BUNKER_WALL.get());
                         output.accept(ModBlocks.BUNKER_DOOR.get());
                         output.accept(ModBlocks.BUNKER_TRAPDOOR.get());
-                        output.accept(ModBlocks.EMERGENCY_BUTTON.get());
                         output.accept(ModBlocks.BUNKER_PRESSURE_PLATE.get());
-                        output.accept(ModBlocks.SNIFFERITE_ORE.get());
-                        output.accept(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get());
+                        output.accept(ModBlocks.EMERGENCY_BUTTON.get());
+                        output.accept(ModBlocks.UV_LAMP.get());
                         output.accept(ModBlocks.BLUE_PLANKS.get());
                         output.accept(ModBlocks.BLUE_FENCE.get());
                         output.accept(ModBlocks.BLUE_FENCE_GATE.get());

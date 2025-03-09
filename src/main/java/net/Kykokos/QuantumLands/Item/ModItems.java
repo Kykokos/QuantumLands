@@ -90,6 +90,12 @@ public class ModItems
     public static final RegistryObject<Item> INCOMPLETE_RAW_QUANTALYTH_CHUNK = ITEMS.register("incomplete_raw_quantalyth_chunk",
             () -> new Item(new Item.Properties().fireResistant()));
 
+    public static final RegistryObject<Item> POTASSIUM_NITRATE = ITEMS.register("potassium_nitrate",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> INCOMPLETE_CREATIVE_BLAZE_CAKE = ITEMS.register("incomplete_creative_blaze_cake",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> QUANTALYTH_SWORD = ITEMS.register("quantalyth_sword",
             () -> new WeakingSwordItem(ModToolTiers.QUANTALYTH, 20, 3, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> QUANTALYTH_HOE = ITEMS.register("quantalyth_hoe",
@@ -114,6 +120,9 @@ public class ModItems
             () -> new ModArmorItem(ModArmorMaterials.QUANTALYTH, ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> QUANTALYTH_BOOTS = ITEMS.register("quantalyth_boots",
             () -> new ModArmorItem(ModArmorMaterials.QUANTALYTH, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> HEISENBERG_SHIRT = ITEMS.register("heisenberg_shirt",
+            () -> new ModArmorItem(ModArmorMaterials.HEISENBERG, ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
 
 
         public static void register(IEventBus eventBus)

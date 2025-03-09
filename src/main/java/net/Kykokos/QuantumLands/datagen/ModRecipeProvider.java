@@ -15,8 +15,6 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
 
-import static java.lang.ref.Cleaner.create;
-
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
     public ModRecipeProvider(PackOutput pOutput) {
@@ -152,6 +150,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_raw_quantalyth_chunk", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.RAW_QUANTALYTH_CHUNK.get()).build()))
                 .save(pWriter);
 
-
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.HEISENBERG_SHIRT.get())
+                .pattern("W W")
+                .pattern("WNW")
+                .pattern("WWW")
+                .define('W', Items.LIGHT_GRAY_WOOL)
+                .define('N', ModItems.NITROGLYCERIN_BUCKET.get())
+                .unlockedBy("has_nitroglycerin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.NITROGLYCERIN_BUCKET.get()).build()))
+                .save(pWriter);
     }
 }

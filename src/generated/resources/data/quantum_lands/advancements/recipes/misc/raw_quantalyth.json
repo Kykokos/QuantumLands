@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_quantalyth_chunk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quantum_lands:raw_quantalyth_chunk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "quantum_lands:raw_quantalyth"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_quantalyth_chunk",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantum_lands:raw_quantalyth"
+    ]
+  },
+  "sends_telemetry_event": false
+}

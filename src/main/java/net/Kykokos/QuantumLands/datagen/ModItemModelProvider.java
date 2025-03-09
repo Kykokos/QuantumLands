@@ -54,6 +54,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SUPER_SINGULARITY);
         simpleItem(ModItems.RAW_QUANTALYTH_CHUNK);
         simpleItem(ModItems.INCOMPLETE_RAW_QUANTALYTH_CHUNK);
+        simpleItem(ModItems.POTASSIUM_NITRATE);
+        simpleItem(ModItems.INCOMPLETE_CREATIVE_BLAZE_CAKE);
+        simpleItem(ModItems.HEISENBERG_SHIRT);
 
         handheldItem(ModItems.QUANTALYTH_SWORD);
         handheldItem(ModItems.QUANTALYTH_HOE);
@@ -67,6 +70,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.BUNKER_WALL, ModBlocks.BUNKER_BLOCK);
 
         simpleBlockItem(ModBlocks.BUNKER_DOOR);
+
+        complexBlock(ModBlocks.UV_LAMP.get());
+    }
+
+    private ItemModelBuilder complexBlock(Block block) {
+        return withExistingParent(ForgeRegistries.BLOCKS.getKey(block).getPath(), new ResourceLocation(QuantumLands.MOD_ID,
+                "block/" + ForgeRegistries.BLOCKS.getKey(block).getPath()));
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item)

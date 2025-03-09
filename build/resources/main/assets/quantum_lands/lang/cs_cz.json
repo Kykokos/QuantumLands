@@ -29,6 +29,9 @@
   "item.quantum_lands.essence_tier_7": "Essence úrovně 7",
   "item.quantum_lands.essence_tier_8": "Essence úrovně 8",
   "item.quantum_lands.super_singularity": "§6Super Singularita",
+  "item.quantum_lands.potassium_nitrate": "Dusičnan Draselný",
+  "item.quantum_lands.incomplete_creative_blaze_cake": "Nedokončený Kreativní Ohniváčův Dort",
+  "item.quantum_lands.heisenberg_shirt": "Tryčko s Heisenbergem",
 
 
 
@@ -57,6 +60,7 @@
   "block.quantum_lands.blue_planks": "Modrá Prkna",
   "block.quantum_lands.blue_fence": "Modrý Plot",
   "block.quantum_lands.blue_fence_gate": "Modrá branka",
+  "block.quantum_lands.uv_lamp": "UV Lampa",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Roztavený Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Kyselina Dusičná",
@@ -67,6 +71,8 @@
   "creativetab.sniffs_and_labs_tab": "§eČichání §r& §bVýzkum",
   "creativetab.quantum_building_tab": "§n§l§8Quantové Stavění",
   "creativetab.quantalyth_tab": "§5Quantalyth",
+
+  "enchantment.quantum_lands.nitrated_warrior": "Dusičný Bojovník",
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "Žádné Bunkry tu nejsou :(",
