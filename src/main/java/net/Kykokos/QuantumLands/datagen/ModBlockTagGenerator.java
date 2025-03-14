@@ -24,16 +24,16 @@ public class ModBlockTagGenerator extends BlockTagsProvider
     protected void addTags(HolderLookup.Provider pProvider)
     {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.SNIFFERITE_ORE.get(),
-                    ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(),
-                    ModBlocks.BUNKER_BLOCK.get(),
-                    ModBlocks.CRACKED_BUNKER_BLOCK.get(),
-                    ModBlocks.BUNKER_STAIRS.get(),
-                    ModBlocks.BUNKER_SLAB.get(),
-                    ModBlocks.RAW_QUANTALYTH_BLOCK.get(),
-                    ModBlocks.QUANTALYTH_BLOCK.get(),
-                    ModBlocks.QUANTALYTH_MEGA_BLOCK.get(),
-                     ModBlocks.UV_LAMP.get());
+                .add(ModBlocks.BLUE_PLANKS.get(),
+                        ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(),
+                        ModBlocks.BUNKER_BLOCK.get(),
+                        ModBlocks.CRACKED_BUNKER_BLOCK.get(),
+                        ModBlocks.BUNKER_STAIRS.get(),
+                        ModBlocks.BUNKER_SLAB.get(),
+                        ModBlocks.RAW_QUANTALYTH_BLOCK.get(),
+                        ModBlocks.QUANTALYTH_BLOCK.get(),
+                        ModBlocks.QUANTALYTH_MEGA_BLOCK.get(),
+                        ModBlocks.UV_LAMP.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.BLUE_PLANKS.get(),
@@ -54,8 +54,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                     ModBlocks.RAW_QUANTALYTH_BLOCK.get());
 
         this.tag(ModTags.Blocks.NEEDS_QUANTALYTH_TOOL)
-                .add(ModBlocks.SNIFFERITE_ORE.get(),
-                        ModBlocks.QUANTALYTH_BLOCK.get(),
+                .add(ModBlocks.QUANTALYTH_BLOCK.get(),
                         ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
 
         this.tag(ModTags.Blocks.PAXEL_MINABLE)

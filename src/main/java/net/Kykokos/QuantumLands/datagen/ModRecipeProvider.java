@@ -1,5 +1,6 @@
 package net.Kykokos.QuantumLands.datagen;
 
+import com.google.gson.JsonObject;
 import com.simibubi.create.*;
 import net.Kykokos.QuantumLands.Block.ModBlocks;
 import net.Kykokos.QuantumLands.Item.ModItems;
@@ -7,11 +8,14 @@ import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
+import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.function.Consumer;
 
@@ -23,6 +27,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
+
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.BUKER_DETECTOR.get())
                 .pattern("BRB")
                 .pattern("BRB")
@@ -84,12 +89,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
 
-
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.BUNKER_BLOCK.get()), RecipeCategory.MISC, ModBlocks.CRACKED_BUNKER_BLOCK.get())
                 .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
                 .save(pWriter);
 
-        //planks recipe here
 
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_FENCE.get())
                 .pattern("   ")
@@ -159,4 +162,5 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_nitroglycerin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.NITROGLYCERIN_BUCKET.get()).build()))
                 .save(pWriter);
     }
+
 }

@@ -1,0 +1,16 @@
+{
+  "name": "Quantalyth Tools",
+  "icon": "quantum_lands:quantalyth_paxel",
+  "category": "quantum_lands:quantalyth_gear_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Quantalyth Tools are fast and have §lunlimited§r §ldurability§r. To craft the Quantalyth Tools, you'll need to place §5Quantalyth Ingots§r and PLAsticks in §6§lMechanical§r §6§lCrafters§r from create."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["quantum_lands:textures/gui/entries/quantalyth_tools_crafting_image"],
+      "border": true
+    }
+  ]
+}

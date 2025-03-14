@@ -1,0 +1,9 @@
+{
+  "name": "Quantum Lexicon",
+  "landing_text": "Welcome to Quantum Lands",
+  "version": 1,
+  "creative_tab": "quantum_lands:sniffs_and_labs_tab",
+  "model": "quantum_lands:quantum_lexicon",
+  "use_resource_pack": true,
+  "i18n": true
+}

@@ -1,10 +1,8 @@
 package net.Kykokos.QuantumLands.datagen;
 
-import net.Kykokos.QuantumLands.Block.ModBlocks;
 import net.Kykokos.QuantumLands.datagen.loot.ModBlockLootTables;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
-import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 
 import java.util.List;

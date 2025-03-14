@@ -25,6 +25,7 @@ public class UVLampBlock extends DirectionalBlock {
     public static final DirectionProperty ATTACHED_FACE = DirectionProperty.create("attached_face", Direction.values());
     public static final DirectionProperty HORIZONTAL_FACING = DirectionProperty.create("horizontal_facing", Direction.Plane.HORIZONTAL);
 
+
     public UVLampBlock(Properties pProperties) {
         super(pProperties.lightLevel(state -> state.getValue(CLICKED) ? 15 : 0));
         this.registerDefaultState(this.defaultBlockState()
@@ -84,15 +85,14 @@ public class UVLampBlock extends DirectionalBlock {
     }
 
     @Override
-    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit)
-    {
-        if(!level.isClientSide() && hand == InteractionHand.MAIN_HAND)
-        {
-            boolean currentState = state.getValue(CLICKED);
-            level.setBlock(pos, state.setValue(CLICKED, !currentState), 3);
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        if (!level.isClientSide() && hand == InteractionHand.MAIN_HAND) {
+            boolean isPowered = level.hasNeighborSignal(pos);
 
+            if (!isPowered) {
+                level.setBlock(pos, state.setValue(CLICKED, !state.getValue(CLICKED)), 3);
+            }
         }
-
         return InteractionResult.SUCCESS;
     }
 
@@ -104,11 +104,16 @@ public class UVLampBlock extends DirectionalBlock {
         builder.add(HORIZONTAL_FACING);
     }
 
-    public void onNeighborChange(BlockState state, Level level, BlockPos pos, BlockPos neighbor) {
+    @Override
+    public void neighborChanged(BlockState state, Level level, BlockPos pos, Block block, BlockPos neighborPos, boolean moved) {
+        if (!level.isClientSide()) {
+            boolean isPowered = level.hasNeighborSignal(pos);
+            boolean isCurrentlyLit = state.getValue(CLICKED);
 
-        boolean isPowered = level.hasNeighborSignal(pos);
-
-        level.setBlock(pos, state.setValue(CLICKED, isPowered), 3);
+            if ((isPowered && !isCurrentlyLit) || (!isPowered && isCurrentlyLit)) {
+                level.setBlock(pos, state.setValue(CLICKED, !isCurrentlyLit), 3);
+            }
+        }
     }
 
 

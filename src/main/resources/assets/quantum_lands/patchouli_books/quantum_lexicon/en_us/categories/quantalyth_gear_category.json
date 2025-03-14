@@ -1,0 +1,8 @@
+{
+    "name": "Quantalyth Gear",
+    "description": "This is a test category for testing!",
+    "icon": "quantum_lands:quantalyth_ingot",
+    "entries": [
+        "quantum_lands:quantalyth_tools"
+    ]
+}

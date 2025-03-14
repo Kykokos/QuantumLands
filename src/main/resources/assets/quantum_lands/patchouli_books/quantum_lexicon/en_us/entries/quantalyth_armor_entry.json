@@ -1,0 +1,11 @@
+{
+  "name": "Quantalyth Armor",
+  "icon": "quantum_lands:quantalyth_chestplate",
+  "category": "quantum_lands:quantalyth_gear_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is a test entry, but it should show up!"
+    }
+  ]
+}
