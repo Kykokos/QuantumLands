@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "quantum_lands:nitroglycerin_bucket"
+    },
+    "W": {
+      "item": "minecraft:light_gray_wool"
+    }
+  },
+  "pattern": [
+    "W W",
+    "WNW",
+    "WWW"
+  ],
+  "result": {
+    "item": "quantum_lands:heisenberg_shirt"
+  },
+  "show_notification": true
+}
