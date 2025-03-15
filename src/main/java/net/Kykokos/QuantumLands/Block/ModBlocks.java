@@ -89,10 +89,13 @@ public class ModBlocks
             () -> new LiquidBlock(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     public static final RegistryObject<LiquidBlock> NITRATION_BATH_BLOCK = BLOCKS.register("nitration_bath_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+            () -> new LiquidBlock(ModFluids.SOURCE_NITRATION_BATH, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     public static final RegistryObject<LiquidBlock> NITROGLYCERIN_BLOCK = BLOCKS.register("nitroglycerin_block",
-            () -> new ExplosiveFluid(ModFluids.SOURCE_NITRIC_ACID, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+            () -> new ExplosiveFluid(ModFluids.SOURCE_NITROGLYCERIN, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+
+    public static final RegistryObject<LiquidBlock> GLYCERIN_BLOCK = BLOCKS.register("glycerin_block",
+            () -> new ExplosiveFluid(ModFluids.SOURCE_GLYCERIN, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     public static final RegistryObject<Block> RAW_QUANTALYTH_BLOCK = registerBlock("raw_quantalyth_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops()
@@ -102,7 +105,7 @@ public class ModBlocks
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).requiresCorrectToolForDrops()
                     .strength(40.0F, 100000000000.0F).sound(SoundType.AMETHYST)));
 
-    public static final RegistryObject<Block> QUANTALYTH_MEGA_BLOCK = registerBlock("quantalyth_mega_block",
+    public static final RegistryObject<Block> COMPRESSED_QUANTALYTH_BLOCK = registerBlock("compressed_quantalyth_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).requiresCorrectToolForDrops()
                     .strength(50.0F, 100000000000000000000000.0F).sound(SoundType.AMETHYST)));
 

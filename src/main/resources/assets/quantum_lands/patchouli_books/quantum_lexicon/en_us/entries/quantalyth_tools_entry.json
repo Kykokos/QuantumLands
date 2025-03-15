@@ -8,9 +8,41 @@
       "text": "The Quantalyth Tools are fast and have §lunlimited§r §ldurability§r. To craft the Quantalyth Tools, you'll need to place §5Quantalyth Ingots§r and PLAsticks in §6§lMechanical§r §6§lCrafters§r from create."
     },
     {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:quantalyth_paxel"
+      },
+      "text": "Quantalyth tools can be combined with crafters into a paxel that has the benefits of all tools. if you §lright §lclick§r on dirt it turns into a road block but if you §lshift §lright §lclick§r on dirt it turns into farmland. You can also strip logs."
+    },
+    {
       "type": "patchouli:image",
-      "images": ["quantum_lands:textures/gui/entries/quantalyth_tools_crafting_image"],
+      "title":"§lRECIPES:",
+      "images": ["quantum_lands:textures/gui/entries/quantalyth_tools1_crafting_image.png"],
       "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["quantum_lands:textures/gui/entries/quantalyth_tools2_crafting_image.png"],
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["quantum_lands:textures/gui/entries/quantalyth_tools3_crafting_image.png"],
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["quantum_lands:textures/gui/entries/quantalyth_tools4_crafting_image.png"],
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["quantum_lands:textures/gui/entries/quantalyth_tools5_crafting_image.png"],
+      "border": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "quantum_lands:blackout_powder"
+    },
+    {
+      "item": "quantum_lands:blackout_powder"
+    }
+  ],
+  "results": [
+    {
+      "item": "quantum_lands:darkness_shard"
+    }
+  ]
+}

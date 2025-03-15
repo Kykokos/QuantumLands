@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "quantum_lands:nitration_bath_fluid",
+      "nbt": {}
+    },
+    {
+      "amount": 100,
+      "fluid": "quantum_lands:glycerin_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "quantum_lands:nitroglycerin_fluid",
+      "nbt": {}
+    }
+  ]
+}

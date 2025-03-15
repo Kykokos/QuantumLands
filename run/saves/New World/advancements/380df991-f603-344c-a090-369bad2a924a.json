@@ -12251,12 +12251,6 @@
     },
     "done": true
   },
-  "quantum_lands:recipes/misc/quantalyth_mega_block": {
-    "criteria": {
-      "has_quantalyth_block": "2025-02-16 15:01:02 +0100"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/logistics/lime_table_cloth": {
     "criteria": {
       "has_wool": "2025-03-01 15:53:13 +0100"
@@ -12548,6 +12542,42 @@
   "create:recipes/building_blocks/crafting/logistics/blue_postbox": {
     "criteria": {
       "has_barrel": "2025-03-14 21:37:27 +0100"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/compressed_quantalyth_block": {
+    "criteria": {
+      "has_quantalyth_block": "2025-03-15 15:10:52 +0100"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2025-03-15 16:46:53 +0100"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2025-03-15 16:47:50 +0100"
+    },
+    "done": true
+  },
+  "create:train": {
+    "criteria": {
+      "0": "2025-03-15 16:47:53 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2025-03-15 18:33:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-03-15 18:33:30 +0100"
     },
     "done": true
   },

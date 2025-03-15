@@ -396,6 +396,10 @@
 	#The amount of packages a chain conveyor can carry at a time.
 	#Range: > 1
 	chainConveyorCapacity = 20
+	#.
+	#The amount of ticks a factory gauge waits between requests.
+	#Range: > 5
+	factoryGaugeTimer = 100
 
 #.
 #Everything related to Schematic tools

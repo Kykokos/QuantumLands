@@ -34,6 +34,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.NITRIC_ACID_BUCKET);
         simpleItem(ModItems.NITRATION_BATH_BUCKET);
         simpleItem(ModItems.NITROGLYCERIN_BUCKET);
+        simpleItem(ModItems.GLYCERIN_BUCKET);
         simpleItem(ModItems.QUANTALYTH_INGOT);
         //simpleItem(ModItems.QUANTALYTH_HELMET);
         //simpleItem(ModItems.QUANTALYTH_CHESTPLATE);
@@ -53,6 +54,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.POTASSIUM_NITRATE);
         simpleItem(ModItems.INCOMPLETE_CREATIVE_BLAZE_CAKE);
         simpleItem(ModItems.HEISENBERG_SHIRT);
+        simpleItem(ModItems.DARKNESS_SHARD);
 
         handheldItem(ModItems.QUANTALYTH_SWORD);
         handheldItem(ModItems.QUANTALYTH_HOE);

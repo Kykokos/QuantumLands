@@ -32,7 +32,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                         ModBlocks.BUNKER_SLAB.get(),
                         ModBlocks.RAW_QUANTALYTH_BLOCK.get(),
                         ModBlocks.QUANTALYTH_BLOCK.get(),
-                        ModBlocks.QUANTALYTH_MEGA_BLOCK.get(),
+                        ModBlocks.COMPRESSED_QUANTALYTH_BLOCK.get(),
                         ModBlocks.UV_LAMP.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
@@ -55,7 +55,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
         this.tag(ModTags.Blocks.NEEDS_QUANTALYTH_TOOL)
                 .add(ModBlocks.QUANTALYTH_BLOCK.get(),
-                        ModBlocks.QUANTALYTH_MEGA_BLOCK.get());
+                        ModBlocks.COMPRESSED_QUANTALYTH_BLOCK.get());
 
         this.tag(ModTags.Blocks.PAXEL_MINABLE)
                 .addTag(BlockTags.MINEABLE_WITH_PICKAXE)

@@ -25,7 +25,7 @@ public class ModItems
             () -> new BunkerDetectorItem(new Item.Properties().fireResistant().durability(150).rarity(Rarity.UNCOMMON)));
 
     public static final RegistryObject<Item> BLACKOUT_POWDER = ITEMS.register("blackout_powder",
-            () -> new Item(new Item.Properties().rarity(Rarity.RARE).food(ModFoodProperties.BLACKOUT_POWDER)));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BLACKOUT_POWDER)));
 
     public static final RegistryObject<Item> PEAT_BRICK = ITEMS.register("peat_brick",
             () -> new FuelItem(new Item.Properties(), 1700));
@@ -53,6 +53,9 @@ public class ModItems
 
     public static final RegistryObject<Item>NITROGLYCERIN_BUCKET = ITEMS.register("nitroglycerin_bucket",
             () -> new BucketItem(ModFluids.SOURCE_NITROGLYCERIN, new Item.Properties().rarity(Rarity.RARE).craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item>GLYCERIN_BUCKET = ITEMS.register("glycerin_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_GLYCERIN, new Item.Properties().rarity(Rarity.UNCOMMON).craftRemainder(Items.BUCKET).stacksTo(1)));
 
     public static final RegistryObject<Item> QUANTALYTH_INGOT = ITEMS.register("quantalyth_ingot",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant()));
@@ -94,6 +97,9 @@ public class ModItems
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> INCOMPLETE_CREATIVE_BLAZE_CAKE = ITEMS.register("incomplete_creative_blaze_cake",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DARKNESS_SHARD = ITEMS.register("darkness_shard",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> QUANTALYTH_SWORD = ITEMS.register("quantalyth_sword",

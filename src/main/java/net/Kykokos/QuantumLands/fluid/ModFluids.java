@@ -36,6 +36,11 @@ public class ModFluids {
     public static final RegistryObject<FlowingFluid> FLOWING_NITROGLYCERIN = FLUIDS.register("flowing_nitroglycerin_fluid",
             () -> new ForgeFlowingFluid.Flowing(ModFluids.NITROGLYCERIN_FLUID_PROPERTIES));
 
+    public static final RegistryObject<FlowingFluid> SOURCE_GLYCERIN = FLUIDS.register("glycerin_fluid",
+            () -> new ForgeFlowingFluid.Source(ModFluids.GLYCERIN_FLUID_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_GLYCERIN = FLUIDS.register("flowing_glycerin_fluid",
+            () -> new ForgeFlowingFluid.Flowing(ModFluids.GLYCERIN_FLUID_PROPERTIES));
+
 
     public static final ForgeFlowingFluid.Properties MOLTEN_QUANTALYTH_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
             ModFluidTypes.MOLTEN_QUANTALYTH_FLUID_TYPE, SOURCE_MOLTEN_QUANTALYTH, FLOWING_MOLTEN_QUANTALYTH)
@@ -52,6 +57,10 @@ public class ModFluids {
     public static final ForgeFlowingFluid.Properties NITROGLYCERIN_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
             ModFluidTypes.NITROGLYCERIN_FLUID_TYPE, SOURCE_NITROGLYCERIN, FLOWING_NITROGLYCERIN)
             .slopeFindDistance(4).levelDecreasePerBlock(1).block(ModBlocks.NITROGLYCERIN_BLOCK).bucket(ModItems.NITROGLYCERIN_BUCKET);
+
+    public static final ForgeFlowingFluid.Properties GLYCERIN_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
+            ModFluidTypes.GLYCERIN_FLUID_TYPE, SOURCE_GLYCERIN, FLOWING_GLYCERIN)
+            .slopeFindDistance(4).levelDecreasePerBlock(1).block(ModBlocks.GLYCERIN_BLOCK).bucket(ModItems.GLYCERIN_BUCKET);
 
     public static void register(IEventBus eventBus){
         FLUIDS.register(eventBus);

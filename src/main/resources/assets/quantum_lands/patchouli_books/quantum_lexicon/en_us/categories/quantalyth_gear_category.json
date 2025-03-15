@@ -1,6 +1,6 @@
 {
     "name": "Quantalyth Gear",
-    "description": "This is a test category for testing!",
+    "description": "Here are all the tools and armor from quantalyth",
     "icon": "quantum_lands:quantalyth_ingot",
     "entries": [
         "quantum_lands:quantalyth_tools"

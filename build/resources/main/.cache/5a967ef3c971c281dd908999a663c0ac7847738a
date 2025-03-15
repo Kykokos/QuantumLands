@@ -1,9 +1,10 @@
-// 1.20.1	2025-03-09T15:34:59.6002178	Item Models: quantum_lands
+// 1.20.1	2025-03-15T16:15:01.5910949	Item Models: quantum_lands
 ba86544f2be9a54e7f96355eef675cb651367676 assets/quantum_lands/models/item/blackout_powder.json
 f0d06cd3a6f50a3c42ea7f5b96a9caf79543d48f assets/quantum_lands/models/item/blue_fence.json
 fd622bf8ffb374842f2ca54620abe7572911730a assets/quantum_lands/models/item/blue_substance.json
 c09ee8755a1121661de15ada523d6220d2768b30 assets/quantum_lands/models/item/bunker_door.json
 d52ffc2384df55f37ca25f702c89fb0483ffd869 assets/quantum_lands/models/item/bunker_wall.json
+bf03361211a376f2cc36aaa0b2d1f199cce66631 assets/quantum_lands/models/item/darkness_shard.json
 4c24e869454316cdcaf13c93800406fbcab68fc2 assets/quantum_lands/models/item/empty_capsule.json
 00883a18493ce05ada1288cc9eb431af52bbac75 assets/quantum_lands/models/item/essence_tier_1.json
 85d3370737134d3b168e4d3d9bf8a41b82d773d2 assets/quantum_lands/models/item/essence_tier_2.json
@@ -13,6 +14,7 @@ cc57f41b1b3d144cd06c1a3b6e02cd97756582a4 assets/quantum_lands/models/item/essenc
 001f36ba97c45158dcb165fba80978b139907cbd assets/quantum_lands/models/item/essence_tier_6.json
 660f035b26ce75b8c0182ea07797c2634b6e72f6 assets/quantum_lands/models/item/essence_tier_7.json
 77ef83673210a400058115995ddc33bab6b508b4 assets/quantum_lands/models/item/essence_tier_8.json
+38924499c5dd128305085890d9964089c28280c9 assets/quantum_lands/models/item/glycerin_bucket.json
 b3bf37393e0ee26f0d65b0657512eab038aeea01 assets/quantum_lands/models/item/heisenberg_shirt.json
 0ddf0c73228ea1d054a4a713a7e0eb62f95774f3 assets/quantum_lands/models/item/incomplete_creative_blaze_cake.json
 a9f5764ecd9624e4020ba776f471d3665d88f5b3 assets/quantum_lands/models/item/incomplete_raw_quantalyth_chunk.json

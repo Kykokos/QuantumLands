@@ -102,6 +102,15 @@ public class QuantumLands
             ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_NITRIC_ACID.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_NITRIC_ACID.get(), RenderType.translucent());
 
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_NITRATION_BATH.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_NITRATION_BATH.get(), RenderType.translucent());
+
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_NITROGLYCERIN.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_NITROGLYCERIN.get(), RenderType.translucent());
+
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_GLYCERIN.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_GLYCERIN.get(), RenderType.translucent());
+
         }
     }
 }

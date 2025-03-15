@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "quantum_lands:darkness_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ]
+}

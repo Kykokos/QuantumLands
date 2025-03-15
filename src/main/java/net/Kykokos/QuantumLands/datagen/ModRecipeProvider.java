@@ -128,7 +128,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_quantalyth_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.QUANTALYTH_INGOT.get()).build()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.QUANTALYTH_MEGA_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COMPRESSED_QUANTALYTH_BLOCK.get())
                 .pattern("QQQ")
                 .pattern("QQQ")
                 .pattern("QQQ")

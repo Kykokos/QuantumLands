@@ -33,6 +33,10 @@ public class ModFluidTypes {
     public static final ResourceLocation NITROGLYCERIN_FLOW_RL = new ResourceLocation("quantum_lands:block/nitroglycerin_flow");
     public static final ResourceLocation NITROGLYCERIN_OVERLAY_RL = new ResourceLocation("quantum_lands:block/nitroglycerin_overlay");
 
+    public static final ResourceLocation GLYCERIN_STILL_RL = new ResourceLocation("quantum_lands:block/glycerin_still");
+    public static final ResourceLocation GLYCERIN_FLOW_RL = new ResourceLocation("quantum_lands:block/glycerin_flow");
+    public static final ResourceLocation GLYCERIN_OVERLAY_RL = new ResourceLocation("quantum_lands:block/glycerin_overlay");
+
     public static final DeferredRegister<FluidType> FLUID_TYPES =
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, QuantumLands.MOD_ID);
 
@@ -55,6 +59,11 @@ public class ModFluidTypes {
             new BaseFluidType(NITROGLYCERIN_STILL_RL,NITROGLYCERIN_FLOW_RL, NITROGLYCERIN_OVERLAY_RL, 0xA1FFFFFF,
                     new Vector3f(1f, 1f, 1f),
                     FluidType.Properties.create().viscosity(1).canSwim(false).canDrown(true).temperature(30).density(1).canExtinguish(true).fallDistanceModifier(10)));
+
+    public static final RegistryObject<FluidType> GLYCERIN_FLUID_TYPE = registerFluidType("glycerin_fluid",
+            new BaseFluidType(GLYCERIN_STILL_RL,GLYCERIN_FLOW_RL, GLYCERIN_OVERLAY_RL, 0xA1FFFFFF,
+                    new Vector3f(1f, 1f, 1f),
+                    FluidType.Properties.create().viscosity(1).canSwim(true).canDrown(true).temperature(30).density(1).canExtinguish(true).fallDistanceModifier(10)));
 
     private static RegistryObject<FluidType> registerFluidType(String name, FluidType fluidType){
         return FLUID_TYPES.register(name, () -> fluidType);
