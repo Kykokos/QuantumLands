@@ -32,9 +32,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("BRB")
                 .pattern("BRB")
                 .pattern("BOB")
-                .define('B', ModBlocks.BUNKER_BLOCK.get())
+                .define('B', Blocks.IRON_BLOCK)
                 .define('R', Blocks.REDSTONE_BLOCK)
-                .define('O', AllBlocks.SMART_OBSERVER)
+                .define('O', Items.OBSERVER)
                 .unlockedBy("has_bunker_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.BUNKER_BLOCK.get()).build()))
                 .save(pWriter);
 
@@ -161,6 +161,63 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('N', ModItems.NITROGLYCERIN_BUCKET.get())
                 .unlockedBy("has_nitroglycerin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.NITROGLYCERIN_BUCKET.get()).build()))
                 .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ESSENCE_TIER_2.get())
+                .pattern("EEE")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', ModItems.ESSENCE_TIER_1.get())
+                .unlockedBy("has_essence_tier_1", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ESSENCE_TIER_1.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ESSENCE_TIER_3.get())
+                .pattern("EEE")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', ModItems.ESSENCE_TIER_2.get())
+                .unlockedBy("has_essence_tier_2", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ESSENCE_TIER_2.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ESSENCE_TIER_4.get())
+                .pattern("EEE")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', ModItems.ESSENCE_TIER_3.get())
+                .unlockedBy("has_essence_tier_3", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ESSENCE_TIER_3.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ESSENCE_TIER_5.get())
+                .pattern("EEE")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', ModItems.ESSENCE_TIER_4.get())
+                .unlockedBy("has_essence_tier_4", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ESSENCE_TIER_4.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ESSENCE_TIER_6.get())
+                .pattern("EEE")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', ModItems.ESSENCE_TIER_5.get())
+                .unlockedBy("has_essence_tier_5", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ESSENCE_TIER_5.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ESSENCE_TIER_7.get())
+                .pattern("EEE")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', ModItems.ESSENCE_TIER_6.get())
+                .unlockedBy("has_essence_tier_6", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ESSENCE_TIER_6.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ESSENCE_TIER_8.get())
+                .pattern("EEE")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', ModItems.ESSENCE_TIER_7.get())
+                .unlockedBy("has_essence_tier_7", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ESSENCE_TIER_7.get()).build()))
+                .save(pWriter);
+
     }
 
 }

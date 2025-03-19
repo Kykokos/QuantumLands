@@ -53,23 +53,10 @@ public class ModBlockStateProvider extends BlockStateProvider
         blockItem(ModBlocks.BLUE_FENCE_GATE);
         blockItem(ModBlocks.BUNKER_TRAPDOOR, "_bottom");
 
+
         customLamp();
+        customCapsule();
     }
-
-    /*private void customLamp() {
-        getVariantBuilder(ModBlocks.UV_LAMP.get()).forAllStates(state -> {
-            if(state.getValue(UVLampBlock.CLICKED)) {
-                return new ConfiguredModel[]{new ConfiguredModel(
-                        new ModelFile.UncheckedModelFile(modLoc("block/uv_lamp_on")))};
-            } else {
-                return new ConfiguredModel[]{new ConfiguredModel(
-                        new ModelFile.UncheckedModelFile(modLoc("block/uv_lamp_off")))};
-            }
-        });
-        directionalBlock(ModBlocks.UV_LAMP.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/uv_lamp_on")));
-    } */
-
     private void customLamp() {
         getVariantBuilder(ModBlocks.UV_LAMP.get()).forAllStates(state -> {
             String modelName = state.getValue(UVLampBlock.CLICKED) ? "uv_lamp_on" : "uv_lamp_off";
@@ -115,9 +102,24 @@ public class ModBlockStateProvider extends BlockStateProvider
                     .rotationY(rotationY)
                     .build();
         });
+    }
+    private void customCapsule() {
+        getVariantBuilder(ModBlocks.NITROGLYCERIN_CAPSULE_BLOCK.get()).forAllStates(state -> {
+            Direction front = state.getValue(HorizontalDirectionalBlock.FACING);
 
-        simpleBlockItem(ModBlocks.UV_LAMP.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/uv_lamp_on")));
+            int rotationY = switch (front) {
+                case NORTH -> 0;
+                case EAST -> 90;
+                case SOUTH -> 180;
+                case WEST -> 270;
+                default -> 0;
+            };
+
+            return ConfiguredModel.builder()
+                    .modelFile(new ModelFile.UncheckedModelFile(modLoc("block/nitroglycerin_capsule_block")))
+                    .rotationY(rotationY)
+                    .build();
+        });
     }
 
 

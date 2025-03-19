@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "IDI",
+    "III"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:dusts/gold"
+    },
+    "D": {
+      "item": "mekanism:dictionary"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "result": {
+    "item": "quantum_lands:detector_data_tablet",
+    "count": 1,
+    "nbt": "{}"
+  }
+}

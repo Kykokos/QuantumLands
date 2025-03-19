@@ -1,5 +1,6 @@
 package net.Kykokos.QuantumLands.Item;
 
+import net.Kykokos.QuantumLands.Block.ModBlocks;
 import net.Kykokos.QuantumLands.Item.custom.*;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
@@ -22,7 +23,7 @@ public class ModItems
             () -> new Item(new Item.Properties().rarity(Rarity.RARE).food(ModFoodProperties.SNIFFERITE_DUST)));
 
     public static final RegistryObject<Item> BUKER_DETECTOR = ITEMS.register("bunker_detector",
-            () -> new BunkerDetectorItem(new Item.Properties().fireResistant().durability(150).rarity(Rarity.UNCOMMON)));
+            () -> new BunkerDetectorItem(new Item.Properties().durability(150).rarity(Rarity.UNCOMMON)));
 
     public static final RegistryObject<Item> BLACKOUT_POWDER = ITEMS.register("blackout_powder",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BLACKOUT_POWDER)));
@@ -101,6 +102,15 @@ public class ModItems
 
     public static final RegistryObject<Item> DARKNESS_SHARD = ITEMS.register("darkness_shard",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ELITE_DETECTOR = ITEMS.register("elite_detector",
+            () -> new EliteDetectorItem(new Item.Properties().rarity(Rarity.RARE)));
+
+    public static final RegistryObject<Item> DETECTOR_DATA_TABLET = ITEMS.register("detector_data_tablet",
+            () -> new DetectorDataTabletItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> NITROGLYCERIN_CAPSULE = ITEMS.register("nitroglycerin_capsule",
+            () -> new BlockItem(ModBlocks.NITROGLYCERIN_CAPSULE_BLOCK.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> QUANTALYTH_SWORD = ITEMS.register("quantalyth_sword",
             () -> new WeakingSwordItem(ModToolTiers.QUANTALYTH, 20, 3, new Item.Properties().fireResistant()));

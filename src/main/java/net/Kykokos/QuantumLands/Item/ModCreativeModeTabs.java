@@ -28,10 +28,13 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.GLYCERIN_BUCKET.get());
                         output.accept(ModItems.NITRATION_BATH_BUCKET.get());
                         output.accept(ModItems.NITROGLYCERIN_BUCKET.get());
+                        output.accept(ModItems.NITROGLYCERIN_CAPSULE.get());
                         output.accept(ModItems.HEISENBERG_SHIRT.get());
                         output.accept(ModItems.BLUE_SUBSTANCE.get());
                         output.accept(ModItems.EMPTY_CAPSULE.get());
                         output.accept(ModItems.BUKER_DETECTOR.get());
+                        output.accept(ModItems.ELITE_DETECTOR.get());
+                        output.accept(ModItems.DETECTOR_DATA_TABLET.get());
                         output.accept(ModItems.PEAT_BRICK.get());
                         output.accept(ModItems.ESSENCE_TIER_1.get());
                         output.accept(ModItems.ESSENCE_TIER_2.get());

@@ -3,10 +3,10 @@
   "category": "equipment",
   "key": {
     "B": {
-      "item": "quantum_lands:bunker_block"
+      "item": "minecraft:iron_block"
     },
     "O": {
-      "item": "create:content_observer"
+      "item": "minecraft:observer"
     },
     "R": {
       "item": "minecraft:redstone_block"

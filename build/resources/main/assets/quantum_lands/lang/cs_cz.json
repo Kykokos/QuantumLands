@@ -33,10 +33,12 @@
   "item.quantum_lands.incomplete_creative_blaze_cake": "Nedokončený Kreativní Ohniváčův Dort",
   "item.quantum_lands.heisenberg_shirt": "Tryčko s Heisenbergem",
   "item.quantum_lands.darkness_shard": "Temný Střep",
-
+  "item.quantum_lands.nitroglycerin_capsule": "Kapsle s Nitroglycerinem",
 
 
   "item.quantum_lands.bunker_detector": "Detektor Bunkrů",
+  "item.quantum_lands.elite_detector": "Elitní Detektor",
+  "item.quantum_lands.detector_data_tablet": "Datový Tablet",
 
   "item.quantum_lands.molten_quantalyth_bucket": "§5Kbelík s Roztaveným Quantalythem",
   "item.quantum_lands.nitric_acid_bucket": "Kbelík Kyseliny Dusičné",
@@ -63,6 +65,7 @@
   "block.quantum_lands.blue_fence": "Modrý Plot",
   "block.quantum_lands.blue_fence_gate": "Modrá branka",
   "block.quantum_lands.uv_lamp": "UV Lampa",
+  "block.quantum_lands.nitroglycerin_capsule_block": "Kapsle s Nitroglycerinem",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Roztavený Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Kyselina Dusičná",
@@ -79,6 +82,13 @@
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "Žádné Bunkry tu nejsou :(",
+
+  "item.quantum_lands.elite_detector.no_blocks": "Žádné uložené bloky nebyly nalezeny",
+  "item.quantum_lands.elite_detector.no_data": "Detektor neobsahuje žádná data!",
+  "item.quantum_lands.elite_detector.no_offhand": "V offhandu musí být Tablet s daty!",
+  "item.quantum_lands.elite_detector.data_transfer_success": "Data přenesena do Detektoru!",
+
+  "item.quantum_lands.detector_data_tablet.error": "Chyba: Blok nemá platné ID!",
 
 
   "tooltip.quantum_lands.bunker_detector.tooltip.shift": "klikni pravým tlačítkem na blok, aby jsi našel podzemní bunkr",

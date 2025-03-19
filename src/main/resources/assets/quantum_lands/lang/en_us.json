@@ -34,8 +34,11 @@
   "item.quantum_lands.incomplete_creative_blaze_cake": "Incomplete Creative Blaze Cake",
   "item.quantum_lands.heisenberg_shirt": "Heisenberg Shirt",
   "item.quantum_lands.darkness_shard": "Darkness Shard",
+  "item.quantum_lands.nitroglycerin_capsule": "Nitroglycerin Capsule",
 
-  "item.quantum_lands.bunker_detector": "Bunker Buster",
+  "item.quantum_lands.bunker_detector": "Bunker Detector",
+  "item.quantum_lands.elite_detector": "Elite Detector",
+  "item.quantum_lands.detector_data_tablet": "Detector Data Tablet",
 
   "item.quantum_lands.molten_quantalyth_bucket": "§5Molten Quantalyth Bucket",
   "item.quantum_lands.nitric_acid_bucket": "Nitric Acid Bucket",
@@ -62,6 +65,7 @@
   "block.quantum_lands.blue_fence": "Blue Fence",
   "block.quantum_lands.blue_fence_gate": "Blue Fence Gate",
   "block.quantum_lands.uv_lamp": "UV Lamp",
+  "block.quantum_lands.nitroglycerin_capsule_block": "Nitroglycerin Capsule",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Nitric Acid",
@@ -79,6 +83,13 @@
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "No Bunkers Found :(",
+
+  "item.quantum_lands.elite_detector.no_blocks": "No saved blocks found",
+  "item.quantum_lands.elite_detector.no_data": "The detector doesn't contain any data!",
+  "item.quantum_lands.elite_detector.no_offhand": "There must be a Data Tablet in the offHand",
+  "item.quantum_lands.elite_detector.data_transfer_success": "The data has been transferred to the detector!",
+
+  "item.quantum_lands.detector_data_tablet.error": "Error: Block does not have a valid ID!",
 
 
   "tooltip.quantum_lands.bunker_detector.tooltip.shift": "Right Click on Blocks to find underground bunkers!",

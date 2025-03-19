@@ -74,7 +74,7 @@ public class BunkerDetectorItem extends Item
 
     private void outputNoValuableFound(Player player)
     {
-        player.sendSystemMessage(Component.translatable("item.quantum_lands.bunker_detector.no_bunkers"));
+        player.displayClientMessage(Component.translatable("item.quantum_lands.bunker_detector.no_bunkers"), true);
     }
 
     private void outputValuableCoordinates(BlockPos below, Player player, Block block)

@@ -55,6 +55,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.INCOMPLETE_CREATIVE_BLAZE_CAKE);
         simpleItem(ModItems.HEISENBERG_SHIRT);
         simpleItem(ModItems.DARKNESS_SHARD);
+        simpleItem(ModItems.NITROGLYCERIN_CAPSULE);
+        simpleItem(ModItems.DETECTOR_DATA_TABLET);
 
         handheldItem(ModItems.QUANTALYTH_SWORD);
         handheldItem(ModItems.QUANTALYTH_HOE);

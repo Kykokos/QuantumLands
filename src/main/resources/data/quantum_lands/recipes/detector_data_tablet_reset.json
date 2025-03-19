@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quantum_lands:detector_data_tablet",
+      "nbt": "{}"
+    }
+  ],
+  "result": {
+    "item": "quantum_lands:detector_data_tablet",
+    "count": 1,
+    "nbt": "{}"
+  }
+}

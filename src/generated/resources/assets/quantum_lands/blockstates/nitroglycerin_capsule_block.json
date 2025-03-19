@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "quantum_lands:block/nitroglycerin_capsule_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "quantum_lands:block/nitroglycerin_capsule_block"
+    },
+    "facing=south": {
+      "model": "quantum_lands:block/nitroglycerin_capsule_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "quantum_lands:block/nitroglycerin_capsule_block",
+      "y": 270
+    }
+  }
+}

@@ -1,6 +1,7 @@
 package net.Kykokos.QuantumLands.Block;
 
 import net.Kykokos.QuantumLands.Block.custom.ExplosiveFluid;
+import net.Kykokos.QuantumLands.Block.custom.NitroglycerinCapsuleBlock;
 import net.Kykokos.QuantumLands.Block.custom.UVLampBlock;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
@@ -111,9 +112,11 @@ public class ModBlocks
 
     public static final RegistryObject<Block> UV_LAMP = registerBlock("uv_lamp",
             () -> new UVLampBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops()
-                    .strength(50.0F, 15.0F).sound(SoundType.GLASS).noOcclusion()/*.lightLevel(state -> state.getValue(UVLampBlock.CLICKED) ? 15 : 0)*/));
+                    .strength(50.0F, 15.0F).sound(SoundType.GLASS).noOcclusion()));
 
-
+    public static final RegistryObject<Block> NITROGLYCERIN_CAPSULE_BLOCK = registerBlock("nitroglycerin_capsule_block",
+            () -> new NitroglycerinCapsuleBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW)
+                    .strength(0.01F, 0F).sound(SoundType.GLASS).noOcclusion().noLootTable()));
 
 
 

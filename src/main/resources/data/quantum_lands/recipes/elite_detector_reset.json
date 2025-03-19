@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quantum_lands:elite_detector",
+      "nbt": "{}"
+    }
+  ],
+  "result": {
+    "item": "quantum_lands:elite_detector",
+    "count": 1,
+    "nbt": "{}"
+  }
+}

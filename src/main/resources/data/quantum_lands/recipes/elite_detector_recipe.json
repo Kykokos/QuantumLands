@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IEI",
+    "IBI",
+    "ISI"
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:circuits/elite"
+    },
+    "B": {
+      "item": "quantum_lands:bunker_detector"
+    },
+    "S": {
+      "item": "mekanism:seismic_reader"
+    },
+    "I": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "quantum_lands:elite_detector",
+    "count": 1,
+    "nbt": "{}"
+  }
+}
