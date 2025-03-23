@@ -21,6 +21,8 @@ public class ModCreativeModeTabs
                     .title(Component.translatable("creativetab.sniffs_and_labs_tab")).displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SNIFFERITE.get());
                         output.accept(ModItems.SNIFFERITE_DUST.get());
+                        output.accept(ModItems.DARK_FLOWER_SEEDS.get());
+                        output.accept(ModItems.DARK_FLOWER.get());
                         output.accept(ModItems.BLACKOUT_POWDER.get());
                         output.accept(ModItems.DARKNESS_SHARD.get());
                         output.accept(ModItems.POTASSIUM_NITRATE.get());
@@ -32,7 +34,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.HEISENBERG_SHIRT.get());
                         output.accept(ModItems.BLUE_SUBSTANCE.get());
                         output.accept(ModItems.EMPTY_CAPSULE.get());
-                        output.accept(ModItems.BUKER_DETECTOR.get());
+                        output.accept(ModItems.BUNKER_DETECTOR.get());
                         output.accept(ModItems.ELITE_DETECTOR.get());
                         output.accept(ModItems.DETECTOR_DATA_TABLET.get());
                         output.accept(ModItems.PEAT_BRICK.get());

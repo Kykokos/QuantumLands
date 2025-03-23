@@ -1,0 +1,21 @@
+{
+  "name": "Dark Flower",
+  "icon": "quantum_lands:dark_flower",
+  "category": "quantum_lands:chemistry_category",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:dark_flower_seeds"
+      },
+      "text": "They can be obtained by crushing dark flower in crushing wheels from create. There's a 50 percent chance they'll drop."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:dark_flower"
+      },
+      "text": "It can be obtained from flowers you find around the world. Or later farmed using the seeds. Crushing it gives you seeds or Blackout Powder which can be used as a damage boost or automation for echo shards §l(there may be more uses later on so I recommend getting seeds anyway)."
+    }
+  ]
+}

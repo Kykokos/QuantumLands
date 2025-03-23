@@ -1,5 +1,6 @@
 package net.Kykokos.QuantumLands.Block;
 
+import net.Kykokos.QuantumLands.Block.custom.DarkFlowerCropBlock;
 import net.Kykokos.QuantumLands.Block.custom.ExplosiveFluid;
 import net.Kykokos.QuantumLands.Block.custom.NitroglycerinCapsuleBlock;
 import net.Kykokos.QuantumLands.Block.custom.UVLampBlock;
@@ -114,9 +115,12 @@ public class ModBlocks
             () -> new UVLampBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops()
                     .strength(50.0F, 15.0F).sound(SoundType.GLASS).noOcclusion()));
 
-    public static final RegistryObject<Block> NITROGLYCERIN_CAPSULE_BLOCK = registerBlock("nitroglycerin_capsule_block",
+    public static final RegistryObject<Block> NITROGLYCERIN_CAPSULE_BLOCK = BLOCKS.register("nitroglycerin_capsule_block",
             () -> new NitroglycerinCapsuleBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW)
                     .strength(0.01F, 0F).sound(SoundType.GLASS).noOcclusion().noLootTable()));
+
+    public static final RegistryObject<Block> DARK_FLOWER_CROP = BLOCKS.register("dark_flower_crop",
+            () -> new DarkFlowerCropBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_WART).noOcclusion().noCollission()));
 
 
 

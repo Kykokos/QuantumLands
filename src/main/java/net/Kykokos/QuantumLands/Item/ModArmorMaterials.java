@@ -18,10 +18,10 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     QUANTALYTH("quantalyth", -1, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266655_) -> {
-        p_266655_.put(ArmorItem.Type.BOOTS, 7);
-        p_266655_.put(ArmorItem.Type.LEGGINGS, 10);
-        p_266655_.put(ArmorItem.Type.CHESTPLATE, 12);
-        p_266655_.put(ArmorItem.Type.HELMET, 7);
+        p_266655_.put(ArmorItem.Type.BOOTS, 10);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 13);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 15);
+        p_266655_.put(ArmorItem.Type.HELMET, 10);
     }), 26, SoundEvents.BEACON_ACTIVATE, 3.0F, 1F, () -> Ingredient.of(ModItems.QUANTALYTH_INGOT.get())),
 
     HEISENBERG("heisenberg", -1, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266655_) -> {

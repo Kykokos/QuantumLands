@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "quantum_lands:dark_flower"
+    }
+  ],
+  "results": [
+    {
+      "item": "quantum_lands:blackout_powder",
+      "count": 1
+    },
+    {
+      "item": "quantum_lands:blackout_powder",
+      "count": 1,
+      "chance": 0.9
+    },
+    {
+      "item": "quantum_lands:dark_flower_seeds",
+      "count": 1,
+      "chance": 0.5
+    }
+  ]
+}

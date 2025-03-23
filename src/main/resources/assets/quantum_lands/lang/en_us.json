@@ -35,6 +35,8 @@
   "item.quantum_lands.heisenberg_shirt": "Heisenberg Shirt",
   "item.quantum_lands.darkness_shard": "Darkness Shard",
   "item.quantum_lands.nitroglycerin_capsule": "Nitroglycerin Capsule",
+  "item.quantum_lands.dark_flower_seeds": "Dark Flower Seeds",
+  "item.quantum_lands.dark_flower": "Dark Flower",
 
   "item.quantum_lands.bunker_detector": "Bunker Detector",
   "item.quantum_lands.elite_detector": "Elite Detector",
@@ -66,6 +68,7 @@
   "block.quantum_lands.blue_fence_gate": "Blue Fence Gate",
   "block.quantum_lands.uv_lamp": "UV Lamp",
   "block.quantum_lands.nitroglycerin_capsule_block": "Nitroglycerin Capsule",
+  "block.quantum_lands.dark_flower_crop": "Dark Flower Shrub",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Nitric Acid",

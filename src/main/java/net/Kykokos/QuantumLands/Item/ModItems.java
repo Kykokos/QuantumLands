@@ -22,7 +22,7 @@ public class ModItems
     public static final RegistryObject<Item> SNIFFERITE_DUST = ITEMS.register("snifferite_dust",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE).food(ModFoodProperties.SNIFFERITE_DUST)));
 
-    public static final RegistryObject<Item> BUKER_DETECTOR = ITEMS.register("bunker_detector",
+    public static final RegistryObject<Item> BUNKER_DETECTOR = ITEMS.register("bunker_detector",
             () -> new BunkerDetectorItem(new Item.Properties().durability(150).rarity(Rarity.UNCOMMON)));
 
     public static final RegistryObject<Item> BLACKOUT_POWDER = ITEMS.register("blackout_powder",
@@ -104,10 +104,10 @@ public class ModItems
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ELITE_DETECTOR = ITEMS.register("elite_detector",
-            () -> new EliteDetectorItem(new Item.Properties().rarity(Rarity.RARE)));
+            () -> new EliteDetectorItem(new Item.Properties().rarity(Rarity.RARE).stacksTo(1)));
 
     public static final RegistryObject<Item> DETECTOR_DATA_TABLET = ITEMS.register("detector_data_tablet",
-            () -> new DetectorDataTabletItem(new Item.Properties()));
+            () -> new DetectorDataTabletItem(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> NITROGLYCERIN_CAPSULE = ITEMS.register("nitroglycerin_capsule",
             () -> new BlockItem(ModBlocks.NITROGLYCERIN_CAPSULE_BLOCK.get(), new Item.Properties()));
@@ -139,6 +139,12 @@ public class ModItems
 
     public static final RegistryObject<Item> HEISENBERG_SHIRT = ITEMS.register("heisenberg_shirt",
             () -> new ModArmorItem(ModArmorMaterials.HEISENBERG, ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
+
+    public static final RegistryObject<Item> DARK_FLOWER_SEEDS = ITEMS.register("dark_flower_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.DARK_FLOWER_CROP.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> DARK_FLOWER = ITEMS.register("dark_flower",
+            () -> new Item(new Item.Properties()));
 
 
         public static void register(IEventBus eventBus)

@@ -4,8 +4,32 @@
   "category": "quantum_lands:quantalyth_gear_category",
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:quantalyth_helmet"
+      },
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:quantalyth_chestplate"
+      },
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:quantalyth_leggings"
+      },
+      "text": ""
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:quantalyth_boots"
+      },
+      "text": ""
     }
   ]
 }

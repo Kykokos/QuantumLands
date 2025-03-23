@@ -11,6 +11,7 @@ import net.Kykokos.QuantumLands.fluid.ModFluids;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -31,8 +32,7 @@ public class QuantumLands
 
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public QuantumLands()
-    {
+    public QuantumLands() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 
@@ -52,12 +52,17 @@ public class QuantumLands
 
 
         modEventBus.addListener(this::addCreative);
+        modEventBus.addListener(this::commonSetup);
 
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
         MinecraftForge.EVENT_BUS.register(ExplosionProtectionHandler.class);
+        event.enqueueWork(() -> {
+            ComposterBlock.COMPOSTABLES.put(ModItems.DARK_FLOWER.get(), 0.7f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.DARK_FLOWER_SEEDS.get(), 0.6f);
+        });
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)

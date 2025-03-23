@@ -5,7 +5,9 @@
     "quantum_lands:quantum_lexicon": {
       "viewedEntries": [
         "quantum_lands:quantalyth_tools_entry",
-        "quantum_lands:quantalyth_armor_entry"
+        "quantum_lands:quantalyth_armor_entry",
+        "quantum_lands:dark_flower_entry",
+        "quantum_lands:detectors_entry"
       ],
       "bookmarks": [],
       "completedManualQuests": []

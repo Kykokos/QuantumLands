@@ -1,0 +1,8 @@
+{
+    "name": "OP",
+    "description": "Here is information and notes on how to work your way through Quantum Lands",
+    "icon": "quantum_lands:super_singularity",
+    "entries": [
+        "quantum_lands:"
+    ]
+}

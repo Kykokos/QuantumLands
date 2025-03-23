@@ -1,12 +1,16 @@
 package net.Kykokos.QuantumLands.datagen.loot;
 
 import net.Kykokos.QuantumLands.Block.ModBlocks;
+import net.Kykokos.QuantumLands.Block.custom.DarkFlowerCropBlock;
 import net.Kykokos.QuantumLands.Item.ModItems;
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
@@ -40,6 +44,11 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.add(ModBlocks.BUNKER_SLAB.get(), block -> createSlabItemTable(ModBlocks.BUNKER_SLAB.get()));
 
         this.add(ModBlocks.BUNKER_DOOR.get(), block -> createDoorTable(ModBlocks.BUNKER_DOOR.get()));
+
+        LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.DARK_FLOWER_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(DarkFlowerCropBlock.AGE, 6));
+        this.add(ModBlocks.DARK_FLOWER_CROP.get(), this.createCropDrops(ModBlocks.DARK_FLOWER_CROP.get(),
+                ModItems.DARK_FLOWER.get(), ModItems.DARK_FLOWER_SEEDS.get(), lootitemcondition$builder1));
     }
 
     @Override

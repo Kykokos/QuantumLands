@@ -1,0 +1,13 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "quantum_lands:dark_flower"
+    }
+  },
+  "output": {
+    "item": "quantum_lands:blackout_powder",
+    "count": 2
+  }
+}
+

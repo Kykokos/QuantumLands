@@ -28,7 +28,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.BUKER_DETECTOR.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.BUNKER_DETECTOR.get())
                 .pattern("BRB")
                 .pattern("BRB")
                 .pattern("BOB")

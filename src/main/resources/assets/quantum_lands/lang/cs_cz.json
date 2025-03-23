@@ -34,6 +34,8 @@
   "item.quantum_lands.heisenberg_shirt": "Tryčko s Heisenbergem",
   "item.quantum_lands.darkness_shard": "Temný Střep",
   "item.quantum_lands.nitroglycerin_capsule": "Kapsle s Nitroglycerinem",
+  "item.quantum_lands.dark_flower_seeds": "Temná Semínka",
+  "item.quantum_lands.dark_flower": "Temný Květ",
 
 
   "item.quantum_lands.bunker_detector": "Detektor Bunkrů",
@@ -66,6 +68,7 @@
   "block.quantum_lands.blue_fence_gate": "Modrá branka",
   "block.quantum_lands.uv_lamp": "UV Lampa",
   "block.quantum_lands.nitroglycerin_capsule_block": "Kapsle s Nitroglycerinem",
+  "block.quantum_lands.dark_flower_crop": "Keř Temných Květů",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Roztavený Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Kyselina Dusičná",

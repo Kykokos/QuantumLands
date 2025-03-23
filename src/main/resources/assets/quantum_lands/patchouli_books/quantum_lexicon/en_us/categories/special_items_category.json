@@ -1,0 +1,8 @@
+{
+    "name": "Special Items",
+    "description": "Here are all the Special Items",
+    "icon": "quantum_lands:detector_data_tablet",
+    "entries": [
+        "quantum_lands:"
+    ]
+}

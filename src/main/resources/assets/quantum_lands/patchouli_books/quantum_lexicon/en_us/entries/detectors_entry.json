@@ -1,0 +1,26 @@
+{
+  "name": "Detectors",
+  "icon": "quantum_lands:bunker_detector",
+  "category": "quantum_lands:special_items_category",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "quantum_lands:bunker_detector",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "quantum_lands:elite_detector_recipe",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "quantum_lands:detector_data_tablet_recipe",
+      "text": ""
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    }
+  ]
+}

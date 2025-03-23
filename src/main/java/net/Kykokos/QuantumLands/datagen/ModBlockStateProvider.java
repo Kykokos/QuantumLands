@@ -1,17 +1,22 @@
 package net.Kykokos.QuantumLands.datagen;
 
 import net.Kykokos.QuantumLands.Block.ModBlocks;
+import net.Kykokos.QuantumLands.Block.custom.DarkFlowerCropBlock;
 import net.Kykokos.QuantumLands.Block.custom.UVLampBlock;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.minecraft.core.Direction;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.Function;
 
 public class ModBlockStateProvider extends BlockStateProvider
 {
@@ -56,7 +61,24 @@ public class ModBlockStateProvider extends BlockStateProvider
 
         customLamp();
         customCapsule();
+
+        makeCrop(((DarkFlowerCropBlock)ModBlocks.DARK_FLOWER_CROP.get()), "dark_flower_stage", "dark_flower_stage");
     }
+
+    public void makeCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> states(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] states(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((DarkFlowerCropBlock) block).getAgeProperty()),
+                new ResourceLocation(QuantumLands.MOD_ID, "block/" + textureName + state.getValue(((DarkFlowerCropBlock) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
+    }
+
     private void customLamp() {
         getVariantBuilder(ModBlocks.UV_LAMP.get()).forAllStates(state -> {
             String modelName = state.getValue(UVLampBlock.CLICKED) ? "uv_lamp_on" : "uv_lamp_off";
