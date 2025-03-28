@@ -73,7 +73,7 @@ description='''I don't know what to write here yet.'''
 [[dependencies.quantum_lands]]
     modId="mekanism"
     mandatory=true
-    versionRange="[10.4.14]"
+    versionRange="[10.4.15]"
     ordering="AFTER"
     side="BOTH"
 
