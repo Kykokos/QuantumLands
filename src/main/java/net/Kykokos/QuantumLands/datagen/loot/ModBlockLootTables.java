@@ -48,7 +48,11 @@ public class ModBlockLootTables extends BlockLootSubProvider
         LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.DARK_FLOWER_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(DarkFlowerCropBlock.AGE, 6));
         this.add(ModBlocks.DARK_FLOWER_CROP.get(), this.createCropDrops(ModBlocks.DARK_FLOWER_CROP.get(),
-                ModItems.DARK_FLOWER.get(), ModItems.DARK_FLOWER_SEEDS.get(), lootitemcondition$builder1));
+                ModItems.DARK_FLOWER_BLOOM.get(), ModItems.DARK_FLOWER_SEEDS.get(), lootitemcondition$builder1));
+
+        this.add(ModBlocks.DARK_FLOWER.get(), createOreDrop(ModBlocks.DARK_FLOWER.get(),ModItems.DARK_FLOWER_BLOOM.get()));
+        this.add(ModBlocks.POTTED_DARK_FLOWER.get(), createPotFlowerItemTable(ModBlocks.POTTED_DARK_FLOWER.get()));
+
     }
 
     @Override

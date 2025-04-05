@@ -12631,5 +12631,17 @@
     },
     "done": true
   },
+  "minecraft:adventure/craft_decorated_pot_using_only_sherds": {
+    "criteria": {
+      "pot_crafted_using_only_sherds": "2025-04-06 00:04:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-04-06 00:04:11 +0200"
+    },
+    "done": false
+  },
   "DataVersion": 3465
 }

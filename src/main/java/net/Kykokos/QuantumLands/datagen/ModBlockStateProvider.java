@@ -63,6 +63,9 @@ public class ModBlockStateProvider extends BlockStateProvider
         customCapsule();
 
         makeCrop(((DarkFlowerCropBlock)ModBlocks.DARK_FLOWER_CROP.get()), "dark_flower_stage", "dark_flower_stage");
+
+        simpleBlockWithItem(ModBlocks.DARK_FLOWER.get(),
+                models().cross(blockTexture(ModBlocks.DARK_FLOWER.get()).getPath(), blockTexture(ModBlocks.DARK_FLOWER.get())).renderType("cutout"));
     }
 
     public void makeCrop(CropBlock block, String modelName, String textureName) {

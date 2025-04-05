@@ -24,7 +24,8 @@ public class ModArmorItem extends ArmorItem {
             (new ImmutableMap.Builder<ArmorMaterial, List<MobEffectInstance>>())
                     .put(ModArmorMaterials.QUANTALYTH, List.of(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 2),
                             new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 200, 1),
-                            new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 200, 1),
+                            new MobEffectInstance(MobEffects.LUCK, 200, 5),
+                            new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200, 4),
                             new MobEffectInstance(MobEffects.WATER_BREATHING, 200, 1)))
                     .build();
 

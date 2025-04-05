@@ -36,7 +36,7 @@
   "item.quantum_lands.darkness_shard": "Darkness Shard",
   "item.quantum_lands.nitroglycerin_capsule": "Nitroglycerin Capsule",
   "item.quantum_lands.dark_flower_seeds": "Dark Flower Seeds",
-  "item.quantum_lands.dark_flower": "Dark Flower",
+  "item.quantum_lands.dark_flower_bloom": "Dark Flower",
 
   "item.quantum_lands.bunker_detector": "Bunker Detector",
   "item.quantum_lands.elite_detector": "Elite Detector",
@@ -69,6 +69,13 @@
   "block.quantum_lands.uv_lamp": "UV Lamp",
   "block.quantum_lands.nitroglycerin_capsule_block": "Nitroglycerin Capsule",
   "block.quantum_lands.dark_flower_crop": "Dark Flower Shrub",
+  "block.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",
+  "block.quantum_lands.nitric_acid_block": "Nitric Acid",
+  "block.quantum_lands.nitration_bath_block": "Nitration Bath",
+  "block.quantum_lands.nitroglycerin_block": "Nitroglycerin",
+  "block.quantum_lands.glycerin_block": "Glycerin",
+  "block.quantum_lands.dark_flower": "Dark Flower",
+
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Nitric Acid",

@@ -9,6 +9,7 @@ import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -120,8 +121,13 @@ public class ModBlocks
                     .strength(0.01F, 0F).sound(SoundType.GLASS).noOcclusion().noLootTable()));
 
     public static final RegistryObject<Block> DARK_FLOWER_CROP = BLOCKS.register("dark_flower_crop",
-            () -> new DarkFlowerCropBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_WART).noOcclusion().noCollission()));
+            () -> new DarkFlowerCropBlock(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission()));
 
+    public static final RegistryObject<Block> DARK_FLOWER = registerBlock("dark_flower",
+            () -> new FlowerBlock(() -> MobEffects.BLINDNESS, 20, BlockBehaviour.Properties.copy(Blocks.ALLIUM)));
+
+    public static final RegistryObject<Block> POTTED_DARK_FLOWER = BLOCKS.register("potted_dark_flower",
+            () -> new FlowerPotBlock((() -> (FlowerPotBlock) Blocks.FLOWER_POT), DARK_FLOWER, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM)));
 
 
 

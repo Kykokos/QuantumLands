@@ -22,7 +22,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.SNIFFERITE.get());
                         output.accept(ModItems.SNIFFERITE_DUST.get());
                         output.accept(ModItems.DARK_FLOWER_SEEDS.get());
-                        output.accept(ModItems.DARK_FLOWER.get());
+                        output.accept(ModItems.DARK_FLOWER_BLOOM.get());
                         output.accept(ModItems.BLACKOUT_POWDER.get());
                         output.accept(ModItems.DARKNESS_SHARD.get());
                         output.accept(ModItems.POTASSIUM_NITRATE.get());
