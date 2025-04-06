@@ -59,6 +59,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DETECTOR_DATA_TABLET);
         simpleItem(ModItems.DARK_FLOWER_SEEDS);
         simpleItem(ModItems.DARK_FLOWER_BLOOM);
+        simpleItem(ModItems.DARK_MATTER);
 
         handheldItem(ModItems.QUANTALYTH_SWORD);
         handheldItem(ModItems.QUANTALYTH_HOE);

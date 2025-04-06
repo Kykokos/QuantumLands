@@ -12631,17 +12631,71 @@
     },
     "done": true
   },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-04-06 00:04:11 +0200"
+    },
+    "done": false
+  },
   "minecraft:adventure/craft_decorated_pot_using_only_sherds": {
     "criteria": {
       "pot_crafted_using_only_sherds": "2025-04-06 00:04:33 +0200"
     },
     "done": true
   },
-  "minecraft:adventure/salvage_sherd": {
+  "quantum_lands:recipes/misc/essence_tier_2": {
     "criteria": {
-      "has_sherd": "2025-04-06 00:04:11 +0200"
+      "has_essence_tier_1": "2025-04-06 11:30:14 +0200"
     },
-    "done": false
+    "done": true
+  },
+  "quantum_lands:recipes/misc/essence_tier_8": {
+    "criteria": {
+      "has_essence_tier_7": "2025-04-06 11:32:54 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/essence_tier_7": {
+    "criteria": {
+      "has_essence_tier_6": "2025-04-06 11:32:55 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/essence_tier_6": {
+    "criteria": {
+      "has_essence_tier_5": "2025-04-06 11:32:56 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/essence_tier_5": {
+    "criteria": {
+      "has_essence_tier_4": "2025-04-06 11:32:57 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/essence_tier_4": {
+    "criteria": {
+      "has_essence_tier_3": "2025-04-06 11:32:59 +0200"
+    },
+    "done": true
+  },
+  "quantum_lands:recipes/misc/essence_tier_3": {
+    "criteria": {
+      "has_essence_tier_2": "2025-04-06 11:33:04 +0200"
+    },
+    "done": true
+  },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2025-04-06 15:58:51 +0200"
+    },
+    "done": true
+  },
+  "mekanismtools:better_than_netherite": {
+    "criteria": {
+      "armor": "2025-04-06 16:02:34 +0200"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

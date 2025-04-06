@@ -82,6 +82,7 @@ public class ModArmorItem extends ArmorItem {
                 effect == MobEffects.WITHER ||
                 effect == MobEffects.MOVEMENT_SLOWDOWN ||
                 effect == MobEffects.HUNGER ||
+                effect == MobEffects.CONFUSION ||
                 effect == MobEffects.UNLUCK;
     }
 
