@@ -37,6 +37,7 @@
   "item.quantum_lands.dark_flower_seeds": "Temná Semínka",
   "item.quantum_lands.dark_flower_bloom": "Temný Květ",
   "item.quantum_lands.dark_matter": "Temná Hmota",
+  "item.quantum_lands.rust_dust": "Rez",
 
 
   "item.quantum_lands.bunker_detector": "Detektor Bunkrů",
@@ -89,6 +90,9 @@
   "creativetab.quantalyth_tab": "§5Quantalyth",
 
   "enchantment.quantum_lands.nitrated_warrior": "Dusičný Bojovník",
+
+  "sounds.quantum_lands.distant_explosion": "Vzdálený Výbuch",
+  "sounds.quantum_lands.nitroglycerin_explosion": "Výbuch Nitroglycerinu",
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "Žádné Bunkry tu nejsou :(",

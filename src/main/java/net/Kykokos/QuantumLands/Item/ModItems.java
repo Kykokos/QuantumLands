@@ -147,10 +147,14 @@ public class ModItems
             () -> new BlockItem(ModBlocks.DARK_FLOWER.get(), new  Item.Properties()));
 
     public static final RegistryObject<Item> DARK_MATTER = ITEMS.register("dark_matter",
-            () -> new FuelItem(new Item.Properties().fireResistant(), 5000));
+            () -> new FuelItem(new Item.Properties().fireResistant(), 10000));
+
+    public static final RegistryObject<Item> RUST_DUST = ITEMS.register("rust_dust",
+            () -> new Item(new Item.Properties()));
 
 
-        public static void register(IEventBus eventBus)
+
+    public static void register(IEventBus eventBus)
         {
             ITEMS.register(eventBus);
         }

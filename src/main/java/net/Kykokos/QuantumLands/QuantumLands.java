@@ -8,6 +8,7 @@ import net.Kykokos.QuantumLands.enchantment.ModEnchantments;
 import net.Kykokos.QuantumLands.event.ExplosionProtectionHandler;
 import net.Kykokos.QuantumLands.fluid.ModFluidTypes;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
+import net.Kykokos.QuantumLands.sound.ModSounds;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -48,6 +49,7 @@ public class QuantumLands
         ModBlocks.register(modEventBus);
 
         ModEnchantments.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         ModFluidTypes.register(modEventBus);
         ModFluids.register(modEventBus);

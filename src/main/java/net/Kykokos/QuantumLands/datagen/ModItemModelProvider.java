@@ -36,10 +36,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.NITROGLYCERIN_BUCKET);
         simpleItem(ModItems.GLYCERIN_BUCKET);
         simpleItem(ModItems.QUANTALYTH_INGOT);
-        //simpleItem(ModItems.QUANTALYTH_HELMET);
-        //simpleItem(ModItems.QUANTALYTH_CHESTPLATE);
-        //simpleItem(ModItems.QUANTALYTH_LEGGINGS);
-        //simpleItem(ModItems.QUANTALYTH_BOOTS);
         simpleItem(ModItems.ESSENCE_TIER_1);
         simpleItem(ModItems.ESSENCE_TIER_2);
         simpleItem(ModItems.ESSENCE_TIER_3);
@@ -60,6 +56,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DARK_FLOWER_SEEDS);
         simpleItem(ModItems.DARK_FLOWER_BLOOM);
         simpleItem(ModItems.DARK_MATTER);
+        simpleItem(ModItems.RUST_DUST);
 
         handheldItem(ModItems.QUANTALYTH_SWORD);
         handheldItem(ModItems.QUANTALYTH_HOE);

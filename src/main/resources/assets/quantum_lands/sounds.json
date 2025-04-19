@@ -1,0 +1,14 @@
+{
+  "distant_explosion": {
+    "subtitle": "sounds.quantum_lands.distant_explosion",
+    "sounds": [
+      "quantum_lands:distant_explosion"
+    ]
+  },
+  "nitroglycerin_explosion": {
+    "subtitle": "sounds.quantum_lands.nitroglycerin_explosion",
+    "sounds": [
+      "quantum_lands:nitroglycerin_explosion"
+    ]
+  }
+}

@@ -1,9 +1,6 @@
 package net.Kykokos.QuantumLands.Block;
 
-import net.Kykokos.QuantumLands.Block.custom.DarkFlowerCropBlock;
-import net.Kykokos.QuantumLands.Block.custom.ExplosiveFluid;
-import net.Kykokos.QuantumLands.Block.custom.NitroglycerinCapsuleBlock;
-import net.Kykokos.QuantumLands.Block.custom.UVLampBlock;
+import net.Kykokos.QuantumLands.Block.custom.*;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
@@ -12,6 +9,7 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
@@ -21,7 +19,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Optional;
 import java.util.function.Supplier;
+
+import static net.Kykokos.QuantumLands.Item.ModItems.ITEMS;
 
 public class ModBlocks
 {
@@ -129,8 +130,7 @@ public class ModBlocks
     public static final RegistryObject<Block> POTTED_DARK_FLOWER = BLOCKS.register("potted_dark_flower",
             () -> new FlowerPotBlock((() -> (FlowerPotBlock) Blocks.FLOWER_POT), DARK_FLOWER, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM)));
 
-
-
+    
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
@@ -141,7 +141,7 @@ public class ModBlocks
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block)
     {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        return ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus)

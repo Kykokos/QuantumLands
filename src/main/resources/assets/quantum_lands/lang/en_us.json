@@ -38,6 +38,7 @@
   "item.quantum_lands.dark_flower_seeds": "Dark Flower Seeds",
   "item.quantum_lands.dark_flower_bloom": "Dark Flower",
   "item.quantum_lands.dark_matter": "Dark Matter",
+  "item.quantum_lands.rust_dust": "Rust",
 
 
   "item.quantum_lands.bunker_detector": "Bunker Detector",
@@ -92,6 +93,9 @@
   "creativetab.quantalyth_tab": "§5Quantalyth",
 
   "enchantment.quantum_lands.nitrated_warrior": "Nitrated Warrior",
+
+  "sounds.quantum_lands.distant_explosion": "Distant Explosion",
+  "sounds.quantum_lands.nitroglycerin_explosion": "Nitroglycerin Explosion",
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "No Bunkers Found :(",

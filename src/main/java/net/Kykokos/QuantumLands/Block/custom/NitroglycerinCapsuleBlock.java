@@ -1,5 +1,6 @@
 package net.Kykokos.QuantumLands.Block.custom;
 
+import net.Kykokos.QuantumLands.sound.ModSounds;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
@@ -67,11 +68,13 @@ public class NitroglycerinCapsuleBlock extends Block {
     public boolean onDestroyedByPlayer(BlockState state, Level level, BlockPos pos, Player player, boolean willHarvest, FluidState fluid) {
 
         level.explode(null, pos.getX(), pos.getY(), pos.getZ(), 20.0f, true, Level.ExplosionInteraction.TNT);
+        level.playSound(null,pos.getX(), pos.getY(), pos.getZ(), ModSounds.NITROGLYCERIN_EXPLOSION.get(), SoundSource.BLOCKS, 5F,1F);
         return super.onDestroyedByPlayer(state, level, pos, player, willHarvest, fluid);
     }
 
     private void explodeBlock(Level level, BlockPos pos) {
         level.explode(null, pos.getX(), pos.getY(), pos.getZ(), 20.0f, true, Level.ExplosionInteraction.TNT);
+        level.playSound(null,pos.getX(), pos.getY(), pos.getZ(), ModSounds.NITROGLYCERIN_EXPLOSION.get(), SoundSource.BLOCKS, 5F,1F);
     }
 
     @Override
@@ -82,6 +85,7 @@ public class NitroglycerinCapsuleBlock extends Block {
     @Override
     public void onCaughtFire(BlockState state, Level level, BlockPos pos, @Nullable Direction direction, @Nullable LivingEntity igniter) {
         level.explode(null, pos.getX(), pos.getY(), pos.getZ(), 20.0f, true, Level.ExplosionInteraction.TNT);
+        level.playSound(null,pos.getX(), pos.getY(), pos.getZ(), ModSounds.NITROGLYCERIN_EXPLOSION.get(), SoundSource.BLOCKS, 5F,1F);
         super.onCaughtFire(state, level, pos, direction, igniter);
     }
 }

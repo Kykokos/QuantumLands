@@ -26,6 +26,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.BLACKOUT_POWDER.get());
                         output.accept(ModItems.DARKNESS_SHARD.get());
                         output.accept(ModItems.DARK_MATTER.get());
+                        output.accept(ModItems.RUST_DUST.get());
                         output.accept(ModItems.POTASSIUM_NITRATE.get());
                         output.accept(ModItems.NITRIC_ACID_BUCKET.get());
                         output.accept(ModItems.GLYCERIN_BUCKET.get());

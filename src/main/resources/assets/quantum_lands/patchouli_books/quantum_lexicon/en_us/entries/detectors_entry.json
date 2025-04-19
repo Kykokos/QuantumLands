@@ -6,17 +6,17 @@
     {
       "type": "patchouli:crafting",
       "recipe": "quantum_lands:bunker_detector",
-      "text": ""
+      "text": "Detects blocks from the given tag. It does not change its content."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "quantum_lands:elite_detector_recipe",
-      "text": ""
+      "text": "Using the detector tablet you can transfer the data of different blocks it is supposed to detect."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "quantum_lands:detector_data_tablet_recipe",
-      "text": ""
+      "text": "When you click on a block the block will be added to the tag then put data tablet in your off-hand, elite detector in main-hand and shift-click. If you put the tablet or detector in the crafting table you can delete the data."
     },
     {
       "type": "patchouli:empty",
