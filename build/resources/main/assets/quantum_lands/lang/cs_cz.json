@@ -39,6 +39,9 @@
   "item.quantum_lands.dark_matter": "Temná Hmota",
   "item.quantum_lands.rust_dust": "Rez",
 
+  "item.quantum_lands.chemistry_theme_record": "Chemistry Theme §c!Copyright!",
+  "item.quantum_lands.chemistry_theme_record.desc": "Dave Porter - Breaking Bad Theme",
+
 
   "item.quantum_lands.bunker_detector": "Detektor Bunkrů",
   "item.quantum_lands.elite_detector": "Elitní Detektor",
@@ -77,6 +80,7 @@
   "block.quantum_lands.nitroglycerin_block": "Nitroglycerin",
   "block.quantum_lands.glycerin_block": "Glycerol",
   "block.quantum_lands.dark_flower": "Temný Květ",
+  "block.quantum_lands.centrifuge": "Centrifuga",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Roztavený Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Kyselina Dusičná",
@@ -105,8 +109,15 @@
   "item.quantum_lands.detector_data_tablet.error": "Chyba: Blok nemá platné ID!",
 
 
+  "painting.quantum_lands.blue_sky.title": "Blue Sky",
+  "painting.quantum_lands.blue_sky.author": "Kykokos",
+
+
   "tooltip.quantum_lands.bunker_detector.tooltip.shift": "klikni pravým tlačítkem na blok, aby jsi našel podzemní bunkr",
   "tooltip.quantum_lands.bunker_detector.tooltip": "Stiskni §eSHIFT§r pro více Informací",
-  "tooltip.quantum_lands.sound_block": "Hraje hezké zvuky když na něm chodíš nebo na něj klikáš"
 
+  "tooltip.quantum_lands.heisenberg_shirt.tooltip.shift": "Odebere všechny špatné efekty §nz tohodle modu a vanilly",
+  "tooltip.quantum_lands.heisenberg_shirt.tooltip": "Stiskni §eSHIFT§r pro více Informací",
+
+  "entity.minecraft.villager.quantum_lands.chemist": "Chemik"
 }

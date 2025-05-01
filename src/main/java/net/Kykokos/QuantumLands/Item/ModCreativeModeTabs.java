@@ -34,6 +34,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.NITROGLYCERIN_BUCKET.get());
                         output.accept(ModItems.NITROGLYCERIN_CAPSULE.get());
                         output.accept(ModItems.HEISENBERG_SHIRT.get());
+                        output.accept(ModItems.CHEMISTRY_THEME_RECORD.get());
                         output.accept(ModItems.BLUE_SUBSTANCE.get());
                         output.accept(ModItems.EMPTY_CAPSULE.get());
                         output.accept(ModItems.BUNKER_DETECTOR.get());
@@ -50,6 +51,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.ESSENCE_TIER_8.get());
                         output.accept(ModItems.SUPER_SINGULARITY.get());
                         output.accept(ModItems.INCOMPLETE_CREATIVE_BLAZE_CAKE.get());
+                        output.accept(ModItems.CENTRIFUGE_ITEM.get());
 
                     }).build());
 

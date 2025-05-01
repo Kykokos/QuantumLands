@@ -14,6 +14,7 @@ public class ModSounds {
 
     public static final RegistryObject<SoundEvent> DISTANT_EXPLOSION = registerSoundEvents("distant_explosion");
     public static final RegistryObject<SoundEvent> NITROGLYCERIN_EXPLOSION = registerSoundEvents("nitroglycerin_explosion");
+    public static final RegistryObject<SoundEvent> BREAKING_BAD_THEME = registerSoundEvents("breaking_bad_theme");
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         ResourceLocation id = new ResourceLocation(QuantumLands.MOD_ID, name);

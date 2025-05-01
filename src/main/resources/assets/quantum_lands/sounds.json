@@ -10,5 +10,14 @@
     "sounds": [
       "quantum_lands:nitroglycerin_explosion"
     ]
+  },
+
+  "breaking_bad_theme": {
+    "sounds": [
+      {
+        "name": "quantum_lands:breaking_bad_theme",
+        "stream": true
+      }
+    ]
   }
 }

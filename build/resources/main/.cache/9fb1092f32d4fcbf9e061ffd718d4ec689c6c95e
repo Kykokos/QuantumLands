@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-19T23:29:40.722301	Recipes
+// 1.20.1	2025-05-01T01:12:32.8212503	Recipes
 966b0851326ea24aa2245ec7588399299bb6a1e3 data/quantum_lands/advancements/recipes/building_blocks/blue_fence.json
 5cd2ca0f2be0c1842f5e7afdde94102dc1d6f409 data/quantum_lands/advancements/recipes/building_blocks/blue_fence_gate.json
 5e4f64d1f613e68efb02122e0efd56ceb2d8a4e9 data/quantum_lands/advancements/recipes/building_blocks/bunker_block.json
@@ -20,6 +20,7 @@ c293cddece279885c6027e1445ab00555a4eeea9 data/quantum_lands/advancements/recipes
 464b8bc18b7e91883963eb8717e25ae4fa849b50 data/quantum_lands/advancements/recipes/misc/raw_quantalyth.json
 43a7c60578f300282a19414d60452c565e1dba5d data/quantum_lands/advancements/recipes/misc/raw_quantalyth_block.json
 13265efc6f5d576882336d5135cdf336aeb70998 data/quantum_lands/advancements/recipes/redstone/bunker_pressure_plate.json
+6cb10c1708444eed91edbb016f33ba58cea7281e data/quantum_lands/advancements/recipes/redstone/centrifuge.json
 e387c0cfc0845e039e89d3ab210cb74252319c0b data/quantum_lands/advancements/recipes/redstone/emergency_button.json
 280993bd0e80d92c78d019a4298af1185a1efeaa data/quantum_lands/advancements/recipes/tools/bunker_detector.json
 06ce31f30349d3020b310a6b86d20cc5ebe987a1 data/quantum_lands/recipes/blue_fence.json
@@ -30,6 +31,7 @@ e387c0cfc0845e039e89d3ab210cb74252319c0b data/quantum_lands/advancements/recipes
 5c829cee8212bbc25c6cfa8383db44eee5e0fe71 data/quantum_lands/recipes/bunker_slab.json
 bc027ae3f7a1285f2a2436a98d3828632ceee2f7 data/quantum_lands/recipes/bunker_stairs.json
 aa9541885a2cc53c50e8a3eb89e97d0f7f6cac8c data/quantum_lands/recipes/bunker_wall.json
+491982ec9f340da8fdefa1a466288202b007bcf5 data/quantum_lands/recipes/centrifuge.json
 c289dd8acf560e22b7c9fce486fff219b052a8ed data/quantum_lands/recipes/compressed_quantalyth_block.json
 34de37f38a986e72a3da86e0a3e68150b5f087e2 data/quantum_lands/recipes/cracked_bunker_block.json
 032c8f84edf55e4e618180974a504b95b2b26d9a data/quantum_lands/recipes/emergency_button.json

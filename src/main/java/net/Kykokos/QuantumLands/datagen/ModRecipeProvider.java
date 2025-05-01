@@ -218,6 +218,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_essence_tier_7", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ESSENCE_TIER_7.get()).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, ModBlocks.CENTRIFUGE.get())
+                .pattern("BCB")
+                .pattern("SCS")
+                .pattern("SSS")
+                .define('B', Items.GLASS_BOTTLE)
+                .define('C', Items.COPPER_INGOT)
+                .define('S', Items.SMOOTH_STONE)
+                .unlockedBy("has_copper_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(Items.COPPER_INGOT).build()))
+                .save(pWriter);
+
     }
 
 }

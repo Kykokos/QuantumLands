@@ -51,6 +51,7 @@ public class ModBlockLootTables extends BlockLootSubProvider
                 ModItems.DARK_FLOWER_BLOOM.get(), ModItems.DARK_FLOWER_SEEDS.get(), lootitemcondition$builder1));
 
         this.add(ModBlocks.DARK_FLOWER.get(), createOreDrop(ModBlocks.DARK_FLOWER.get(),ModItems.DARK_FLOWER_BLOOM.get()));
+        this.add(ModBlocks.CENTRIFUGE.get(), createOreDrop(ModBlocks.CENTRIFUGE.get(),ModItems.CENTRIFUGE_ITEM.get()));
         this.add(ModBlocks.POTTED_DARK_FLOWER.get(), createPotFlowerItemTable(ModBlocks.POTTED_DARK_FLOWER.get()));
 
     }

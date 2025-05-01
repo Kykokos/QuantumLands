@@ -29,6 +29,9 @@ public class ModItemTagGenerator extends ItemTagsProvider
                 .add(ModItems.QUANTALYTH_CHESTPLATE.get())
                 .add(ModItems.QUANTALYTH_LEGGINGS.get())
                 .add(ModItems.QUANTALYTH_BOOTS.get());
+
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.CHEMISTRY_THEME_RECORD.get());
     }
 
     @Override

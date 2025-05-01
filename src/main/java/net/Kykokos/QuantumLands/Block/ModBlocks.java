@@ -4,6 +4,7 @@ import net.Kykokos.QuantumLands.Block.custom.*;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
+import net.minecraft.client.resources.model.Material;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.effect.MobEffects;
@@ -14,6 +15,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraftforge.client.model.obj.ObjMaterialLibrary;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -129,6 +131,9 @@ public class ModBlocks
 
     public static final RegistryObject<Block> POTTED_DARK_FLOWER = BLOCKS.register("potted_dark_flower",
             () -> new FlowerPotBlock((() -> (FlowerPotBlock) Blocks.FLOWER_POT), DARK_FLOWER, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM)));
+
+    public static final RegistryObject<Block> CENTRIFUGE = BLOCKS.register("centrifuge",
+            () -> new CentrifugeBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion().requiresCorrectToolForDrops()));
 
     
 

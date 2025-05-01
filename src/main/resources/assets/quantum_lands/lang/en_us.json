@@ -40,6 +40,9 @@
   "item.quantum_lands.dark_matter": "Dark Matter",
   "item.quantum_lands.rust_dust": "Rust",
 
+  "item.quantum_lands.chemistry_theme_record": "Chemistry Theme §c!Copyright!",
+  "item.quantum_lands.chemistry_theme_record.desc": "Dave Porter - Breaking Bad Theme",
+
 
   "item.quantum_lands.bunker_detector": "Bunker Detector",
   "item.quantum_lands.elite_detector": "Elite Detector",
@@ -78,6 +81,7 @@
   "block.quantum_lands.nitroglycerin_block": "Nitroglycerin",
   "block.quantum_lands.glycerin_block": "Glycerin",
   "block.quantum_lands.dark_flower": "Dark Flower",
+  "block.quantum_lands.centrifuge": "Centrifuge",
 
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",
@@ -108,9 +112,15 @@
   "item.quantum_lands.detector_data_tablet.error": "Error: Block does not have a valid ID!",
 
 
+  "painting.quantum_lands.blue_sky.title": "Blue Sky",
+  "painting.quantum_lands.blue_sky.author": "Kykokos",
+
+
   "tooltip.quantum_lands.bunker_detector.tooltip.shift": "Right Click on Blocks to find underground bunkers!",
   "tooltip.quantum_lands.bunker_detector.tooltip": "Press §n§eSHIFT§r for more Info",
 
   "tooltip.quantum_lands.heisenberg_shirt.tooltip.shift": "Removes all bad effects §nfrom this mod and vanilla",
-  "tooltip.quantum_lands.heisenberg_shirt.tooltip": "Press §n§eSHIFT§r for more Info"
+  "tooltip.quantum_lands.heisenberg_shirt.tooltip": "Press §n§eSHIFT§r for more Info",
+
+  "entity.minecraft.villager.quantum_lands.chemist": "Chemist"
 }

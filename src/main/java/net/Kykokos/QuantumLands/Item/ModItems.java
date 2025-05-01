@@ -4,6 +4,7 @@ import net.Kykokos.QuantumLands.Block.ModBlocks;
 import net.Kykokos.QuantumLands.Item.custom.*;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
+import net.Kykokos.QuantumLands.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -151,6 +152,12 @@ public class ModItems
 
     public static final RegistryObject<Item> RUST_DUST = ITEMS.register("rust_dust",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CHEMISTRY_THEME_RECORD = ITEMS.register("chemistry_theme_record",
+            () -> new RecordItem(4, ModSounds.BREAKING_BAD_THEME, new Item.Properties().stacksTo(1), 1500));
+
+    public static final RegistryObject<Item> CENTRIFUGE_ITEM = ITEMS.register("centrifuge",
+            () -> new CentrifugeItem(ModBlocks.CENTRIFUGE.get(), new Item.Properties()));
 
 
 

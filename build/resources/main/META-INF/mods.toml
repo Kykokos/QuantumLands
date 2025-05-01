@@ -77,6 +77,13 @@ description='''I don't know what to write here yet.'''
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.quantum_lands]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.7.1.2]"
+    ordering="AFTER"
+    side="BOTH"
+
 
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares

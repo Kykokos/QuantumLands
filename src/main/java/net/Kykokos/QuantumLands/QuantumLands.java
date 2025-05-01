@@ -2,15 +2,22 @@ package net.Kykokos.QuantumLands;
 
 import com.mojang.logging.LogUtils;
 import net.Kykokos.QuantumLands.Block.ModBlocks;
+import net.Kykokos.QuantumLands.Block.entity.ModBlockEntities;
+import net.Kykokos.QuantumLands.Block.entity.client.CentrifugeBlockRenderer;
 import net.Kykokos.QuantumLands.Item.ModCreativeModeTabs;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.enchantment.ModEnchantments;
 import net.Kykokos.QuantumLands.event.ExplosionProtectionHandler;
 import net.Kykokos.QuantumLands.fluid.ModFluidTypes;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
+import net.Kykokos.QuantumLands.loot.ModLootModifiers;
+import net.Kykokos.QuantumLands.painting.ModPaintings;
 import net.Kykokos.QuantumLands.sound.ModSounds;
+import net.Kykokos.QuantumLands.villager.ModVillagers;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.ComposterBlock;
@@ -26,6 +33,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import software.bernie.geckolib.GeckoLib;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(QuantumLands.MOD_ID)
@@ -50,6 +58,16 @@ public class QuantumLands
 
         ModEnchantments.register(modEventBus);
         ModSounds.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
+
+        ModPaintings.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
+
+        GeckoLib.initialize();
 
         ModFluidTypes.register(modEventBus);
         ModFluids.register(modEventBus);
@@ -94,6 +112,7 @@ public class QuantumLands
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS)
         {
             event.accept(ModBlocks.EMERGENCY_BUTTON);
+            event.accept(ModItems.CENTRIFUGE_ITEM);
         }
     }
 
@@ -121,6 +140,8 @@ public class QuantumLands
 
             ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_GLYCERIN.get(), RenderType.translucent());
             ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_GLYCERIN.get(), RenderType.translucent());
+
+            BlockEntityRenderers.register(ModBlockEntities.CENTRIFUGE_ENTITY.get(), CentrifugeBlockRenderer::new);
 
         }
     }

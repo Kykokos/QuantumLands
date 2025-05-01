@@ -1,4 +1,4 @@
-// 1.20.1	2025-04-05T23:56:01.8714597	Loot Tables
+// 1.20.1	2025-05-01T00:08:40.289603	Loot Tables
 172019f15028d3d7a0d3a65eeec0374e8377ede0 data/quantum_lands/loot_tables/blocks/blue_fence.json
 b2f26a0e1a834da005214965bb5ffac3e8dd8739 data/quantum_lands/loot_tables/blocks/blue_fence_gate.json
 8d3e9f22d066a4fe50aed77891531d4849a29535 data/quantum_lands/loot_tables/blocks/blue_planks.json
@@ -9,6 +9,7 @@ ea5c5131479ca09fcd1b749215e59a1a0b1afdd6 data/quantum_lands/loot_tables/blocks/b
 97ba6ee625790fba99199185ce339c23b0b665e9 data/quantum_lands/loot_tables/blocks/bunker_stairs.json
 3a460123fda5a9f92f809d48ae463c946a96146c data/quantum_lands/loot_tables/blocks/bunker_trapdoor.json
 bc72f55f4688fbf04faef4b66392dea0516ba2e3 data/quantum_lands/loot_tables/blocks/bunker_wall.json
+d0ab762e21e414cf23f091efd58db34817496a31 data/quantum_lands/loot_tables/blocks/centrifuge.json
 5fbe468e4ee132115c2e1853c208622a12f547d4 data/quantum_lands/loot_tables/blocks/compressed_quantalyth_block.json
 3083d9fca5bf851aa23bc73411ec2f3be6d35813 data/quantum_lands/loot_tables/blocks/cracked_bunker_block.json
 ff4400961a488e85852ba1a8b48de75312698ff8 data/quantum_lands/loot_tables/blocks/dark_flower.json
