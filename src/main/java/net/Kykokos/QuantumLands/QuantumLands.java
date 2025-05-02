@@ -12,6 +12,8 @@ import net.Kykokos.QuantumLands.fluid.ModFluidTypes;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
 import net.Kykokos.QuantumLands.loot.ModLootModifiers;
 import net.Kykokos.QuantumLands.painting.ModPaintings;
+import net.Kykokos.QuantumLands.particle.ModParticles;
+import net.Kykokos.QuantumLands.screen.ModMenuTypes;
 import net.Kykokos.QuantumLands.sound.ModSounds;
 import net.Kykokos.QuantumLands.villager.ModVillagers;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -66,6 +68,10 @@ public class QuantumLands
         ModPaintings.register(modEventBus);
 
         ModVillagers.register(modEventBus);
+
+        ModParticles.register(modEventBus);
+
+        ModMenuTypes.register(modEventBus);
 
         GeckoLib.initialize();
 

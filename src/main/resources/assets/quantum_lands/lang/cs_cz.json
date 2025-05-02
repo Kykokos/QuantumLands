@@ -119,5 +119,7 @@
   "tooltip.quantum_lands.heisenberg_shirt.tooltip.shift": "Odebere všechny špatné efekty §nz tohodle modu a vanilly",
   "tooltip.quantum_lands.heisenberg_shirt.tooltip": "Stiskni §eSHIFT§r pro více Informací",
 
-  "entity.minecraft.villager.quantum_lands.chemist": "Chemik"
+  "entity.minecraft.villager.quantum_lands.chemist": "Chemik",
+
+  "gui_name.quantum_lands.centrifuge_block_gui_name": "Centrifuga"
 }
