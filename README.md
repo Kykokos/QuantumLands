@@ -15,7 +15,7 @@ This mod adds many fun and useful items. For your own Centrifuge Recipe you can 
   }
 } </pre>
 
-If you use this mod in your modpack add to Kube Js server scripts e.g.: adding_all_items_to_tag.js 
+If you use this mod in your modpack add to Kube Js server scripts something like: adding_all_items_to_tag.js 
 And insert there:
 <pre>
 ServerEvents.tags('item', event => {
