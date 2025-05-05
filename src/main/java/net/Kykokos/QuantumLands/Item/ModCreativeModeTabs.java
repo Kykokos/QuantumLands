@@ -52,6 +52,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.SUPER_SINGULARITY.get());
                         output.accept(ModItems.INCOMPLETE_CREATIVE_BLAZE_CAKE.get());
                         output.accept(ModItems.CENTRIFUGE_ITEM.get());
+                        output.accept(ModItems.SIMPLE_BATTERY.get());
 
                     }).build());
 

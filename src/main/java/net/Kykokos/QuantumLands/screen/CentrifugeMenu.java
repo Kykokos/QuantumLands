@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
 public class CentrifugeMenu extends AbstractContainerMenu {
@@ -32,15 +33,28 @@ public class CentrifugeMenu extends AbstractContainerMenu {
         addPlayerInventory(inv);
         addPlayerHotbar(inv);
 
-        this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
-            this.addSlot(new SlotItemHandler(iItemHandler, 0, 80, 11));
-            this.addSlot(new SlotItemHandler(iItemHandler, 1, 26, 59));
-            this.addSlot(new SlotItemHandler(iItemHandler, 2, 80, 59));
-            this.addSlot(new SlotItemHandler(iItemHandler, 3, 134, 59));
-        });
+        IItemHandler iItemHandler = blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).orElseThrow(() -> new IllegalStateException("Missing ITEM_HANDLER capability"));
+        addSlot(new SlotItemHandler(iItemHandler, 0, 30, 33));
+        addSlot(new SlotItemHandler(iItemHandler, 1, 104, 20));
+        addSlot(new SlotItemHandler(iItemHandler, 2, 104, 46));
+        addSlot(new SlotItemHandler(iItemHandler, 3, 134, 59));
+
 
 
         addDataSlots(data);
+    }
+
+
+    public boolean isCrafting() {
+        return data.get(0) > 0;
+    }
+
+    public int getScaledProgress() {
+        int progress = this.data.get(0);
+        int maxProgress = this.data.get(1);  // Max Progress
+        int progressArrowSize = 54;
+
+        return maxProgress != 0 && progress != 0 ? progress * progressArrowSize / maxProgress : 0;
     }
 
     private static final int HOTBAR_SLOT_COUNT = 9;

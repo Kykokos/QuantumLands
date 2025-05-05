@@ -3,7 +3,6 @@ package net.Kykokos.QuantumLands.Block.custom;
 import net.Kykokos.QuantumLands.Block.entity.CentrifugeBlockEntity;
 import net.Kykokos.QuantumLands.Block.entity.ModBlockEntities;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -15,7 +14,6 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -84,9 +82,10 @@ public class CentrifugeBlock extends BaseEntityBlock {
             } else {
                 throw new IllegalStateException("Our Container provider is missing!");
             }
+            return InteractionResult.CONSUME;
         }
 
-        return super.use(pState, pLevel, pPos, pPlayer, pHand, pHit);
+        return InteractionResult.SUCCESS;
     }
 
     @Override

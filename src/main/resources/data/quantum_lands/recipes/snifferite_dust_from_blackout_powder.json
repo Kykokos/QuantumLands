@@ -1,0 +1,14 @@
+{
+  "type": "quantum_lands:centrifuging",
+  "ingredients": [
+    {
+      "item": "quantum_lands:blackout_powder"
+    }
+  ],
+  "output1": {
+    "item": "quantum_lands:snifferite_dust"
+  },
+  "output2": {
+    "item": "minecraft:black_dye"
+  }
+}

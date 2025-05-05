@@ -13,19 +13,24 @@ import net.Kykokos.QuantumLands.fluid.ModFluids;
 import net.Kykokos.QuantumLands.loot.ModLootModifiers;
 import net.Kykokos.QuantumLands.painting.ModPaintings;
 import net.Kykokos.QuantumLands.particle.ModParticles;
+import net.Kykokos.QuantumLands.recipe.ModRecipes;
+import net.Kykokos.QuantumLands.screen.CentrifugeScreen;
 import net.Kykokos.QuantumLands.screen.ModMenuTypes;
 import net.Kykokos.QuantumLands.sound.ModSounds;
 import net.Kykokos.QuantumLands.villager.ModVillagers;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
+import net.minecraft.data.DataGenerator;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -73,6 +78,8 @@ public class QuantumLands
 
         ModMenuTypes.register(modEventBus);
 
+        ModRecipes.register(modEventBus);
+
         GeckoLib.initialize();
 
         ModFluidTypes.register(modEventBus);
@@ -93,6 +100,7 @@ public class QuantumLands
 
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.DARK_FLOWER.getId(), ModBlocks.POTTED_DARK_FLOWER);
         });
+
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
@@ -148,6 +156,7 @@ public class QuantumLands
             ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_GLYCERIN.get(), RenderType.translucent());
 
             BlockEntityRenderers.register(ModBlockEntities.CENTRIFUGE_ENTITY.get(), CentrifugeBlockRenderer::new);
+            MenuScreens.register(ModMenuTypes.CENTRIFUGE_MENU.get(), CentrifugeScreen::new);
 
         }
     }

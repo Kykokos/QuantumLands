@@ -1,4 +1,4 @@
-// 1.20.1	2025-04-30T16:27:09.361973	Item Models: quantum_lands
+// 1.20.1	2025-05-03T12:15:25.4254389	Item Models: quantum_lands
 ba86544f2be9a54e7f96355eef675cb651367676 assets/quantum_lands/models/item/blackout_powder.json
 f0d06cd3a6f50a3c42ea7f5b96a9caf79543d48f assets/quantum_lands/models/item/blue_fence.json
 fd622bf8ffb374842f2ca54620abe7572911730a assets/quantum_lands/models/item/blue_substance.json
@@ -42,6 +42,7 @@ aadc1b8c18bb86d8b5ca26cd2d62123bf2f139d6 assets/quantum_lands/models/item/quanta
 076ae9c460030c49aa64c67e6772ca38267a49e1 assets/quantum_lands/models/item/raw_quantalyth.json
 5eee30f0cc24dc9a06636d8a6b4c4945108a24a7 assets/quantum_lands/models/item/raw_quantalyth_chunk.json
 eb27a0d8c44c3427fa290a486595d0ddafd2537c assets/quantum_lands/models/item/rust_dust.json
+16cb3c3d56bf19328d0fcd45fcd1d6bbfc5f6528 assets/quantum_lands/models/item/simple_battery.json
 3a8d05691af31203ee057e28dff53412b560ee67 assets/quantum_lands/models/item/snifferite.json
 b93a18e484da272416f667f0670e087ba2a4b8e5 assets/quantum_lands/models/item/snifferite_dust.json
 ee6c425cd43fd27d6670221d5ee159379d6b36c3 assets/quantum_lands/models/item/super_singularity.json

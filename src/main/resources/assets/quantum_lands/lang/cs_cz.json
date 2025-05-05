@@ -38,6 +38,7 @@
   "item.quantum_lands.dark_flower_bloom": "Temný Květ",
   "item.quantum_lands.dark_matter": "Temná Hmota",
   "item.quantum_lands.rust_dust": "Rez",
+  "item.quantum_lands.simple_battery": "Základní Baterie",
 
   "item.quantum_lands.chemistry_theme_record": "Chemistry Theme §c!Copyright!",
   "item.quantum_lands.chemistry_theme_record.desc": "Dave Porter - Breaking Bad Theme",
@@ -97,6 +98,7 @@
 
   "sounds.quantum_lands.distant_explosion": "Vzdálený Výbuch",
   "sounds.quantum_lands.nitroglycerin_explosion": "Výbuch Nitroglycerinu",
+  "sounds.quantum_lands.centrifuge_working": "Pracující Centrifuga",
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "Žádné Bunkry tu nejsou :(",
@@ -121,5 +123,7 @@
 
   "entity.minecraft.villager.quantum_lands.chemist": "Chemik",
 
-  "gui_name.quantum_lands.centrifuge_block_gui_name": "Centrifuga"
+  "gui_name.quantum_lands.centrifuge_block_gui_name": "Centrifuga",
+
+  "jei.quantum_lands.centrifuge_title": "Centrifuga"
 }

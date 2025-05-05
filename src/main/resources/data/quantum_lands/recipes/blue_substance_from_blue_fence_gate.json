@@ -1,0 +1,15 @@
+{
+  "type": "quantum_lands:centrifuging",
+  "ingredients": [
+    {
+      "item": "quantum_lands:blue_fence_gate"
+    }
+  ],
+  "output1": {
+    "item": "quantum_lands:blue_substance",
+    "count": 2
+  },
+  "output2": {
+    "item": "minecraft:oak_fence_gate"
+  }
+}

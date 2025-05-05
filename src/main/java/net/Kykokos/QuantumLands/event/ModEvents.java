@@ -78,10 +78,16 @@ public class ModEvents {
                     new ItemStack(ModItems.SNIFFERITE.get()), new ItemStack(Items.EMERALD, 16), 10, 10, 0.02f
             ));
             trades.get(2).add((pTrader, Random) -> new MerchantOffer(
+                    new ItemStack(ModItems.SIMPLE_BATTERY.get()), new ItemStack(Items.EMERALD, 1), 24, 2, 0.02f
+            ));
+            trades.get(2).add((pTrader, Random) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 16), new ItemStack(ModItems.CHEMISTRY_THEME_RECORD.get()), 2, 10, 0.03f
             ));
             trades.get(3).add((pTrader, Random) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 16), EnchantedBookItem.createForEnchantment(new EnchantmentInstance(ModEnchantments.NITRATED_WARRIOR.get(), 1)), 6, 10, 0.03f
+            ));
+            trades.get(4).add((pTrader, Random) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 64), new ItemStack(ModItems.DARK_FLOWER_SEEDS.get()), 1, 15, 0.03f
             ));
         }
     }
@@ -97,7 +103,7 @@ public class ModEvents {
                 new ItemStack(Items.EMERALD, 48), new ItemStack(ModItems.HEISENBERG_SHIRT.get()), 1, 10, 0.03f
         ));
         genericTrades.add((pTrader, Random) -> new MerchantOffer(
-                new ItemStack(Items.EMERALD, 16), new ItemStack(ModItems.DARK_FLOWER_SEEDS.get()), 10, 2, 0.02f
+                new ItemStack(Items.EMERALD, 32), new ItemStack(ModItems.DARK_FLOWER_SEEDS.get()), 10, 2, 0.02f
         ));
 
     }

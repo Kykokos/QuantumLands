@@ -12717,5 +12717,59 @@
     },
     "done": true
   },
+  "mekanism:cleaning_gauges": {
+    "criteria": {
+      "use_dropper": "2025-05-03 19:06:53 +0200"
+    },
+    "done": true
+  },
+  "mekanism:auto_collection": {
+    "criteria": {
+      "laser_tractor_beam": "2025-05-04 11:23:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim": "2025-05-04 11:26:40 +0200"
+    },
+    "done": false
+  },
+  "create:recipes/misc/crafting/logistics/factory_gauge_clear": {
+    "criteria": {
+      "has_item": "2025-05-04 20:13:49 +0200"
+    },
+    "done": true
+  },
+  "create:chained_drain": {
+    "criteria": {
+      "0": "2025-05-04 20:14:45 +0200"
+    },
+    "done": true
+  },
+  "create:compacting": {
+    "criteria": {
+      "0": "2025-05-04 20:18:18 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/repackager_from_conversion": {
+    "criteria": {
+      "has_item": "2025-05-05 12:08:55 +0200"
+    },
+    "done": true
+  },
+  "create:packager": {
+    "criteria": {
+      "0": "2025-05-05 12:14:51 +0200"
+    },
+    "done": true
+  },
+  "create:frogport": {
+    "criteria": {
+      "0": "2025-05-05 12:18:19 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

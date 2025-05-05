@@ -159,6 +159,9 @@ public class ModItems
     public static final RegistryObject<Item> CENTRIFUGE_ITEM = ITEMS.register("centrifuge",
             () -> new CentrifugeItem(ModBlocks.CENTRIFUGE.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> SIMPLE_BATTERY = ITEMS.register("simple_battery",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus)

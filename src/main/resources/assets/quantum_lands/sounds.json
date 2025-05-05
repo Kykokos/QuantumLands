@@ -12,6 +12,13 @@
     ]
   },
 
+  "centrifuge_working": {
+    "subtitle": "sounds.quantum_lands.centrifuge_working",
+    "sounds": [
+      "quantum_lands:centrifuge_working"
+    ]
+  },
+
   "breaking_bad_theme": {
     "sounds": [
       {

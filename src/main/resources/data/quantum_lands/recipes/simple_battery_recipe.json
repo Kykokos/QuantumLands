@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CZC",
+    "ZRZ",
+    "CZC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "Z": {
+      "tag": "forge:ingots/zinc"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "quantum_lands:simple_battery",
+    "count": 4
+  }
+}

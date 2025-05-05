@@ -1,0 +1,11 @@
+{
+  "type": "quantum_lands:centrifuging",
+  "ingredients": [
+    {
+      "tag": "forge:all_items"
+    }
+  ],
+  "output1": {
+    "item": "quantum_lands:essence_tier_1"
+  }
+}

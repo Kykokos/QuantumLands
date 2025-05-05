@@ -58,6 +58,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DARK_MATTER);
         simpleItem(ModItems.RUST_DUST);
         simpleItem(ModItems.CHEMISTRY_THEME_RECORD);
+        simpleItem(ModItems.SIMPLE_BATTERY);
 
         handheldItem(ModItems.QUANTALYTH_SWORD);
         handheldItem(ModItems.QUANTALYTH_HOE);

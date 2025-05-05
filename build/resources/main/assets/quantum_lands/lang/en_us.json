@@ -39,6 +39,7 @@
   "item.quantum_lands.dark_flower_bloom": "Dark Flower",
   "item.quantum_lands.dark_matter": "Dark Matter",
   "item.quantum_lands.rust_dust": "Rust",
+  "item.quantum_lands.simple_battery": "Simple Battery",
 
   "item.quantum_lands.chemistry_theme_record": "Chemistry Theme §c!Copyright!",
   "item.quantum_lands.chemistry_theme_record.desc": "Dave Porter - Breaking Bad Theme",
@@ -100,6 +101,7 @@
 
   "sounds.quantum_lands.distant_explosion": "Distant Explosion",
   "sounds.quantum_lands.nitroglycerin_explosion": "Nitroglycerin Explosion",
+  "sounds.quantum_lands.centrifuge_working": "Working Centrifuge",
 
 
   "item.quantum_lands.bunker_detector.no_bunkers": "No Bunkers Found :(",
@@ -122,5 +124,9 @@
   "tooltip.quantum_lands.heisenberg_shirt.tooltip.shift": "Removes all bad effects §nfrom this mod and vanilla",
   "tooltip.quantum_lands.heisenberg_shirt.tooltip": "Press §n§eSHIFT§r for more Info",
 
-  "entity.minecraft.villager.quantum_lands.chemist": "Chemist"
+  "entity.minecraft.villager.quantum_lands.chemist": "Chemist",
+
+  "gui_name.quantum_lands.centrifuge_block_gui_name": "Centrifuge",
+
+  "jei.quantum_lands.centrifuge_title": "Centrifuge"
 }

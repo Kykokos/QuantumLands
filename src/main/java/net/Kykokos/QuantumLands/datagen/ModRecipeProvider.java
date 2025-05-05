@@ -227,7 +227,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.SMOOTH_STONE)
                 .unlockedBy("has_copper_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(Items.COPPER_INGOT).build()))
                 .save(pWriter);
-
     }
 
 }
