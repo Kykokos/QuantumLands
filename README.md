@@ -15,3 +15,19 @@ This mod adds many fun and useful items. For your own Centrifuge Recipe you can 
   }
 } </pre>
 
+If you use this mod in your modpack add to Kube Js server scripts e.g.: adding_all_items_to_tag.js 
+And insert there:
+<pre>
+ServerEvents.tags('item', event => {
+    const allItems = Ingredient.all.itemIds
+    allItems.forEach(id => {
+      if (!id.includes('air')) {
+        event.add('forge:all_items', id)
+      }
+    })
+})  </pre>
+
+But don't forget that if you have any custom craftings you have to untag the ingredient items from the "forge:all_items" tag.
+You do this by adding to adding_all_items_to_tag.js something like: 
+<pre>
+    event.remove('forge:all_items', 'quantum_lands:blue_planks')</pre>
