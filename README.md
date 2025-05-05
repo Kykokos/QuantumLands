@@ -1,5 +1,6 @@
+
 This mod adds many fun and useful items. For your own Centrifuge Recipe you can make a datapack. Recipe json structure:
-<pre>{
+<pre> {
   "type": "quantum_lands:centrifuging",
   "ingredients": [
     {
@@ -31,3 +32,7 @@ But don't forget that if you have any custom craftings you have to untag the ing
 You do this by adding to adding_all_items_to_tag.js something like: 
 <pre>
     event.remove('forge:all_items', 'quantum_lands:blue_planks')</pre>
+
+    
+ [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
