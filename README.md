@@ -1,4 +1,4 @@
-
+# Quantum Lands
 This mod adds many fun and useful items. For your own Centrifuge Recipe you can make a datapack. Recipe json structure:
 <pre> {
   "type": "quantum_lands:centrifuging",
