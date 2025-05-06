@@ -83,6 +83,10 @@
   "block.quantum_lands.glycerin_block": "Glycerin",
   "block.quantum_lands.dark_flower": "Dark Flower",
   "block.quantum_lands.centrifuge": "Centrifuge",
+  "block.quantum_lands.wet_iron_block": "Wet Iron Block",
+  "block.quantum_lands.little_rusted_iron_block": "Little Rusted Iron Block",
+  "block.quantum_lands.rusted_iron_block": "Rusted Iron Block",
+  "block.quantum_lands.fully_rusted_iron_block": "Fully Rusted Iron Block",
 
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",

@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-01T00:08:40.289603	Loot Tables
+// 1.20.1	2025-05-05T21:57:10.8781038	Loot Tables
 172019f15028d3d7a0d3a65eeec0374e8377ede0 data/quantum_lands/loot_tables/blocks/blue_fence.json
 b2f26a0e1a834da005214965bb5ffac3e8dd8739 data/quantum_lands/loot_tables/blocks/blue_fence_gate.json
 8d3e9f22d066a4fe50aed77891531d4849a29535 data/quantum_lands/loot_tables/blocks/blue_planks.json
@@ -16,8 +16,12 @@ ff4400961a488e85852ba1a8b48de75312698ff8 data/quantum_lands/loot_tables/blocks/d
 fc52c1aa3bc8c1869139266d8bcb86e1712aa8a1 data/quantum_lands/loot_tables/blocks/dark_flower_crop.json
 a0b110de99a2be11a3c51252da43b3fe29f6c393 data/quantum_lands/loot_tables/blocks/deepslate_snifferite_ore.json
 a1666a676bf21793a435362e4a4094c88941fe3c data/quantum_lands/loot_tables/blocks/emergency_button.json
+7e08c9f1f679a433074bd8ae06678307f39dbf11 data/quantum_lands/loot_tables/blocks/fully_rusted_iron_block.json
+6578f2d257cef112e13756923cc7131299941905 data/quantum_lands/loot_tables/blocks/little_rusted_iron_block.json
 3ed16852579079b63d9e805e41cb3081528a2277 data/quantum_lands/loot_tables/blocks/potted_dark_flower.json
 6dc8120a6e842ef3b59e1aea15f8eab58248f45d data/quantum_lands/loot_tables/blocks/quantalyth_block.json
 cfc2ad1ce011643fb5a11216d785630c4cffdada data/quantum_lands/loot_tables/blocks/raw_quantalyth_block.json
+248ab16d8c1f5856a1e0ee463c01ab86af397fe8 data/quantum_lands/loot_tables/blocks/rusted_iron_block.json
 79d5ff46d7d07b952e9ab29e1318658085b7ecbc data/quantum_lands/loot_tables/blocks/snifferite_ore.json
 8381f3e1343f0b5255d987bbfe7bfebbe71ed70d data/quantum_lands/loot_tables/blocks/uv_lamp.json
+5740013cd0e3f92caa7d3262f3f3da7744c538eb data/quantum_lands/loot_tables/blocks/wet_iron_block.json

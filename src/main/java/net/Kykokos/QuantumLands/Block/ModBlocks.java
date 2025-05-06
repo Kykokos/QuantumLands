@@ -135,7 +135,14 @@ public class ModBlocks
     public static final RegistryObject<Block> CENTRIFUGE = BLOCKS.register("centrifuge",
             () -> new CentrifugeBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion().requiresCorrectToolForDrops()));
 
-    
+    public static final RegistryObject<Block> WET_IRON_BLOCK = registerBlock("wet_iron_block",
+            () -> new DegradableIronBlock(IronDegradable.IronDegradationLevel.WET, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> LITTLE_RUSTED_IRON_BLOCK = registerBlock("little_rusted_iron_block",
+            () -> new DegradableIronBlock(IronDegradable.IronDegradationLevel.LITTLE_RUSTED , BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> RUSTED_IRON_BLOCK = registerBlock("rusted_iron_block",
+            () -> new DegradableIronBlock(IronDegradable.IronDegradationLevel.RUSTED, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> FULLY_RUSTED_IRON_BLOCK = registerBlock("fully_rusted_iron_block",
+            () -> new DegradableIronBlock(IronDegradable.IronDegradationLevel.FULLY_RUSTED, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

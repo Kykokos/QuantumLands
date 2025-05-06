@@ -27,6 +27,10 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.DARKNESS_SHARD.get());
                         output.accept(ModItems.DARK_MATTER.get());
                         output.accept(ModItems.RUST_DUST.get());
+                        output.accept(ModBlocks.WET_IRON_BLOCK.get());
+                        output.accept(ModBlocks.LITTLE_RUSTED_IRON_BLOCK.get());
+                        output.accept(ModBlocks.RUSTED_IRON_BLOCK.get());
+                        output.accept(ModBlocks.FULLY_RUSTED_IRON_BLOCK.get());
                         output.accept(ModItems.POTASSIUM_NITRATE.get());
                         output.accept(ModItems.NITRIC_ACID_BUCKET.get());
                         output.accept(ModItems.GLYCERIN_BUCKET.get());

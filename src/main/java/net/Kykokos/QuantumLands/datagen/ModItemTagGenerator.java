@@ -41,8 +41,14 @@ public class ModItemTagGenerator extends ItemTagsProvider
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.CHEMISTRY_THEME_RECORD.get());
 
-        TagKey<Item> ALL_ITEMS_TAG = TagKey.create(Registries.ITEM, new ResourceLocation("forge", "all_items"));
-        Set<Item> excludedItems = Set.of(Items.AIR, ModItems.BLACKOUT_POWDER.get());
+        TagKey<Item> ALL_ITEMS_TAG = TagKey.create(Registries.ITEM, new ResourceLocation("quantum_lands", "essence_crafting"));
+        Set<Item> excludedItems = Set.of(Items.AIR,
+                ModItems.BLACKOUT_POWDER.get(),
+                ModBlocks.BLUE_PLANKS.get().asItem(),
+                ModBlocks.BLUE_FENCE.get().asItem(),
+                ModBlocks.BLUE_FENCE_GATE.get().asItem(),
+                ModBlocks.WET_IRON_BLOCK.get().asItem(),
+                Items.WET_SPONGE);
         for (Item item : BuiltInRegistries.ITEM) {
             if (!excludedItems.contains(item)) {
                 this.tag(ALL_ITEMS_TAG).add(item);

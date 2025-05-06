@@ -7,10 +7,10 @@
   ],
   "key": {
     "C": {
-      "item": "minecraft:copper_ingot"
+      "item": "forge:nuggets/copper"
     },
     "Z": {
-      "tag": "forge:ingots/zinc"
+      "tag": "forge:nuggets/zinc"
     },
     "R": {
       "item": "minecraft:redstone"

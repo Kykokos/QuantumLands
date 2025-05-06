@@ -1,0 +1,11 @@
+{
+  "type": "quantum_lands:centrifuging",
+  "ingredients": [
+    {
+      "item": "quantum_lands:wet_iron_block"
+    }
+  ],
+  "output1": {
+    "item": "minecraft:iron_block"
+  }
+}

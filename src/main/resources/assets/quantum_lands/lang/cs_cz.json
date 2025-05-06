@@ -82,6 +82,10 @@
   "block.quantum_lands.glycerin_block": "Glycerol",
   "block.quantum_lands.dark_flower": "Temný Květ",
   "block.quantum_lands.centrifuge": "Centrifuga",
+  "block.quantum_lands.wet_iron_block": "Mokrý Železný Blok",
+  "block.quantum_lands.little_rusted_iron_block": "Trochu Zrezivělý Železný Blok",
+  "block.quantum_lands.rusted_iron_block": "Zrezivělý Železný Blok",
+  "block.quantum_lands.fully_rusted_iron_block": "Plně Zrezivělý Železný Blok",
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Roztavený Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Kyselina Dusičná",

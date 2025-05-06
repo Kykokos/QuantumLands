@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "quantum_lands:rusted_iron_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "quantum_lands:rust_dust",
+      "count": 4
+    },
+    {
+      "item": "mekanism:dust_iron",
+      "count": 5
+    }
+  ]
+}

@@ -12771,5 +12771,17 @@
     },
     "done": true
   },
+  "mekanismgenerators:wind_generator": {
+    "criteria": {
+      "wind_generator": "2025-05-05 16:45:47 +0200"
+    },
+    "done": true
+  },
+  "mekanism:energy_transport": {
+    "criteria": {
+      "basic_universal_cable": "2025-05-05 16:46:29 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

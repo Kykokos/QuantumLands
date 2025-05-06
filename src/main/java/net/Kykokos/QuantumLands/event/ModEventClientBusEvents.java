@@ -15,5 +15,4 @@ public class ModEventClientBusEvents {
     public static void registerParticleFactories(RegisterParticleProvidersEvent event){
         event.registerSpriteSet(ModParticles.GLASS_PARTICLES.get(), GlassParticles.Provider::new);
     }
-
 }

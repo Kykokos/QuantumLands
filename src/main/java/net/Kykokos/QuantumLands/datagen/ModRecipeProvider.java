@@ -227,6 +227,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.SMOOTH_STONE)
                 .unlockedBy("has_copper_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(Items.COPPER_INGOT).build()))
                 .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, Items.BEDROCK)
+                .pattern("NNN")
+                .pattern("NSN")
+                .pattern("NNN")
+                .define('S', ModItems.SUPER_SINGULARITY.get())
+                .define('N', Items.NETHERITE_BLOCK)
+                .unlockedBy("has_super_singularity", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.SUPER_SINGULARITY.get()).build()))
+                .save(pWriter);
     }
 
 }

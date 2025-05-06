@@ -1,4 +1,6 @@
-// 1.20.1	2025-05-01T01:12:32.8212503	Recipes
+// 1.20.1	2025-05-06T00:03:38.1760527	Recipes
+a93c7be77101b8939d1137a964e5c7f4bee57d48 data/minecraft/advancements/recipes/redstone/bedrock.json
+04326fb13a79f634732eaae3807ca383a0c26cf4 data/minecraft/recipes/bedrock.json
 966b0851326ea24aa2245ec7588399299bb6a1e3 data/quantum_lands/advancements/recipes/building_blocks/blue_fence.json
 5cd2ca0f2be0c1842f5e7afdde94102dc1d6f409 data/quantum_lands/advancements/recipes/building_blocks/blue_fence_gate.json
 5e4f64d1f613e68efb02122e0efd56ceb2d8a4e9 data/quantum_lands/advancements/recipes/building_blocks/bunker_block.json

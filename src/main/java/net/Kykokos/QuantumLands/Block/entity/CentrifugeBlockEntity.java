@@ -7,11 +7,16 @@ import net.Kykokos.QuantumLands.screen.CentrifugeMenu;
 import net.Kykokos.QuantumLands.sound.ModSounds;
 import net.Kykokos.QuantumLands.util.InventoryDirectionEntry;
 import net.Kykokos.QuantumLands.util.InventoryDirectionWrapper;
+import net.Kykokos.QuantumLands.util.ModEnergyStorage;
 import net.Kykokos.QuantumLands.util.WrappedHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.Connection;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
+import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
@@ -28,6 +33,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.energy.IEnergyStorage;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
@@ -51,6 +57,9 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
         @Override
         protected void onContentsChanged(int slot) {
             setChanged();
+            if(!level.isClientSide()){
+                level.sendBlockUpdated(getBlockPos(), getBlockState(), getBlockState(), 3);
+            }
         }
 
         @Override
@@ -81,9 +90,24 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
                     new InventoryDirectionEntry(Direction.WEST, INPUT_SLOT, true),
                     new InventoryDirectionEntry(Direction.UP, INPUT_SLOT, true)).directionsMap;
 
+    private LazyOptional<IEnergyStorage> lazyEnergyHandler = LazyOptional.empty();
+
     protected final ContainerData data;
     private int progress = 0;
     private int maxProgress = 65;
+
+    private final ModEnergyStorage ENERGY_STORAGE = createEnergyStorage();
+
+    private ModEnergyStorage createEnergyStorage() {
+        return new ModEnergyStorage(48000, 10000) {
+            @Override
+            public void onEnergyChanged() {
+                setChanged();
+                getLevel().sendBlockUpdated(getBlockPos(), getBlockState(), getBlockState(), 3);
+            }
+        };
+    }
+
 
     public CentrifugeBlockEntity(BlockPos pPos, BlockState pBlockState) {
         super(ModBlockEntities.CENTRIFUGE_ENTITY.get(), pPos, pBlockState);
@@ -112,6 +136,12 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
             }
         };
     }
+
+    public IEnergyStorage getEnergyStorage()
+    {
+        return this.ENERGY_STORAGE;
+    }
+
 
    @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
@@ -146,6 +176,10 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
 
     @Override
     public @NotNull <T> LazyOptional<T> getCapability(@NotNull Capability<T> cap, @Nullable Direction side) {
+        if (cap == ForgeCapabilities.ENERGY){
+            return lazyEnergyHandler.cast();
+        }
+
         if (cap == ForgeCapabilities.ITEM_HANDLER)
         {
             if(side == null)
@@ -178,6 +212,7 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
     public void onLoad() {
         super.onLoad();
         lazyItemHandler = LazyOptional.of(() -> itemHandler);
+        lazyEnergyHandler = LazyOptional.of(() -> ENERGY_STORAGE);
     }
 
     public void drops() {
@@ -194,11 +229,14 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
     public void invalidateCaps() {
         super.invalidateCaps();
         lazyItemHandler.invalidate();
+        lazyEnergyHandler.invalidate();
     }
 
     @Override
     protected void saveAdditional(CompoundTag pTag) {
         pTag.put("inventory", itemHandler.serializeNBT());
+        pTag.putInt("energy", ENERGY_STORAGE.getEnergyStored());
+
         super.saveAdditional(pTag);
     }
 
@@ -206,17 +244,18 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
     public void load(CompoundTag pTag) {
         super.load(pTag);
         itemHandler.deserializeNBT(pTag.getCompound("inventory"));
+        ENERGY_STORAGE.setEnergy(pTag.getInt("energy"));
     }
 
     public void tick(Level level, BlockPos pPos, BlockState pState) {
-
-
+        fillUpOnEnergy();
 
         if(isOutputSlot1EmptyOrRecievable() && isOutputSlot2EmptyOrRecievable() && hasRecipe())
         {
             increaseCraftingProcess();
+            extractEnergy();
             setChanged(level, pPos, pState);
-            this.level.playSound(null, pPos, ModSounds.CENTRIFUGE_WORKING.get(), SoundSource.BLOCKS, 1f, 1f);
+            this.level.playSound(null, pPos, ModSounds.CENTRIFUGE_WORKING.get(), SoundSource.BLOCKS, 0.5f, 0.9f);
 
             if (hasProgressFinished())
             {
@@ -227,6 +266,27 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
         {
             resetProgress();
         }
+    }
+
+    private void extractEnergy() {
+        this.ENERGY_STORAGE.extractEnergy(50, false);
+    }
+
+    private void fillUpOnEnergy() {
+        ItemStack energyItem = itemHandler.getStackInSlot(ENERGY_ITEM_SLOT);
+
+        if (hasEnergyItemInSlot(ENERGY_ITEM_SLOT)) {
+            if (this.ENERGY_STORAGE.getEnergyStored() < 42000)
+            {
+                energyItem.shrink(1);
+                itemHandler.setStackInSlot(ENERGY_ITEM_SLOT, energyItem);
+                this.ENERGY_STORAGE.receiveEnergy(6000, false);
+            }
+        }
+    }
+
+    private boolean hasEnergyItemInSlot(int energyItemSlot) {
+        return !this.itemHandler.getStackInSlot(energyItemSlot).isEmpty() && this.itemHandler.getStackInSlot(energyItemSlot).getItem() == ModItems.SIMPLE_BATTERY.get();
     }
 
     private void craftItem() {
@@ -262,7 +322,11 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
 
         return canInsertAmountIntoOutputSlot1(output1.getCount())
                 && canInsertAmountIntoOutputSlot2(output2.getCount()) && canInsertItemIntoOutputSlot1(output1.getItem())
-                && canInsertItemIntoOutputSlot2(output2.getItem());
+                && canInsertItemIntoOutputSlot2(output2.getItem()) && hasEnoughEnergyToCraft();
+    }
+
+    private boolean hasEnoughEnergyToCraft() {
+        return this.ENERGY_STORAGE.getEnergyStored() >= 50 * maxProgress;
     }
 
     private Optional<CentrifugeRecipe> getCurrentRecipe() {
@@ -299,5 +363,20 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
         return this.itemHandler.getStackInSlot(OUTPUT_SLOT2).isEmpty() ||
                 this.itemHandler.getStackInSlot(OUTPUT_SLOT2).getCount() < this.itemHandler.getStackInSlot(OUTPUT_SLOT2).getMaxStackSize();
 
+    }
+
+    @Override
+    public @Nullable Packet<ClientGamePacketListener> getUpdatePacket() {
+        return ClientboundBlockEntityDataPacket.create(this);
+    }
+
+    @Override
+    public CompoundTag getUpdateTag() {
+        return saveWithFullMetadata();
+    }
+
+    @Override
+    public void onDataPacket(Connection net, ClientboundBlockEntityDataPacket pkt) {
+        super.onDataPacket(net, pkt);
     }
 }

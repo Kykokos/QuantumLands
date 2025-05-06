@@ -37,6 +37,9 @@ public class ModBlockStateProvider extends BlockStateProvider
         blockWithItem(ModBlocks.QUANTALYTH_BLOCK);
         blockWithItem(ModBlocks.COMPRESSED_QUANTALYTH_BLOCK);
 
+        blockWithItem(ModBlocks.RUSTED_IRON_BLOCK);
+        blockWithItem(ModBlocks.FULLY_RUSTED_IRON_BLOCK);
+
         stairsBlock((StairBlock) ModBlocks.BUNKER_STAIRS.get(), blockTexture(ModBlocks.BUNKER_BLOCK.get()));
         slabBlock((SlabBlock) ModBlocks.BUNKER_SLAB.get(), blockTexture(ModBlocks.BUNKER_BLOCK.get()), blockTexture(ModBlocks.BUNKER_BLOCK.get()));
 
