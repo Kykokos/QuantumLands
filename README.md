@@ -23,15 +23,15 @@ ServerEvents.tags('item', event => {
     const allItems = Ingredient.all.itemIds
     allItems.forEach(id => {
       if (!id.includes('air')) {
-        event.add('quantum_lands:essence_crafting', id)
+        event.add('forge:essence_crafting', id)
       }
     })
 })  </pre>
 
-But don't forget that if you have any custom craftings you have to untag the ingredient items from the "quantum_lands:essence_crafting" tag.
+But don't forget that if you have any custom craftings you have to untag the ingredient items from the "forge:essence_crafting" tag.
 You do this by adding to adding_all_items_to_tag.js something like: 
 <pre>
-    event.remove('quantum_lands:essence_crafting', 'quantum_lands:blue_planks')</pre>
+    event.remove('forge:essence_crafting', 'quantum_lands:blue_planks')</pre>
 
     
  [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
