@@ -9,6 +9,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
@@ -49,12 +50,27 @@ public class ModItemTagGenerator extends ItemTagsProvider
                 ModBlocks.BLUE_FENCE.get().asItem(),
                 ModBlocks.BLUE_FENCE_GATE.get().asItem(),
                 ModBlocks.WET_IRON_BLOCK.get().asItem(),
+                ModBlocks.BLUE_WOOD.get().asItem(),
+                ModBlocks.BLUE_LOG.get().asItem(),
+                ModBlocks.STRIPPED_BLUE_WOOD.get().asItem(),
+                ModBlocks.STRIPPED_BLUE_LOG.get().asItem(),
+                ModBlocks.BLUE_SAPLING.get().asItem(),
+                ModBlocks.BLUE_LEAVES.get().asItem(),
                 Items.WET_SPONGE);
         for (Item item : BuiltInRegistries.ITEM) {
             if (!excludedItems.contains(item)) {
                 this.tag(ALL_ITEMS_TAG).add(item);
             }
         }*/
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BLUE_LOG.get().asItem())
+                .add(ModBlocks.BLUE_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_BLUE_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_BLUE_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.BLUE_PLANKS.get().asItem());
     }
 
     @Override

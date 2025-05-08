@@ -73,9 +73,16 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.BUNKER_PRESSURE_PLATE.get());
                         output.accept(ModBlocks.EMERGENCY_BUTTON.get());
                         output.accept(ModBlocks.UV_LAMP.get());
+                        output.accept(ModBlocks.BLUE_SAPLING.get());
+                        output.accept(ModBlocks.BLUE_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_BLUE_LOG.get());
+                        output.accept(ModBlocks.BLUE_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_BLUE_WOOD.get());
                         output.accept(ModBlocks.BLUE_PLANKS.get());
                         output.accept(ModBlocks.BLUE_FENCE.get());
                         output.accept(ModBlocks.BLUE_FENCE_GATE.get());
+                        output.accept(ModBlocks.BLUE_LEAVES.get());
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> QUANTALYTH_TAB = CREATIVE_MODE_TABS.register("quantalyth_tab",

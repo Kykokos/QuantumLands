@@ -1,0 +1,15 @@
+{
+  "type": "quantum_lands:centrifuging",
+  "ingredients": [
+    {
+      "item": "quantum_lands:stripped_blue_log"
+    }
+  ],
+  "output1": {
+    "item": "quantum_lands:blue_substance",
+    "count": 4
+  },
+  "output2": {
+    "item": "minecraft:stripped_oak_log"
+  }
+}

@@ -29,9 +29,6 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.EMERGENCY_BUTTON.get());
         this.dropSelf(ModBlocks.BUNKER_PRESSURE_PLATE.get());
         this.dropSelf(ModBlocks.BUNKER_WALL.get());
-        this.dropSelf(ModBlocks.BLUE_PLANKS.get());
-        this.dropSelf(ModBlocks.BLUE_FENCE.get());
-        this.dropSelf(ModBlocks.BLUE_FENCE_GATE.get());
         this.dropSelf(ModBlocks.BUNKER_TRAPDOOR.get());
         this.dropSelf(ModBlocks.RAW_QUANTALYTH_BLOCK.get());
         this.dropSelf(ModBlocks.QUANTALYTH_BLOCK.get());
@@ -43,6 +40,17 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.RUSTED_IRON_BLOCK.get());
         this.dropSelf(ModBlocks.FULLY_RUSTED_IRON_BLOCK.get());
 
+        this.dropSelf(ModBlocks.BLUE_LOG.get());
+        this.dropSelf(ModBlocks.BLUE_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_BLUE_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_BLUE_WOOD.get());
+        this.dropSelf(ModBlocks.BLUE_PLANKS.get());
+        this.dropSelf(ModBlocks.BLUE_FENCE.get());
+        this.dropSelf(ModBlocks.BLUE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.BLUE_SAPLING.get());
+
+        this.add(ModBlocks.BLUE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.BLUE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
         this.add(ModBlocks.SNIFFERITE_ORE.get(), block -> createOreDrop(ModBlocks.SNIFFERITE_ORE.get(), ModItems.SNIFFERITE.get()));
         this.add(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(), block -> createOreDrop(ModBlocks.DEEPSLATE_SNIFFERITE_ORE.get(), ModItems.SNIFFERITE.get()));

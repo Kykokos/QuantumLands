@@ -74,7 +74,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.BUNKER_DOOR);
 
         complexBlock(ModBlocks.UV_LAMP.get());
+
+        saplingItem(ModBlocks.BLUE_SAPLING);
     }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(QuantumLands.MOD_ID,"block/" + item.getId().getPath()));
+    }
+
 
     private ItemModelBuilder complexBlock(Block block) {
         return withExistingParent(ForgeRegistries.BLOCKS.getKey(block).getPath(), new ResourceLocation(QuantumLands.MOD_ID,

@@ -87,6 +87,12 @@
   "block.quantum_lands.little_rusted_iron_block": "Little Rusted Iron Block",
   "block.quantum_lands.rusted_iron_block": "Rusted Iron Block",
   "block.quantum_lands.fully_rusted_iron_block": "Fully Rusted Iron Block",
+  "block.quantum_lands.blue_log": "Blue Log",
+  "block.quantum_lands.blue_wood": "Blue Wood",
+  "block.quantum_lands.stripped_blue_log": "Stripped Blue Log",
+  "block.quantum_lands.stripped_blue_wood": "Stripped Blue Wood",
+  "block.quantum_lands.blue_leaves": "Blue Leaves",
+  "block.quantum_lands.blue_sapling": "Blue Sapling",
 
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Molten Quantalyth",

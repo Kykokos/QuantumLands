@@ -5,14 +5,18 @@ import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
 import net.minecraft.client.resources.model.Material;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.client.model.obj.ObjMaterialLibrary;
@@ -67,18 +71,6 @@ public class ModBlocks
     public static final RegistryObject<Block> BUNKER_WALL = registerBlock("bunker_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops()
                     .strength(8.5F, 1650.0F).sound(SoundType.METAL)));
-
-    public static final RegistryObject<Block> BLUE_FENCE = registerBlock("blue_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
-                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)));
-
-    public static final RegistryObject<Block> BLUE_FENCE_GATE = registerBlock("blue_fence_gate",
-            () -> new FenceGateBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
-                    .strength(1.0F, 15.0F).sound(SoundType.WOOD), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
-
-    public static final RegistryObject<Block> BLUE_PLANKS = registerBlock("blue_planks",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
-                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)));
 
     public static final RegistryObject<Block> BUNKER_DOOR = registerBlock("bunker_door",
             () -> new DoorBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY)
@@ -143,6 +135,99 @@ public class ModBlocks
             () -> new DegradableIronBlock(IronDegradable.IronDegradationLevel.RUSTED, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> FULLY_RUSTED_IRON_BLOCK = registerBlock("fully_rusted_iron_block",
             () -> new DegradableIronBlock(IronDegradable.IronDegradationLevel.FULLY_RUSTED, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> BLUE_LOG = registerBlock("blue_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BLUE_WOOD = registerBlock("blue_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_BLUE_LOG = registerBlock("stripped_blue_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> STRIPPED_BLUE_WOOD = registerBlock("stripped_blue_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BLUE_FENCE = registerBlock("blue_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)){
+
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+            });
+    public static final RegistryObject<Block> BLUE_FENCE_GATE = registerBlock("blue_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE){
+
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+            });
+    public static final RegistryObject<Block> BLUE_PLANKS = registerBlock("blue_planks",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(1.0F, 15.0F).sound(SoundType.WOOD)) {
+
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+            });
+
+    public static final RegistryObject<Block> BLUE_LEAVES = registerBlock("blue_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE)
+                    .strength(0.2F, 0.0F).sound(SoundType.AZALEA_LEAVES).noOcclusion()) {
+
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+
+    public static final RegistryObject<Block> BLUE_SAPLING = registerBlock("blue_sapling",
+            () -> new SaplingBlock(null, BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

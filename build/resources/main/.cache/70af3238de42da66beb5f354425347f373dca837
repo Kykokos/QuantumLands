@@ -1,10 +1,12 @@
-// 1.20.1	2025-05-07T23:31:15.8844886	Block Tags
+// 1.20.1	2025-05-09T00:08:54.8198072	Block Tags
 c073e4c549c352495ca7a27c71f89c63a1b17945 data/minecraft/tags/blocks/fences.json
 93810aaee744fe270daa8fc75295448b0496c5b4 data/minecraft/tags/blocks/fence_gates.json
-75fd4c0cf295252ba1e03f9b1b72f1f27d5e54d8 data/minecraft/tags/blocks/mineable/axe.json
+9b3a45e1070c4123217903237a3a73f2a99be7ca data/minecraft/tags/blocks/logs_that_burn.json
+0783e674e1395ceaf558ceee465f9fc8a721d073 data/minecraft/tags/blocks/mineable/axe.json
 183bbb3a39bc36807c22c2b393ab4b27a6aaa734 data/minecraft/tags/blocks/mineable/pickaxe.json
 40a9e91727e9523dffd1cc35124f573897094f47 data/minecraft/tags/blocks/needs_diamond_tool.json
 c2ecc6db286c332795c633951173c3387d3da247 data/minecraft/tags/blocks/needs_iron_tool.json
+b3e56b2c655f921647c2d5ee7d1c8ff6cb92abee data/minecraft/tags/blocks/planks.json
 aeded4ba2f2de8e662e90714d7937ccf13555c43 data/minecraft/tags/blocks/walls.json
 984a835f12c583514b244703d6bad1afa79b3402 data/quantum_lands/tags/blocks/minable/paxel.json
 9802ba172cbb29184620961d91a1acd44c4cd5a2 data/quantum_lands/tags/blocks/needs_quantalyth_tool.json

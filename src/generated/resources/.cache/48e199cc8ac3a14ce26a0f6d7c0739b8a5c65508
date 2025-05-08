@@ -1,4 +1,5 @@
-// 1.20.1	2025-05-07T23:31:15.8864931	Item Tags
-9d4851eb94dd44a69a58cab0303d5c0067d0a647 data/forge/tags/items/essence_crafting.json
+// 1.20.1	2025-05-09T00:15:42.1306828	Item Tags
+9b3a45e1070c4123217903237a3a73f2a99be7ca data/minecraft/tags/items/logs_that_burn.json
 6ec611b3b91922ddf14cbd586e907745d884c01c data/minecraft/tags/items/music_discs.json
+b3e56b2c655f921647c2d5ee7d1c8ff6cb92abee data/minecraft/tags/items/planks.json
 bbb1feac03afaf0bb5407ce5a9bef4f6e45ae757 data/minecraft/tags/items/trimmable_armor.json

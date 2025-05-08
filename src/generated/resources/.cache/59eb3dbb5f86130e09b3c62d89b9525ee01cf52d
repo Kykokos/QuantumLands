@@ -1,7 +1,11 @@
-// 1.20.1	2025-05-05T21:57:10.8781038	Loot Tables
+// 1.20.1	2025-05-09T00:08:54.820807	Loot Tables
 172019f15028d3d7a0d3a65eeec0374e8377ede0 data/quantum_lands/loot_tables/blocks/blue_fence.json
 b2f26a0e1a834da005214965bb5ffac3e8dd8739 data/quantum_lands/loot_tables/blocks/blue_fence_gate.json
+4b24d6112a7bde52526e5b3396b31f626fecb121 data/quantum_lands/loot_tables/blocks/blue_leaves.json
+3a91d063e3e6bfe670facc2441922348a233cb41 data/quantum_lands/loot_tables/blocks/blue_log.json
 8d3e9f22d066a4fe50aed77891531d4849a29535 data/quantum_lands/loot_tables/blocks/blue_planks.json
+d26c41037e28550a5fb1d984c8f666979ecc0102 data/quantum_lands/loot_tables/blocks/blue_sapling.json
+45b09df351aefc5557d0d8893b15b7b5d6b8c658 data/quantum_lands/loot_tables/blocks/blue_wood.json
 5975a93bbbdb8db58c067f66fc6b60ea16b64436 data/quantum_lands/loot_tables/blocks/bunker_block.json
 bbfd50a876801656b73564dca08e448878e778f4 data/quantum_lands/loot_tables/blocks/bunker_door.json
 aa80f82d9e2560ea95bf109be5448b4ccafc246d data/quantum_lands/loot_tables/blocks/bunker_pressure_plate.json
@@ -23,5 +27,7 @@ a1666a676bf21793a435362e4a4094c88941fe3c data/quantum_lands/loot_tables/blocks/e
 cfc2ad1ce011643fb5a11216d785630c4cffdada data/quantum_lands/loot_tables/blocks/raw_quantalyth_block.json
 248ab16d8c1f5856a1e0ee463c01ab86af397fe8 data/quantum_lands/loot_tables/blocks/rusted_iron_block.json
 79d5ff46d7d07b952e9ab29e1318658085b7ecbc data/quantum_lands/loot_tables/blocks/snifferite_ore.json
+3799225e3d36c5356773036c9bbe6b9ad58c5ddf data/quantum_lands/loot_tables/blocks/stripped_blue_log.json
+e75357e4e6dbda69ff2871cc599cf928547e5f8a data/quantum_lands/loot_tables/blocks/stripped_blue_wood.json
 8381f3e1343f0b5255d987bbfe7bfebbe71ed70d data/quantum_lands/loot_tables/blocks/uv_lamp.json
 5740013cd0e3f92caa7d3262f3f3da7744c538eb data/quantum_lands/loot_tables/blocks/wet_iron_block.json

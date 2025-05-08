@@ -95,6 +95,7 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
     protected final ContainerData data;
     private int progress = 0;
     private int maxProgress = 65;
+    private int soundCooldown = 0;
 
     private final ModEnergyStorage ENERGY_STORAGE = createEnergyStorage();
 
@@ -259,7 +260,12 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
             increaseCraftingProcess();
             extractEnergy();
             setChanged(level, pPos, pState);
-            this.level.playSound(null, pPos, ModSounds.CENTRIFUGE_WORKING.get(), SoundSource.BLOCKS, 0.5f, 0.9f);
+            if (soundCooldown <= 0) {
+                this.level.playSound(null, pPos, ModSounds.CENTRIFUGE_WORKING.get(), SoundSource.BLOCKS, 1f, 0.9f);
+                soundCooldown = 40; // reset cooldown
+            } else {
+                soundCooldown--;
+            }
 
             if (hasProgressFinished())
             {
@@ -269,6 +275,7 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
         } else
         {
             resetProgress();
+            soundCooldown = 0;
         }
     }
 

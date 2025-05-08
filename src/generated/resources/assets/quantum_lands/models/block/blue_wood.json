@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "quantum_lands:block/blue_log",
+    "side": "quantum_lands:block/blue_log"
+  }
+}

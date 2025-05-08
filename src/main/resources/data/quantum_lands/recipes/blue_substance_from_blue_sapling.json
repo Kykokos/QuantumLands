@@ -1,0 +1,14 @@
+{
+  "type": "quantum_lands:centrifuging",
+  "ingredients": [
+    {
+      "item": "quantum_lands:blue_sapling"
+    }
+  ],
+  "output1": {
+    "item": "quantum_lands:blue_substance"
+  },
+  "output2": {
+    "item": "minecraft:oak_sapling"
+  }
+}

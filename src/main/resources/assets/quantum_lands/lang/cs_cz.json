@@ -86,6 +86,14 @@
   "block.quantum_lands.little_rusted_iron_block": "Trochu Zrezivělý Železný Blok",
   "block.quantum_lands.rusted_iron_block": "Zrezivělý Železný Blok",
   "block.quantum_lands.fully_rusted_iron_block": "Plně Zrezivělý Železný Blok",
+  "block.quantum_lands.blue_log": "Modrý Kmen",
+  "block.quantum_lands.blue_wood": "Modré Dřevo",
+  "block.quantum_lands.stripped_blue_log": "Oholený Modrý Kmen",
+  "block.quantum_lands.stripped_blue_wood": "Oholené Modré Dřevo",
+  "block.quantum_lands.blue_leaves": "Modré Listy",
+  "block.quantum_lands.blue_sapling": "Modrá Sazenička",
+
+
 
   "fluid_type.quantum_lands.molten_quantalyth_fluid": "§5Roztavený Quantalyth",
   "fluid_type.quantum_lands.nitric_acid_fluid": "Kyselina Dusičná",

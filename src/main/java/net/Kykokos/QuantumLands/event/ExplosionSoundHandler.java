@@ -15,14 +15,14 @@ public class ExplosionSoundHandler {
     public static void onExplosionDetonate(ExplosionEvent.Detonate event) {
         if (event.getExplosion() != null && event.getLevel() instanceof ServerLevel serverLevel) {
             serverLevel.playSound(
-                    null, // kdo slyší (null = všichni hráči poblíž)
+                    null,
                     event.getExplosion().getPosition().x,
                     event.getExplosion().getPosition().y,
                     event.getExplosion().getPosition().z,
                     ModSounds.DISTANT_EXPLOSION.get(),
                     net.minecraft.sounds.SoundSource.BLOCKS,
-                    10F, // x 16
-                    1.0F  // pitch
+                    20F,
+                    1.0F
             );
         }
     }

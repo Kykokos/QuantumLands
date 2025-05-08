@@ -43,7 +43,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.BLUE_PLANKS.get(),
                         ModBlocks.BLUE_FENCE.get(),
-                        ModBlocks.BLUE_FENCE_GATE.get());
+                        ModBlocks.BLUE_FENCE_GATE.get(),
+                        ModBlocks.BLUE_WOOD.get(),
+                        ModBlocks.STRIPPED_BLUE_WOOD.get(),
+                        ModBlocks.STRIPPED_BLUE_LOG.get(),
+                        ModBlocks.BLUE_LOG.get());
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
@@ -80,6 +84,16 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.BUNKER_WALL.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BLUE_LOG.get())
+                .add(ModBlocks.BLUE_WOOD.get())
+                .add(ModBlocks.STRIPPED_BLUE_LOG.get())
+                .add(ModBlocks.STRIPPED_BLUE_WOOD.get());
+
+        this.tag(BlockTags.PLANKS)
+                .add(ModBlocks.BLUE_PLANKS.get());
+
     }
 
     @Override

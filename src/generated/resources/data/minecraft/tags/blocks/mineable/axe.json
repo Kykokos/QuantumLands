@@ -2,6 +2,10 @@
   "values": [
     "quantum_lands:blue_planks",
     "quantum_lands:blue_fence",
-    "quantum_lands:blue_fence_gate"
+    "quantum_lands:blue_fence_gate",
+    "quantum_lands:blue_wood",
+    "quantum_lands:stripped_blue_wood",
+    "quantum_lands:stripped_blue_log",
+    "quantum_lands:blue_log"
   ]
 }

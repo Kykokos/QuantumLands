@@ -69,6 +69,31 @@ public class ModBlockStateProvider extends BlockStateProvider
 
         simpleBlockWithItem(ModBlocks.DARK_FLOWER.get(),
                 models().cross(blockTexture(ModBlocks.DARK_FLOWER.get()).getPath(), blockTexture(ModBlocks.DARK_FLOWER.get())).renderType("cutout"));
+
+        logBlock(((RotatedPillarBlock)ModBlocks.BLUE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.BLUE_WOOD.get()), blockTexture(ModBlocks.BLUE_LOG.get()), blockTexture(ModBlocks.BLUE_LOG.get()));
+        axisBlock((RotatedPillarBlock) ModBlocks.STRIPPED_BLUE_LOG.get(), new ResourceLocation(QuantumLands.MOD_ID, "block/stripped_blue_log"),
+                new ResourceLocation(QuantumLands.MOD_ID, "block/stripped_blue_log_top"));
+        axisBlock((RotatedPillarBlock) ModBlocks.STRIPPED_BLUE_WOOD.get(), new ResourceLocation(QuantumLands.MOD_ID, "block/stripped_blue_log"),
+                new ResourceLocation(QuantumLands.MOD_ID, "block/stripped_blue_log"));
+
+        blockItem(ModBlocks.BLUE_LOG);
+        blockItem(ModBlocks.BLUE_WOOD);
+        blockItem(ModBlocks.STRIPPED_BLUE_LOG);
+        blockItem(ModBlocks.STRIPPED_BLUE_WOOD);
+
+        leavesBlock(ModBlocks.BLUE_LEAVES);
+        saplingBlock(ModBlocks.BLUE_SAPLING);
+    }
+
+    private void leavesBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(),
+                models().cubeAll(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), blockTexture(blockRegistryObject.get())).renderType("cutout"));
+    }
+
+    private void saplingBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlock(blockRegistryObject.get(),
+                models().cross(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
 
     public void makeCrop(CropBlock block, String modelName, String textureName) {
