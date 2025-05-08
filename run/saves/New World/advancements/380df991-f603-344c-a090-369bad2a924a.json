@@ -12783,5 +12783,47 @@
     },
     "done": true
   },
+  "mekanismadditions:balloon": {
+    "criteria": {
+      "balloon": "2025-05-07 23:36:25 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/ingot_osmium_compat_mekanism": {
+    "criteria": {
+      "has_item": "2025-05-07 23:37:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/ingot_osmium_compat_mekanism": {
+    "criteria": {
+      "has_item": "2025-05-07 23:37:42 +0200"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2025-05-07 23:37:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_table_cloth_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2025-05-07 23:37:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/copper_table_cloth_clear": {
+    "criteria": {
+      "has_copper_table_cloth": "2025-05-07 23:37:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-05-07 23:49:19 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

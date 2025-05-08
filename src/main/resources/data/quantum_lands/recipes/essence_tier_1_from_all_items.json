@@ -2,7 +2,7 @@
   "type": "quantum_lands:centrifuging",
   "ingredients": [
     {
-      "tag": "forge:all_items"
+      "tag": "forge:essence_crafting"
     }
   ],
   "output1": {

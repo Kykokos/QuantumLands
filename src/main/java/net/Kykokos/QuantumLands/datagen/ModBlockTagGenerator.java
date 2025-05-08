@@ -32,6 +32,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                         ModBlocks.BUNKER_SLAB.get(),
                         ModBlocks.RAW_QUANTALYTH_BLOCK.get(),
                         ModBlocks.QUANTALYTH_BLOCK.get(),
+                        ModBlocks.WET_IRON_BLOCK.get(),
+                        ModBlocks.LITTLE_RUSTED_IRON_BLOCK.get(),
+                        ModBlocks.RUSTED_IRON_BLOCK.get(),
+                        ModBlocks.FULLY_RUSTED_IRON_BLOCK.get(),
                         ModBlocks.COMPRESSED_QUANTALYTH_BLOCK.get(),
                         ModBlocks.UV_LAMP.get(),
                         ModBlocks.CENTRIFUGE.get());
@@ -44,10 +48,14 @@ public class ModBlockTagGenerator extends BlockTagsProvider
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BUNKER_BLOCK.get(),
-                    ModBlocks.CRACKED_BUNKER_BLOCK.get(),
-                    ModBlocks.BUNKER_STAIRS.get(),
-                    ModBlocks.BUNKER_SLAB.get(),
-                    ModBlocks.BUNKER_WALL.get());
+                        ModBlocks.CRACKED_BUNKER_BLOCK.get(),
+                        ModBlocks.BUNKER_STAIRS.get(),
+                        ModBlocks.BUNKER_SLAB.get(),
+                        ModBlocks.WET_IRON_BLOCK.get(),
+                        ModBlocks.LITTLE_RUSTED_IRON_BLOCK.get(),
+                        ModBlocks.RUSTED_IRON_BLOCK.get(),
+                        ModBlocks.FULLY_RUSTED_IRON_BLOCK.get(),
+                        ModBlocks.BUNKER_WALL.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.SNIFFERITE_ORE.get(),

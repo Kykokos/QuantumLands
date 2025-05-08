@@ -150,8 +150,12 @@ public class CentrifugeBlockEntity extends BlockEntity implements GeoBlockEntity
 
     private <E extends GeoAnimatable> PlayState predicate(AnimationState<E> event) {
 
-        event.getController().setAnimation(RawAnimation.begin().then("spin", Animation.LoopType.LOOP));
-        return PlayState.CONTINUE;
+        if (this.ENERGY_STORAGE.getEnergyStored() > 0)
+        {
+            event.getController().setAnimation(RawAnimation.begin().then("spin", Animation.LoopType.LOOP));
+            return PlayState.CONTINUE;
+        }
+        return PlayState.STOP;
     }
 
     @Override

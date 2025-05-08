@@ -126,6 +126,7 @@
   "tooltip.quantum_lands.heisenberg_shirt.tooltip": "Stiskni §eSHIFT§r pro více Informací",
 
   "entity.minecraft.villager.quantum_lands.chemist": "Chemik",
+  "entity.minecraft.villager.chemist": "Chemik",
 
   "gui_name.quantum_lands.centrifuge_block_gui_name": "Centrifuga",
 

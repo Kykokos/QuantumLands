@@ -41,7 +41,8 @@ public class ModItemTagGenerator extends ItemTagsProvider
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.CHEMISTRY_THEME_RECORD.get());
 
-        TagKey<Item> ALL_ITEMS_TAG = TagKey.create(Registries.ITEM, new ResourceLocation("quantum_lands", "essence_crafting"));
+
+        /*TagKey<Item> ALL_ITEMS_TAG = TagKey.create(Registries.ITEM, new ResourceLocation("forge", "essence_crafting"));
         Set<Item> excludedItems = Set.of(Items.AIR,
                 ModItems.BLACKOUT_POWDER.get(),
                 ModBlocks.BLUE_PLANKS.get().asItem(),
@@ -53,7 +54,7 @@ public class ModItemTagGenerator extends ItemTagsProvider
             if (!excludedItems.contains(item)) {
                 this.tag(ALL_ITEMS_TAG).add(item);
             }
-        }
+        }*/
     }
 
     @Override
