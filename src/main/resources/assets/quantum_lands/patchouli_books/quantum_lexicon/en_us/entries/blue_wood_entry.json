@@ -1,0 +1,21 @@
+{
+  "name": "Blue Wood",
+  "icon": "quantum_lands:blue_sapling",
+  "category": "quantum_lands:chemistry_category",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:blue_sapling"
+      },
+      "text": "The only way to get it is by trading with a villager(Chemist) or a wandering trader."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:blue_substance"
+      },
+      "text": "It is extracted from blue wood using a centrifuge."
+    }
+  ]
+}

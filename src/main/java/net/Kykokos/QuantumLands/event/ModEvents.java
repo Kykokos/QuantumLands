@@ -1,6 +1,7 @@
 package net.Kykokos.QuantumLands.event;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import net.Kykokos.QuantumLands.Block.ModBlocks;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.Item.custom.HammerItem;
 import net.Kykokos.QuantumLands.QuantumLands;
@@ -87,7 +88,10 @@ public class ModEvents {
                     new ItemStack(Items.EMERALD, 16), EnchantedBookItem.createForEnchantment(new EnchantmentInstance(ModEnchantments.NITRATED_WARRIOR.get(), 1)), 6, 10, 0.03f
             ));
             trades.get(4).add((pTrader, Random) -> new MerchantOffer(
-                    new ItemStack(Items.EMERALD, 64), new ItemStack(ModItems.DARK_FLOWER_SEEDS.get()), 1, 15, 0.03f
+                    new ItemStack(Items.EMERALD, 52), new ItemStack(ModItems.DARK_FLOWER_SEEDS.get()), 1, 15, 0.03f
+            ));
+            trades.get(4).add((pTrader, Random) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 64), new ItemStack(ModBlocks.BLUE_SAPLING.get()), 1, 20, 0.04f
             ));
         }
     }
@@ -103,7 +107,10 @@ public class ModEvents {
                 new ItemStack(Items.EMERALD, 48), new ItemStack(ModItems.HEISENBERG_SHIRT.get()), 1, 10, 0.03f
         ));
         genericTrades.add((pTrader, Random) -> new MerchantOffer(
-                new ItemStack(Items.EMERALD, 32), new ItemStack(ModItems.DARK_FLOWER_SEEDS.get()), 10, 2, 0.02f
+                new ItemStack(Items.EMERALD, 32), new ItemStack(ModItems.DARK_FLOWER_SEEDS.get()), 4, 2, 0.02f
+        ));
+        genericTrades.add((pTrader, Random) -> new MerchantOffer(
+                new ItemStack(Items.EMERALD, 48), new ItemStack(ModBlocks.BLUE_SAPLING.get()), 1, 5, 0.03f
         ));
 
     }

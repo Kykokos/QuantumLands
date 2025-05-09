@@ -4,6 +4,7 @@ import net.Kykokos.QuantumLands.Block.custom.*;
 import net.Kykokos.QuantumLands.Item.ModItems;
 import net.Kykokos.QuantumLands.QuantumLands;
 import net.Kykokos.QuantumLands.fluid.ModFluids;
+import net.Kykokos.QuantumLands.worldgen.tree.BlueTreeGrower;
 import net.minecraft.client.resources.model.Material;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -227,7 +228,7 @@ public class ModBlocks
             });
 
     public static final RegistryObject<Block> BLUE_SAPLING = registerBlock("blue_sapling",
-            () -> new SaplingBlock(null, BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+            () -> new SaplingBlock(new BlueTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

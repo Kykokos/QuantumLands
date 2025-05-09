@@ -149,36 +149,36 @@ Processing entries
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/IronDegradable/getChanceModifier()F from net/minecraft/world/level/block/ChangeOverTimeBlock/getChanceModifier()F: getChanceModifier -> m_142377_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/IronDegradable/getNext(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/Optional; from net/minecraft/world/level/block/ChangeOverTimeBlock/getNext(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/Optional;: getNext -> m_142123_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/NitroglycerinCapsuleBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/NitroglycerinCapsuleBlock/onProjectileHit(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/BlockHitResult;Lnet/minecraft/world/entity/projectile/Projectile;)V from net/minecraft/world/level/block/state/BlockBehaviour/onProjectileHit(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/BlockHitResult;Lnet/minecraft/world/entity/projectile/Projectile;)V: onProjectileHit -> m_5581_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/NitroglycerinCapsuleBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/NitroglycerinCapsuleBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/entity/CentrifugeBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/entity/CentrifugeBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/entity/CentrifugeBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/entity/CentrifugeBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/isSignalSource(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/state/BlockBehaviour/isSignalSource(Lnet/minecraft/world/level/block/state/BlockState;)Z: isSignalSource -> m_7899_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/entity/CentrifugeBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/NitroglycerinCapsuleBlock/onProjectileHit(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/BlockHitResult;Lnet/minecraft/world/entity/projectile/Projectile;)V from net/minecraft/world/level/block/state/BlockBehaviour/onProjectileHit(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/BlockHitResult;Lnet/minecraft/world/entity/projectile/Projectile;)V: onProjectileHit -> m_5581_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/NitroglycerinCapsuleBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/NitroglycerinCapsuleBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/DegradableIronBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/Block/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/DegradableIronBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/entity/CentrifugeBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/entity/CentrifugeBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V: neighborChanged -> m_6861_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/DegradableIronBlock/getAge()Ljava/lang/Enum; from net/minecraft/world/level/block/ChangeOverTimeBlock/getAge()Ljava/lang/Enum;: getAge -> m_142297_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker; from net/minecraft/world/level/block/EntityBlock/getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;: getTicker -> m_142354_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape; from net/minecraft/world/level/block/BaseEntityBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;: getRenderShape -> m_7514_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/ExplosiveFluid/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V from net/minecraft/world/level/block/LiquidBlock/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V: neighborChanged -> m_6861_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/isSignalSource(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/state/BlockBehaviour/isSignalSource(Lnet/minecraft/world/level/block/state/BlockState;)Z: isSignalSource -> m_7899_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/ExplosiveFluid/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V from net/minecraft/world/level/block/LiquidBlock/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V: neighborChanged -> m_6861_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V: neighborChanged -> m_6861_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/UVLampBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/DarkFlowerCropBlock/getMaxAge()I from net/minecraft/world/level/block/CropBlock/getMaxAge()I: getMaxAge -> m_7419_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/DarkFlowerCropBlock/getAgeProperty()Lnet/minecraft/world/level/block/state/properties/IntegerProperty; from net/minecraft/world/level/block/CropBlock/getAgeProperty()Lnet/minecraft/world/level/block/state/properties/IntegerProperty;: getAgeProperty -> m_7959_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Block/custom/DarkFlowerCropBlock/getBaseSeedId()Lnet/minecraft/world/level/ItemLike; from net/minecraft/world/level/block/CropBlock/getBaseSeedId()Lnet/minecraft/world/level/ItemLike;: getBaseSeedId -> m_6404_
@@ -195,30 +195,34 @@ Conflicting propagated mapping for net/Kykokos/QuantumLands/recipe/CentrifugeRec
 Conflicting propagated mapping for net/Kykokos/QuantumLands/recipe/CentrifugeRecipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/crafting/Recipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack;: assemble -> m_5874_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/recipe/CentrifugeRecipe/getType()Lnet/minecraft/world/item/crafting/RecipeType; from net/minecraft/world/item/crafting/Recipe/getType()Lnet/minecraft/world/item/crafting/RecipeType;: getType -> m_6671_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/recipe/CentrifugeRecipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer; from net/minecraft/world/item/crafting/Recipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;: getSerializer -> m_7707_
-Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockStateProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/loot/ModBlockLootTables/generate()V from net/minecraft/data/loot/BlockLootSubProvider/generate()V: generate -> m_245660_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockStateProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
 Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockStateProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModBlockTagGenerator/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModBlockTagGenerator/getName()Ljava/lang/String; from net/minecraft/data/tags/TagsProvider/getName()Ljava/lang/String;: getName -> m_6055_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModRecipeProvider/buildRecipes(Ljava/util/function/Consumer;)V from net/minecraft/data/recipes/RecipeProvider/buildRecipes(Ljava/util/function/Consumer;)V: buildRecipes -> m_245200_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModItemTagGenerator/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModItemTagGenerator/getName()Ljava/lang/String; from net/minecraft/data/tags/TagsProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/worldgen/tree/BlueTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey; from net/minecraft/world/level/block/grower/AbstractTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey;: getConfiguredFeature -> m_213888_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModFluidTagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/FluidTagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
 Conflicting propagated mapping for net/minecraftforge/common/data/GlobalLootModifierProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
 Conflicting propagated mapping for net/minecraftforge/common/data/GlobalLootModifierProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;: build -> m_6409_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModRecipeProvider/buildRecipes(Ljava/util/function/Consumer;)V from net/minecraft/data/recipes/RecipeProvider/buildRecipes(Ljava/util/function/Consumer;)V: buildRecipes -> m_245200_
 Conflicting propagated mapping for net/minecraftforge/client/model/generators/ModelProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
 Conflicting propagated mapping for net/minecraftforge/client/model/generators/ItemModelProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
-Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;: build -> m_6409_
+Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType;: getType -> m_7940_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModItemTagGenerator/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModItemTagGenerator/getName()Ljava/lang/String; from net/minecraft/data/tags/TagsProvider/getName()Ljava/lang/String;: getName -> m_6055_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModPaintingVariantTagProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/PaintingVariantTagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
-Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType;: getType -> m_7940_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/datagen/ModPoiTypeTagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/PoiTypeTagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockModelProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/enchantment/NitratedWarriorEnchantment/doPostAttack(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/Entity;I)V from net/minecraft/world/item/enchantment/Enchantment/doPostAttack(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/Entity;I)V: doPostAttack -> m_7677_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/enchantment/NitratedWarriorEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
-Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockModelProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/particle/GlassParticles$Provider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle; from net/minecraft/client/particle/ParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle;: createParticle -> m_6966_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid;: getFlowing -> m_5615_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/material/Fluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState;: createLegacyBlock -> m_5804_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/Fluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I: getTickDelay -> m_6718_
@@ -235,21 +239,19 @@ Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/c
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid$Flowing/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid$Flowing/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/material/FlowingFluid/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createFluidStateDefinition -> m_7180_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid$Flowing/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/particle/GlassParticles/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType; from net/minecraft/client/particle/Particle/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType;: getRenderType -> m_7556_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/BunkerDetectorItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/screen/CentrifugeScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
-Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/BunkerDetectorItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid$Source/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid$Source/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/particle/GlassParticles$Provider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle; from net/minecraft/client/particle/ParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle;: createParticle -> m_6966_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/BunkerDetectorItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/BunkerDetectorItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoItemRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/BlockEntityWithoutLevelRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: renderByItem -> m_108829_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/DetectorDataTabletItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/DetectorDataTabletItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/EliteDetectorItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/EliteDetectorItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/EliteDetectorItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/PaxelItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for net/Kykokos/QuantumLands/particle/GlassParticles/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType; from net/minecraft/client/particle/Particle/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType;: getRenderType -> m_7556_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/ModArmorMaterials/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/ModArmorMaterials/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/ModArmorMaterials/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
@@ -258,9 +260,7 @@ Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/ModArmorMateria
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/ModArmorMaterials/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/ModArmorMaterials/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/ModArmorMaterials/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
-Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoItemRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/BlockEntityWithoutLevelRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: renderByItem -> m_108829_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/Item/custom/ModArmorItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
@@ -270,6 +270,7 @@ Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getAttack
 Conflicting propagated mapping for net/Kykokos/QuantumLands/recipe/CentrifugeRecipe$Serializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe;: fromJson -> m_6729_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/recipe/CentrifugeRecipe$Serializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe;: fromNetwork -> m_8005_
 Conflicting propagated mapping for net/Kykokos/QuantumLands/recipe/CentrifugeRecipe$Serializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V from net/minecraft/world/item/crafting/RecipeSerializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V: toNetwork -> m_6178_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
@@ -286,6 +287,7 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   META-INF/MANIFEST.MF
   .cache/
   .cache/0561380c3c38a7cf7c126e2babe2494bdbc68567
+  .cache/103d9f3f36b01595f1aa5172191e60eff02e6924
   .cache/48e199cc8ac3a14ce26a0f6d7c0739b8a5c65508
   .cache/4ff4700ac0617e592f8e686a973a8f83a62f52d1
   .cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d
@@ -303,7 +305,11 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   assets/quantum_lands/blockstates/
   assets/quantum_lands/blockstates/blue_fence.json
   assets/quantum_lands/blockstates/blue_fence_gate.json
+  assets/quantum_lands/blockstates/blue_leaves.json
+  assets/quantum_lands/blockstates/blue_log.json
   assets/quantum_lands/blockstates/blue_planks.json
+  assets/quantum_lands/blockstates/blue_sapling.json
+  assets/quantum_lands/blockstates/blue_wood.json
   assets/quantum_lands/blockstates/bunker_block.json
   assets/quantum_lands/blockstates/bunker_door.json
   assets/quantum_lands/blockstates/bunker_pressure_plate.json
@@ -326,6 +332,8 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   assets/quantum_lands/blockstates/raw_quantalyth_block.json
   assets/quantum_lands/blockstates/rusted_iron_block.json
   assets/quantum_lands/blockstates/snifferite_ore.json
+  assets/quantum_lands/blockstates/stripped_blue_log.json
+  assets/quantum_lands/blockstates/stripped_blue_wood.json
   assets/quantum_lands/blockstates/uv_lamp.json
   assets/quantum_lands/blockstates/wet_iron_block.json
   assets/quantum_lands/geo/
@@ -341,7 +349,13 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   assets/quantum_lands/models/block/blue_fence_gate_wall_open.json
   assets/quantum_lands/models/block/blue_fence_post.json
   assets/quantum_lands/models/block/blue_fence_side.json
+  assets/quantum_lands/models/block/blue_leaves.json
+  assets/quantum_lands/models/block/blue_log.json
+  assets/quantum_lands/models/block/blue_log_horizontal.json
   assets/quantum_lands/models/block/blue_planks.json
+  assets/quantum_lands/models/block/blue_sapling.json
+  assets/quantum_lands/models/block/blue_wood.json
+  assets/quantum_lands/models/block/blue_wood_horizontal.json
   assets/quantum_lands/models/block/bunker_block.json
   assets/quantum_lands/models/block/bunker_door_bottom_left.json
   assets/quantum_lands/models/block/bunker_door_bottom_left_open.json
@@ -386,6 +400,10 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   assets/quantum_lands/models/block/raw_quantalyth_block.json
   assets/quantum_lands/models/block/rusted_iron_block.json
   assets/quantum_lands/models/block/snifferite_ore.json
+  assets/quantum_lands/models/block/stripped_blue_log.json
+  assets/quantum_lands/models/block/stripped_blue_log_horizontal.json
+  assets/quantum_lands/models/block/stripped_blue_wood.json
+  assets/quantum_lands/models/block/stripped_blue_wood_horizontal.json
   assets/quantum_lands/models/block/uv_lamp.json
   assets/quantum_lands/models/block/uv_lamp_off.json
   assets/quantum_lands/models/block/uv_lamp_on.json
@@ -394,8 +412,12 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   assets/quantum_lands/models/item/blackout_powder.json
   assets/quantum_lands/models/item/blue_fence.json
   assets/quantum_lands/models/item/blue_fence_gate.json
+  assets/quantum_lands/models/item/blue_leaves.json
+  assets/quantum_lands/models/item/blue_log.json
   assets/quantum_lands/models/item/blue_planks.json
+  assets/quantum_lands/models/item/blue_sapling.json
   assets/quantum_lands/models/item/blue_substance.json
+  assets/quantum_lands/models/item/blue_wood.json
   assets/quantum_lands/models/item/bunker_block.json
   assets/quantum_lands/models/item/bunker_detector.json
   assets/quantum_lands/models/item/bunker_door.json
@@ -503,6 +525,8 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   assets/quantum_lands/models/item/snifferite.json
   assets/quantum_lands/models/item/snifferite_dust.json
   assets/quantum_lands/models/item/snifferite_ore.json
+  assets/quantum_lands/models/item/stripped_blue_log.json
+  assets/quantum_lands/models/item/stripped_blue_wood.json
   assets/quantum_lands/models/item/super_singularity.json
   assets/quantum_lands/models/item/uv_lamp.json
   assets/quantum_lands/models/item/wet_iron_block.json
@@ -530,7 +554,11 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   assets/quantum_lands/sounds/nitroglycerin_explosion.ogg
   assets/quantum_lands/textures/
   assets/quantum_lands/textures/block/
+  assets/quantum_lands/textures/block/blue_leaves.png
+  assets/quantum_lands/textures/block/blue_log.png
+  assets/quantum_lands/textures/block/blue_log_top.png
   assets/quantum_lands/textures/block/blue_planks.png
+  assets/quantum_lands/textures/block/blue_sapling.png
   assets/quantum_lands/textures/block/bunker_block.png
   assets/quantum_lands/textures/block/bunker_door_bottom.png
   assets/quantum_lands/textures/block/bunker_door_top.png
@@ -581,6 +609,8 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   assets/quantum_lands/textures/block/raw_quantalyth_block.png
   assets/quantum_lands/textures/block/rusted_iron_block.png
   assets/quantum_lands/textures/block/snifferite_ore.png
+  assets/quantum_lands/textures/block/stripped_blue_log.png
+  assets/quantum_lands/textures/block/stripped_blue_log_top.png
   assets/quantum_lands/textures/block/uv_lamp_lit_texture.png
   assets/quantum_lands/textures/block/uv_lamp_texture.png
   assets/quantum_lands/textures/block/wet_iron_block_side.png
@@ -697,6 +727,7 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   data/minecraft/tags/blocks/
   data/minecraft/tags/blocks/fence_gates.json
   data/minecraft/tags/blocks/fences.json
+  data/minecraft/tags/blocks/logs_that_burn.json
   data/minecraft/tags/blocks/mineable/
   data/minecraft/tags/blocks/mineable/axe.json
   data/minecraft/tags/blocks/mineable/hoe.json
@@ -704,12 +735,15 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   data/minecraft/tags/blocks/mineable/shovel.json
   data/minecraft/tags/blocks/needs_diamond_tool.json
   data/minecraft/tags/blocks/needs_iron_tool.json
+  data/minecraft/tags/blocks/planks.json
   data/minecraft/tags/blocks/walls.json
   data/minecraft/tags/fluids/
   data/minecraft/tags/fluids/lava.json
   data/minecraft/tags/items/
   data/minecraft/tags/items/beacon_payment_items.json
+  data/minecraft/tags/items/logs_that_burn.json
   data/minecraft/tags/items/music_discs.json
+  data/minecraft/tags/items/planks.json
   data/minecraft/tags/items/sword_efficient.json
   data/minecraft/tags/items/trimmable_armor.json
   data/minecraft/tags/painting_variant/
@@ -753,7 +787,11 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   data/quantum_lands/loot_tables/blocks/
   data/quantum_lands/loot_tables/blocks/blue_fence.json
   data/quantum_lands/loot_tables/blocks/blue_fence_gate.json
+  data/quantum_lands/loot_tables/blocks/blue_leaves.json
+  data/quantum_lands/loot_tables/blocks/blue_log.json
   data/quantum_lands/loot_tables/blocks/blue_planks.json
+  data/quantum_lands/loot_tables/blocks/blue_sapling.json
+  data/quantum_lands/loot_tables/blocks/blue_wood.json
   data/quantum_lands/loot_tables/blocks/bunker_block.json
   data/quantum_lands/loot_tables/blocks/bunker_door.json
   data/quantum_lands/loot_tables/blocks/bunker_pressure_plate.json
@@ -775,6 +813,8 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   data/quantum_lands/loot_tables/blocks/raw_quantalyth_block.json
   data/quantum_lands/loot_tables/blocks/rusted_iron_block.json
   data/quantum_lands/loot_tables/blocks/snifferite_ore.json
+  data/quantum_lands/loot_tables/blocks/stripped_blue_log.json
+  data/quantum_lands/loot_tables/blocks/stripped_blue_wood.json
   data/quantum_lands/loot_tables/blocks/uv_lamp.json
   data/quantum_lands/loot_tables/blocks/wet_iron_block.json
   data/quantum_lands/patchouli_books/
@@ -785,7 +825,14 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   data/quantum_lands/recipes/blue_fence_gate.json
   data/quantum_lands/recipes/blue_substance_from_blue_fence.json
   data/quantum_lands/recipes/blue_substance_from_blue_fence_gate.json
+  data/quantum_lands/recipes/blue_substance_from_blue_leaves.json
+  data/quantum_lands/recipes/blue_substance_from_blue_log.json
   data/quantum_lands/recipes/blue_substance_from_blue_planks.json
+  data/quantum_lands/recipes/blue_substance_from_blue_sapling.json
+  data/quantum_lands/recipes/blue_substance_from_blue_wood.json
+  data/quantum_lands/recipes/blue_substance_from_stripped_blue_log.json
+  data/quantum_lands/recipes/blue_substance_from_stripped_blue_wood.json
+  data/quantum_lands/recipes/blue_wood_recipe.json
   data/quantum_lands/recipes/bunker_block.json
   data/quantum_lands/recipes/bunker_detector.json
   data/quantum_lands/recipes/bunker_pressure_plate.json
@@ -865,11 +912,18 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   data/quantum_lands/tags/blocks/minable/
   data/quantum_lands/tags/blocks/minable/paxel.json
   data/quantum_lands/tags/blocks/needs_quantalyth_tool.json
+  data/quantum_lands/worldgen/
+  data/quantum_lands/worldgen/configured_feature/
+  data/quantum_lands/worldgen/configured_feature/blue.json
   logo.png
   net/
   net/Kykokos/
   net/Kykokos/QuantumLands/
   net/Kykokos/QuantumLands/Block/
+  net/Kykokos/QuantumLands/Block/ModBlocks$1.class
+  net/Kykokos/QuantumLands/Block/ModBlocks$2.class
+  net/Kykokos/QuantumLands/Block/ModBlocks$3.class
+  net/Kykokos/QuantumLands/Block/ModBlocks$4.class
   net/Kykokos/QuantumLands/Block/ModBlocks.class
   net/Kykokos/QuantumLands/Block/custom/
   net/Kykokos/QuantumLands/Block/custom/CentrifugeBlock.class
@@ -878,6 +932,7 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   net/Kykokos/QuantumLands/Block/custom/ExplosiveFluid.class
   net/Kykokos/QuantumLands/Block/custom/IronDegradable$IronDegradationLevel.class
   net/Kykokos/QuantumLands/Block/custom/IronDegradable.class
+  net/Kykokos/QuantumLands/Block/custom/ModFlammableRotatedPillarBlock.class
   net/Kykokos/QuantumLands/Block/custom/NitroglycerinCapsuleBlock$1.class
   net/Kykokos/QuantumLands/Block/custom/NitroglycerinCapsuleBlock.class
   net/Kykokos/QuantumLands/Block/custom/UVLampBlock$1.class
@@ -930,6 +985,7 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   net/Kykokos/QuantumLands/datagen/ModPaintingVariantTagProvider.class
   net/Kykokos/QuantumLands/datagen/ModPoiTypeTagsProvider.class
   net/Kykokos/QuantumLands/datagen/ModRecipeProvider.class
+  net/Kykokos/QuantumLands/datagen/ModWorldGenProvider.class
   net/Kykokos/QuantumLands/datagen/loot/
   net/Kykokos/QuantumLands/datagen/loot/ModBlockLootTables.class
   net/Kykokos/QuantumLands/enchantment/
@@ -980,4 +1036,10 @@ Writing Output: C:\Users\kos73\Desktop\My Mods - Java tests\forge-1.20.1-47.1.3\
   net/Kykokos/QuantumLands/util/WrappedHandler.class
   net/Kykokos/QuantumLands/villager/
   net/Kykokos/QuantumLands/villager/ModVillagers.class
+  net/Kykokos/QuantumLands/worldgen/
+  net/Kykokos/QuantumLands/worldgen/ModBiomeModifiers.class
+  net/Kykokos/QuantumLands/worldgen/ModConfiguredFeatures.class
+  net/Kykokos/QuantumLands/worldgen/ModPlacedFeatures.class
+  net/Kykokos/QuantumLands/worldgen/tree/
+  net/Kykokos/QuantumLands/worldgen/tree/BlueTreeGrower.class
   pack.mcmeta
