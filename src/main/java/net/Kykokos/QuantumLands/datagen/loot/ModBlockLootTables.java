@@ -34,6 +34,7 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.dropSelf(ModBlocks.QUANTALYTH_BLOCK.get());
         this.dropSelf(ModBlocks.COMPRESSED_QUANTALYTH_BLOCK.get());
         this.dropSelf(ModBlocks.UV_LAMP.get());
+        this.dropSelf(ModBlocks.NITRATED_WOOL.get());
 
         this.dropSelf(ModBlocks.WET_IRON_BLOCK.get());
         this.dropSelf(ModBlocks.LITTLE_RUSTED_IRON_BLOCK.get());

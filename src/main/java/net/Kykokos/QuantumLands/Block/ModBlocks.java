@@ -227,6 +227,25 @@ public class ModBlocks
                 }
             });
 
+    public static final RegistryObject<Block> NITRATED_WOOL = registerBlock("nitrated_wool",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)) {
+
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 99000;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 100000;
+                }
+            });
+
     public static final RegistryObject<Block> BLUE_SAPLING = registerBlock("blue_sapling",
             () -> new SaplingBlock(new BlueTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 

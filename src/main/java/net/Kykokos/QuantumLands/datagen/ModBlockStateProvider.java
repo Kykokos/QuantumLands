@@ -36,6 +36,7 @@ public class ModBlockStateProvider extends BlockStateProvider
         blockWithItem(ModBlocks.RAW_QUANTALYTH_BLOCK);
         blockWithItem(ModBlocks.QUANTALYTH_BLOCK);
         blockWithItem(ModBlocks.COMPRESSED_QUANTALYTH_BLOCK);
+        blockWithItem(ModBlocks.NITRATED_WOOL);
 
         blockWithItem(ModBlocks.RUSTED_IRON_BLOCK);
         blockWithItem(ModBlocks.FULLY_RUSTED_IRON_BLOCK);

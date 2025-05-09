@@ -49,7 +49,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider
                         ModBlocks.STRIPPED_BLUE_LOG.get(),
                         ModBlocks.BLUE_LOG.get());
 
-
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BUNKER_BLOCK.get(),
                         ModBlocks.CRACKED_BUNKER_BLOCK.get(),

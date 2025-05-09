@@ -11,8 +11,11 @@
       "text": "It is made by filling an empty capsule with liquid nitroglycerin. §l§o§cWARNING!!§r this block is highly explosive if you hit it with a projectile or destroy it, it will explode. Fortunately it does not have a chain reaction so you can destroy it with another explosion or drill."
     },
     {
-      "type": "patchouli:empty",
-      "draw_filler": false
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "quantum_lands:nitrated_wool"
+      },
+      "text": "It is relatively cheap to make and you can use it as a fuse."
     }
   ]
 }

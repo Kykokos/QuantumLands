@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 1,
+      "fluid": "quantum_lands:nitration_bath_fluid",
+      "nbt": {}
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "results": [
+    {
+      "item": "quantum_lands:nitrated_wool"
+    }
+  ]
+}

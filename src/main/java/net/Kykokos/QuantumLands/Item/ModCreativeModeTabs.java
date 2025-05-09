@@ -37,6 +37,7 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.NITRATION_BATH_BUCKET.get());
                         output.accept(ModItems.NITROGLYCERIN_BUCKET.get());
                         output.accept(ModItems.NITROGLYCERIN_CAPSULE.get());
+                        output.accept(ModBlocks.NITRATED_WOOL.get());
                         output.accept(ModItems.HEISENBERG_SHIRT.get());
                         output.accept(ModItems.CHEMISTRY_THEME_RECORD.get());
                         output.accept(ModItems.BLUE_SUBSTANCE.get());
